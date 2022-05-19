@@ -1,4 +1,17 @@
 class ODE:
+    """
+    A class for solving ODEs using tnumerical methods. Available methods are:
+    - Euler's method
+    - Euler-modified method
+    - Runga-Kutta's second order method
+        - Heun's method
+        - Midpoint method
+        - Ralston's method
+    - Runge-Kutta third order method
+    - Runge-Kutta fourth order method
+    - Runge-Kutta fifth order method
+    """
+
     def __init__(self) -> None:
         pass
 
