@@ -94,7 +94,7 @@ class Derivative:
         y_calc = numerator / denominator
         return y_calc
 
-    def derivative(self, f, x, order="first", method="cd", error="first", h=1e-5):
+    def derivative(self, f, x, order="first", method="cd", error="fourth", h=1e-5):
         """
         Calculates the derivative of a function `f` at the given point `x`.
 
@@ -181,6 +181,15 @@ class Derivative:
 
 
 class Integration:
+    """
+    Class for performing numerical integration. Available methods are:
+    - integral as sum
+    - trapezoidal rule
+    - simpson 1/3 rule
+    - simpson 3/8 rule
+
+    """
+
     def __inti__(self):
         pass
 

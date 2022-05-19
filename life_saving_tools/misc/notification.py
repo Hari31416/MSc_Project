@@ -1,7 +1,8 @@
 import vlc
 import time
 import os
-from pygame import mixer
+
+# from pygame import mixer
 import os
 from twilio.rest import Client
 from decouple import config
@@ -104,6 +105,8 @@ class Notification:
         -------
         None
         """
+        from pygame import mixer
+
         if file is not None:
             self.filepath = file
 
