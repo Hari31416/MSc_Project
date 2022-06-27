@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class ODE:
     """
     A class for solving ODEs using tnumerical methods. Available methods are:
@@ -69,17 +72,6 @@ class ODE:
             y_prev = y_prev + (k1 + 4 * k2 + k3) * h / 6
         return y_prev
 
-    def _rk4_(self, f, x0, y0, x, n):
-        h = (x - x0) / n
-        y_prev = y0
-        for i in range(n):
-            k1 = f(x0 + i * h, y_prev)
-            k2 = f(x0 + (i + 0.5) * h, y_prev + h * k1 * 0.5)
-            k3 = f(x0 + (i + 0.5) * h, y_prev + h * k2 * 0.5)
-            k4 = f(x0 + (i + 1) * h, y_prev + h * k3)
-            y_prev = y_prev + (k1 + 2 * k2 + 2 * k3 + k4) * h / 6
-        return y_prev
-
     def _rk5_(self, f, x0, y0, x, n):
         h = (x - x0) / n
         y_prev = y0
@@ -96,13 +88,33 @@ class ODE:
             y_prev = y_prev + (7 * k1 + 32 * k3 + 12 * k4 + 32 * k5 + 7 * k6) * h / 90
         return y_prev
 
-    def solve(self, f, x0, y0, x, n, method="rk4"):
+    def _create_F_(self, funcs, x, Y):
         """
-        Solves an ODE using numerical method. This
+        Creates the function `F` needed to solve higher order ODEs.
+        """
+        x = x[0]
+        sol = [f(x, *Y) for f in funcs]
+        return np.array(sol)
+
+    def _rk4_general_(self, funcs, x0, y0, x, n=20):
+        h = (x - x0) / n
+        y_prev = y0
+        for i in range(n):
+            k1 = self._create_F_(funcs, x0 + i * h, y_prev)
+            k2 = self._create_F_(funcs, x0 + (i + 0.5) * h, y_prev + h * k1 * 0.5)
+            k3 = self._create_F_(funcs, x0 + (i + 0.5) * h, y_prev + h * k2 * 0.5)
+            k4 = self._create_F_(funcs, x0 + (i + 1) * h, y_prev + h * k3)
+            y_prev = y_prev + (k1 + 2 * k2 + 2 * k3 + k4) * h / 6
+        return y_prev
+
+    def solve(self, funcs, x0, y0, x, n=20, method="rk4"):
+        """
+        Solves an ODE using numerical method. Also able to solve higher order ODEs. Use \\
+            `method = "rk4"` for this case.
 
         Parameters
         ----------
-        f : function
+        funcs : function or a list of functions
             The function to be solved.
         x0 : float
             The initial x value.
@@ -128,6 +140,11 @@ class ODE:
         y : float
             The final y value.
         """
+        if method == "rk4":
+            if not isinstance(funcs, list):
+                funcs = [funcs]
+            return self._rk4_general_(funcs, x0, y0, x, n)
+
         method_dict = {
             "euler": self._euler_,
             "euler_modified": self._euler_modified_,
@@ -135,11 +152,10 @@ class ODE:
             "midpoint": self._midpoint_,
             "ralston": self._ralston_,
             "rk3": self._rk3_,
-            "rk4": self._rk4_,
             "rk5": self._rk5_,
         }
         if method not in method_dict.keys():
             raise ValueError(
                 f"Method {method} is not implemented. Available methods are: {' '.join(method_dict.keys())}"
             )
-        return method_dict[method](f, x0, y0, x, n)
+        return method_dict[method](funcs, x0, y0, x, n)
