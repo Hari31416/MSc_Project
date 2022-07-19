@@ -1,0 +1,46 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+zpic
+
+# . (dot) files that various editors leak out
+.*
+!/.gitignore
+
+# ignore test directories
+test*/
+
+# Ignore Python and Cython leftovers
+__pycache__/
+/python/source/em1d.c
+/python/source/em1ds.c
+/python/source/em2d.c
+/python/source/em2ds.c
+/python/source/es1d.c
+
+/zpic.code-workspace
