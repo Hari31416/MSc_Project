@@ -1,7 +1,0 @@
-numpy==1.22
-matplotlib==3.5.1
-cython==0.29.26
-ipywidgets==7.6.5
-ipympl
-scipy
-
