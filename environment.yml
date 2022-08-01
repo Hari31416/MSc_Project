@@ -1,0 +1,26 @@
+name: msc-project
+
+dependencies:
+  # Base dependencies
+  - python=3.7
+  - pip
+  - cython
+  # Numerical
+  - numpy
+  - scipy
+  # Visualization
+  - matplotlib
+  - seaborn
+  - pandas
+  - pip:
+      # Animation
+      - imageio
+      - imageio-ffmpeg
+      # Others
+      - tqdm
+      - peakutils
+      # Notebook
+      - jupyter
+      - nbconvert
+      - nbformat
+      - ipython
