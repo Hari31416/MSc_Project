@@ -21,6 +21,7 @@ dependencies:
       - peakutils
       # Notebook
       - jupyter
+      - notebook
       - nbconvert
       - nbformat
       - ipython
