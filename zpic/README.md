@@ -1,7 +1,33 @@
-# The ZPIC educational code suite
 
-Particle-in-Cell (PIC) codes are used in almost all areas of plasma physics, such as fusion energy research, plasma accelerators, space physics, ion propulsion, and plasma processing, and many other areas. Leveraging on our expertise and experience from the development and use of the OSIRIS PIC code, we have developed a suite of 1D/2D fully relativistic electromagnetic PIC codes, as well as 1D electrostatic. These codes are self-contained and require only a standard laptop/desktop computer with a C compiler to be run. The output files are written in a new file format called ZDF that can be easily read using the supplied routines in a number of languages, such as Python, and IDL. The code suite also includes a number of example problems that can be used to illustrate several textbook and advanced plasma mechanisms, including instructions for parameter space exploration.
+# ZPIC Python interface
 
-## Documentation
+## Introduction
 
-The project now has its own dedicated website on GitHub pages. You can find all the documentation at [https://ricardo-fonseca.github.io/zpic/](https://ricardo-fonseca.github.io/zpic/)
+This module allows you to use any of the ZPIC codes from a Python environment, including Jupiter notebooks. All code features that are available in the main C versions are available, and it is possible to use this module to extend the codes in terms of features/diagnostics using only Python.
+
+## Dependencies
+
+The python interface was developed using Cython (0.29.x). The notebooks are based on Jupyter use NumPy and Matplotlib for data and visualization.
+
+## Compilation
+
+To compile the module just navigate to this folder and run `make`. There will be a python module created for each of the ZPIC codes and placed in the `lib` directory. Be sure to add this library to your python path to use these modules:
+
+```python
+import sys
+sys.path.append("path_to_module/lib")
+```
+
+## Getting Started
+
+Once you compiled the code, the best way to start using the code is to open the [ZPIC](notebooks/tutorial/ZPIC.ipynb) notebook (in the `notebooks/tutorial` folder) in a Jupyter session. This notebook covers the basic steps for running ZPIC simulations in a notebook environment.
+
+## Examples
+
+This module includes a set of Jupyter notebooks exemplifying the use of ZPIC in multiple situations. These are found in the `notebooks` directory, and are organized as follows:
+
+* `tutorial` - Notebooks introducing code usage and functionalities
+* `classroom` - Examples of ZPIC notebooks that can be used in a classrom to showcase some of the most fundamental plasma physics phenomena.
+* `papers` - Notebooks reproducing and extend the work done in seminal plasma physics papers
+
+Check the [notebooks](notebooks) directory for more details.
