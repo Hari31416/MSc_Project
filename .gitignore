@@ -1,3 +1,5 @@
 lib
 .ipynb_checkpoints
 __pycache__
+*.sdf
+.fuse_hidden*
