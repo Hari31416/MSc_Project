@@ -1,16 +1,16 @@
- EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1662987053.298          
+ EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663059869.163          
 
 Deck state:  1
 
  Beginning "control" block
 
- 	Element nx=500 handled OK
- 	Element ny=200 handled OK
- 	Element t_end=150 * femto handled OK
- 	Element x_min=0.0 handled OK
- 	Element x_max=50e-6 handled OK
- 	Element y_min=0.0 handled OK
- 	Element y_max=20e-6 handled OK
+ 	Element nx=1000 handled OK
+ 	Element ny=400 handled OK
+ 	Element t_end=100 * femto handled OK
+ 	Element x_min=-25e-6 handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element y_min=-20e-6 handled OK
+ 	Element y_max=-y_min handled OK
  	Element stdout_frequency=10 handled OK
 
  Ending "control" block
@@ -27,8 +27,10 @@ Deck state:  1
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
- 	Element w_0=2.5 * micron handled OK
+ 	Element w_0=5.0 * micron handled OK
  	Element x_spot=0 * micron handled OK
+ 	Element fwhm=1 * micron handled OK
+ 	Element w=fwhm / 1.3863 handled OK
  	Element x_R=pi * w_0^2 / lambda0 handled OK
  	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
  	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
@@ -36,14 +38,33 @@ Deck state:  1
 
  Ending "constant" block
 
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element density=1.0e26 handled OK
+
+ Ending "species" block
+
+ Beginning "species" block
+
+ 	Element name=Proton handled OK
+ 	Element charge=1.0 handled OK
+ 	Element mass=1840 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element density=1.0e26 handled OK
+
+ Ending "species" block
+
  Beginning "laser" block
 
  	Element boundary=x_min handled OK
- 	Element intensity=2.0e22 handled OK
+ 	Element intensity=1.0e25 handled OK
  	Element lambda=lambda0 handled OK
- 	Element fwhm=1 * micron handled OK
- 	Element pol_angle=90.0 handled OK
- 	Element profile=gauss(y,0,2.5e-6) handled OK
+ 	Element pol_angle=0.0 handled OK
+ 	Element profile=gauss(y,0,w_bnd) handled OK
 
  Ending "laser" block
 
@@ -65,13 +86,13 @@ Deck state:  2
 
  Beginning "control" block
 
- 	Element nx=500 handled OK
- 	Element ny=200 handled OK
- 	Element t_end=150 * femto handled OK
- 	Element x_min=0.0 handled OK
- 	Element x_max=50e-6 handled OK
- 	Element y_min=0.0 handled OK
- 	Element y_max=20e-6 handled OK
+ 	Element nx=1000 handled OK
+ 	Element ny=400 handled OK
+ 	Element t_end=100 * femto handled OK
+ 	Element x_min=-25e-6 handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element y_min=-20e-6 handled OK
+ 	Element y_max=-y_min handled OK
  	Element stdout_frequency=10 handled OK
 
  Ending "control" block
@@ -88,8 +109,10 @@ Deck state:  2
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
- 	Element w_0=2.5 * micron handled OK
+ 	Element w_0=5.0 * micron handled OK
  	Element x_spot=0 * micron handled OK
+ 	Element fwhm=1 * micron handled OK
+ 	Element w=fwhm / 1.3863 handled OK
  	Element x_R=pi * w_0^2 / lambda0 handled OK
  	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
  	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
@@ -97,25 +120,35 @@ Deck state:  2
 
  Ending "constant" block
 
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element density=1.0e26 handled OK
+
+ Ending "species" block
+
+ Beginning "species" block
+
+ 	Element name=Proton handled OK
+ 	Element charge=1.0 handled OK
+ 	Element mass=1840 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element density=1.0e26 handled OK
+
+ Ending "species" block
+
  Beginning "laser" block
 
  	Element boundary=x_min handled OK
- 	Element intensity=2.0e22 handled OK
+ 	Element intensity=1.0e25 handled OK
  	Element lambda=lambda0 handled OK
-
- *** WARNING ***
- Input deck line number 47
- Unrecognised element "fwhm" in input deck.
- Code will continue to run, but behaviour is undefined
-
- 	Element pol_angle=90.0 handled OK
- 	Element profile=gauss(y,0,2.5e-6) handled OK
+ 	Element pol_angle=0.0 handled OK
+ 	Element profile=gauss(y,0,w_bnd) handled OK
 
  Ending "laser" block
-
- *** WARNING ***
- Input deck line number 53
- Block "laser" contains errors
 
  Beginning "output" block
 
