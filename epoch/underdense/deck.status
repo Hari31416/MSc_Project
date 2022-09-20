@@ -1,0 +1,139 @@
+ EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663594742.667          
+
+Deck state:  1
+
+ Beginning "control" block
+
+ 	Element nx=400 handled OK
+ 	Element ny=400 handled OK
+ 	Element t_end=110 * femto handled OK
+ 	Element x_min=-20e-6 handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element y_min=-20e-6 handled OK
+ 	Element y_max=-y_min handled OK
+ 	Element stdout_frequency=10 handled OK
+
+ Ending "control" block
+
+ Beginning "boundaries" block
+
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_x_max=open handled OK
+ 	Element bc_y_min=periodic handled OK
+ 	Element bc_y_max=periodic handled OK
+
+ Ending "boundaries" block
+
+ Beginning "constant" block
+
+ 	Element lambda0=1.0 * micron handled OK
+ 	Element w_0=5.0 * micron handled OK
+ 	Element x_spot=1 * micron handled OK
+ 	Element fwhm=3 * micron handled OK
+ 	Element w=fwhm / 1.3863 handled OK
+ 	Element x_R=pi * w_0^2 / lambda0 handled OK
+ 	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
+ 	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
+ 	Element gouy=atan(x_spot/x_R) handled OK
+
+ Ending "constant" block
+
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element density=1.0e24 handled OK
+
+ Ending "species" block
+
+ Beginning "laser" block
+
+ 	Element boundary=x_min handled OK
+ 	Element intensity=1.0e22 handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element profile=gauss(y,0,w_bnd) handled OK
+
+ Ending "laser" block
+
+ Beginning "output" block
+
+ 	Element name=normal handled OK
+ 	Element dt_snapshot=10 * femto handled OK
+ 	Element grid=always handled OK
+ 	Element ex=always handled OK
+ 	Element ey=always handled OK
+ 	Element ez=always handled OK
+
+ Ending "output" block
+
+Deck state:  2
+
+ Beginning "control" block
+
+ 	Element nx=400 handled OK
+ 	Element ny=400 handled OK
+ 	Element t_end=110 * femto handled OK
+ 	Element x_min=-20e-6 handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element y_min=-20e-6 handled OK
+ 	Element y_max=-y_min handled OK
+ 	Element stdout_frequency=10 handled OK
+
+ Ending "control" block
+
+ Beginning "boundaries" block
+
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_x_max=open handled OK
+ 	Element bc_y_min=periodic handled OK
+ 	Element bc_y_max=periodic handled OK
+
+ Ending "boundaries" block
+
+ Beginning "constant" block
+
+ 	Element lambda0=1.0 * micron handled OK
+ 	Element w_0=5.0 * micron handled OK
+ 	Element x_spot=1 * micron handled OK
+ 	Element fwhm=3 * micron handled OK
+ 	Element w=fwhm / 1.3863 handled OK
+ 	Element x_R=pi * w_0^2 / lambda0 handled OK
+ 	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
+ 	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
+ 	Element gouy=atan(x_spot/x_R) handled OK
+
+ Ending "constant" block
+
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element density=1.0e24 handled OK
+
+ Ending "species" block
+
+ Beginning "laser" block
+
+ 	Element boundary=x_min handled OK
+ 	Element intensity=1.0e22 handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element profile=gauss(y,0,w_bnd) handled OK
+
+ Ending "laser" block
+
+ Beginning "output" block
+
+ 	Element name=normal handled OK
+ 	Element dt_snapshot=10 * femto handled OK
+ 	Element grid=always handled OK
+ 	Element ex=always handled OK
+ 	Element ey=always handled OK
+ 	Element ez=always handled OK
+
+ Ending "output" block
+
+ Initial conditions complete and valid.

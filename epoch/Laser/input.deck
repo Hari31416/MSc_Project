@@ -1,17 +1,17 @@
 begin:control
-  nx = 1000
-  ny = 400
+  nx = 400
+  ny = nx
 
   # Final time of simulation
-  t_end = 100 * femto
+  t_end = 110 * femto
 
   # Size of domain
-  x_min = -25e-6
+  x_min = -10 * micron
   x_max = -x_min
-  y_min = -20e-6
-  y_max = -y_min
+  y_min = x_min
+  y_max = x_max
 
-  stdout_frequency = 10
+  stdout_frequency = 20
 end:control
 
 
@@ -25,14 +25,10 @@ end:boundaries
 
 begin:constant
   lambda0 = 1.0 * micron
-  
 
   # These two set the beam focus
-  w_0 = 5.0 * micron # Beam waist size
-  x_spot = 0 * micron # Distance from x_min to spot
-  fwhm = 1 * micron
-  w = fwhm / 1.3863
-
+  w_0 = 0.9 * micron # Beam waist size
+  x_spot = 10 * micron # Distance from x_min to spot
 
   # These are the parameters calculated for driving the laser
   # These should not need to be modified
@@ -42,33 +38,16 @@ begin:constant
   gouy = atan(x_spot/x_R) # Gouy phase shift at x_min
 end:constant
 
-begin:species
-  name = Electron
-  charge = -1.0
-  mass = 1.0
-  # nparticles = 40000
-  nparticles_per_cell = 1
-  density = 1.0e26
-end:species
-
-begin:species
-  name = Proton
-  charge = 1.0
-  mass = 1840
-  # nparticles = 40000
-  nparticles_per_cell = 1
-  density = 1.0e26
-end:species
 
 begin:laser
   boundary = x_min
-  intensity = 1.0e25
+  intensity_w_cm2 = 1.0e15
   lambda = lambda0
-  pol_angle = 0.0
 
-  # phase = 2.0 * pi/ lambda0 * y^2 / (2.0 * RC) - gouy
+  phase = - 1.0 * pi/ lambda0 * y^2 / (2.0 * RC) - gouy
 
   profile = gauss(y,0,w_bnd)
+  # profile = 1
 end:laser
 
 
@@ -78,17 +57,12 @@ begin:output
   # Simulated time between output dumps
   dt_snapshot = 10 * femto
 
-  # px = always
-  # py = always
-  # pz = always
-  # charge_density = always
-  
   # Properties on grid
   grid = always
   ex = always
   ey = always
   ez = always
-  bx = always
-  by = always
-  bz = always
+  # bx = always
+  # by = always
+  # bz = always
 end:output
