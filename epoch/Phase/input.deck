@@ -1,17 +1,17 @@
 begin:control
   nx = 400
-  ny = nx
+  ny = 400
 
   # Final time of simulation
   t_end = 110 * femto
 
   # Size of domain
-  x_min = -10 * micron
+  x_min = -20e-6
   x_max = -x_min
-  y_min = x_min
-  y_max = x_max
+  y_min = -20e-6
+  y_max = -y_min
 
-  stdout_frequency = 20
+  stdout_frequency = 10
 end:control
 
 
@@ -25,10 +25,15 @@ end:boundaries
 
 begin:constant
   lambda0 = 1.0 * micron
+  theta = pi/3
+  lambdaf = lambda0 * cos(theta)
 
   # These two set the beam focus
-  w_0 = 0.9 * micron # Beam waist size
-  x_spot = 10 * micron # Distance from x_min to spot
+  w_0 = 2.0 * micron # Beam waist size
+  x_spot = 1 * micron # Distance from x_min to spot
+  fwhm = 1 * micron
+  w = fwhm / 1.3863
+
 
   # These are the parameters calculated for driving the laser
   # These should not need to be modified
@@ -38,14 +43,21 @@ begin:constant
   gouy = atan(x_spot/x_R) # Gouy phase shift at x_min
 end:constant
 
+begin:species
+  name = Electron
+  charge = -1.0
+  mass = 1.0
+  nparticles_per_cell = 0
+  density = 1.0e24
+end:species
+
 
 begin:laser
   boundary = x_min
-  intensity_w_cm2 = 1.0e15
+  intensity = 1.0e22
   lambda = lambda0
 
-  phase = - 1.0 * pi/ lambda0 * y^2 / (2.0 * RC) - gouy
-
+  #phase = - 2.0 * pi* y* sin(theta)/ lambda0
   profile = gauss(y,0,w_bnd)
   # profile = 1
 end:laser

@@ -1,17 +1,17 @@
- EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663593742.374          
+ EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663668646.933          
 
 Deck state:  1
 
  Beginning "control" block
 
  	Element nx=400 handled OK
- 	Element ny=nx handled OK
+ 	Element ny=400 handled OK
  	Element t_end=110 * femto handled OK
- 	Element x_min=-10 * micron handled OK
+ 	Element x_min=-20e-6 handled OK
  	Element x_max=-x_min handled OK
- 	Element y_min=x_min handled OK
- 	Element y_max=x_max handled OK
- 	Element stdout_frequency=20 handled OK
+ 	Element y_min=-20e-6 handled OK
+ 	Element y_max=-y_min handled OK
+ 	Element stdout_frequency=10 handled OK
 
  Ending "control" block
 
@@ -27,8 +27,12 @@ Deck state:  1
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
- 	Element w_0=0.9 * micron handled OK
- 	Element x_spot=10 * micron handled OK
+ 	Element theta=pi/3 handled OK
+ 	Element lambdaf=lambda0 * cos(theta) handled OK
+ 	Element w_0=2.0 * micron handled OK
+ 	Element x_spot=1 * micron handled OK
+ 	Element fwhm=1 * micron handled OK
+ 	Element w=fwhm / 1.3863 handled OK
  	Element x_R=pi * w_0^2 / lambda0 handled OK
  	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
  	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
@@ -36,13 +40,22 @@ Deck state:  1
 
  Ending "constant" block
 
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=0 handled OK
+ 	Element density=1.0e24 handled OK
+
+ Ending "species" block
+
  Beginning "laser" block
 
  	Element boundary=x_min handled OK
- 	Element intensity_w_cm2=1.0e15 handled OK
+ 	Element intensity=1.0e22 handled OK
  	Element lambda=lambda0 handled OK
- 	Element phase=- 1.0 * pi/ lambda0 * y^2 / (2.0 * RC) - gouy handled OK
- 	Element profile=1 handled OK
+ 	Element profile=gauss(y,0,w_bnd) handled OK
 
  Ending "laser" block
 
@@ -62,13 +75,13 @@ Deck state:  2
  Beginning "control" block
 
  	Element nx=400 handled OK
- 	Element ny=nx handled OK
+ 	Element ny=400 handled OK
  	Element t_end=110 * femto handled OK
- 	Element x_min=-10 * micron handled OK
+ 	Element x_min=-20e-6 handled OK
  	Element x_max=-x_min handled OK
- 	Element y_min=x_min handled OK
- 	Element y_max=x_max handled OK
- 	Element stdout_frequency=20 handled OK
+ 	Element y_min=-20e-6 handled OK
+ 	Element y_max=-y_min handled OK
+ 	Element stdout_frequency=10 handled OK
 
  Ending "control" block
 
@@ -84,8 +97,12 @@ Deck state:  2
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
- 	Element w_0=0.9 * micron handled OK
- 	Element x_spot=10 * micron handled OK
+ 	Element theta=pi/3 handled OK
+ 	Element lambdaf=lambda0 * cos(theta) handled OK
+ 	Element w_0=2.0 * micron handled OK
+ 	Element x_spot=1 * micron handled OK
+ 	Element fwhm=1 * micron handled OK
+ 	Element w=fwhm / 1.3863 handled OK
  	Element x_R=pi * w_0^2 / lambda0 handled OK
  	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
  	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
@@ -93,13 +110,22 @@ Deck state:  2
 
  Ending "constant" block
 
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=0 handled OK
+ 	Element density=1.0e24 handled OK
+
+ Ending "species" block
+
  Beginning "laser" block
 
  	Element boundary=x_min handled OK
- 	Element intensity_w_cm2=1.0e15 handled OK
+ 	Element intensity=1.0e22 handled OK
  	Element lambda=lambda0 handled OK
- 	Element phase=- 1.0 * pi/ lambda0 * y^2 / (2.0 * RC) - gouy handled OK
- 	Element profile=1 handled OK
+ 	Element profile=gauss(y,0,w_bnd) handled OK
 
  Ending "laser" block
 

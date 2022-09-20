@@ -23,8 +23,8 @@ def plot_field(data_dir, ax, component="y"):
     t = raw_data.Header["time"] * 1e15
     field = field / (field.max() + 1e-10)
     ax.imshow(
-        field ** 2,
-        cmap="jet",
+        field.T,
+        cmap="coolwarm",
         origin="lower",
         extent=EXTENT,
         aspect="auto",
@@ -61,7 +61,7 @@ def plot_with_scale(data_dir, component="x"):
 
     plt.figure(figsize=(15, 8))
     plt.imshow(
-        field.data ** 2, cmap="jet", origin="lower", extent=EXTENT, aspect="auto",
+        field.data.T, cmap="coolwarm", origin="lower", extent=EXTENT, aspect="auto",
     )
     plt.xlabel("$Y \, [\mu m]$")
     plt.ylabel("$X \, [\mu m]$")
