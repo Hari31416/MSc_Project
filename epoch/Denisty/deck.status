@@ -1,4 +1,4 @@
- EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663743472.248          
+ EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663745286.444          
 
 Deck state:  1
 
@@ -27,7 +27,9 @@ Deck state:  1
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
- 	Element max_den=1.0e24 handled OK
+ 	Element theta=16*pi/18 handled OK
+ 	Element lambdaf=lambda0 * cos(theta) handled OK
+ 	Element max_den=2.0e27 handled OK
  	Element profile_x=if((x gt 0.0), 1.0, 0.0) handled OK
  	Element profile_y=1.0 handled OK
  	Element w_0=5.0 * micron handled OK
@@ -46,8 +48,18 @@ Deck state:  1
  	Element name=Electron handled OK
  	Element charge=-1.0 handled OK
  	Element mass=1.0 handled OK
- 	Element nparticles_per_cell=1 handled OK
+ 	Element nparticles_per_cell=2 handled OK
  	Element number_density=max_den*profile_x*profile_y handled OK
+
+ Ending "species" block
+
+ Beginning "species" block
+
+ 	Element name=Proton handled OK
+ 	Element charge=1.0 handled OK
+ 	Element mass=1836.2 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element number_density=number_density(Electron) handled OK
 
  Ending "species" block
 
@@ -56,6 +68,7 @@ Deck state:  1
  	Element boundary=x_min handled OK
  	Element intensity=1.0e22 handled OK
  	Element lambda=lambda0 handled OK
+ 	Element phase=- 2.0 * pi* y* sin(theta)/ lambda0 handled OK
  	Element profile=gauss(y,0,w_bnd) handled OK
 
  Ending "laser" block
@@ -99,7 +112,9 @@ Deck state:  2
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
- 	Element max_den=1.0e24 handled OK
+ 	Element theta=16*pi/18 handled OK
+ 	Element lambdaf=lambda0 * cos(theta) handled OK
+ 	Element max_den=2.0e27 handled OK
  	Element profile_x=if((x gt 0.0), 1.0, 0.0) handled OK
  	Element profile_y=1.0 handled OK
  	Element w_0=5.0 * micron handled OK
@@ -118,8 +133,18 @@ Deck state:  2
  	Element name=Electron handled OK
  	Element charge=-1.0 handled OK
  	Element mass=1.0 handled OK
- 	Element nparticles_per_cell=1 handled OK
+ 	Element nparticles_per_cell=2 handled OK
  	Element number_density=max_den*profile_x*profile_y handled OK
+
+ Ending "species" block
+
+ Beginning "species" block
+
+ 	Element name=Proton handled OK
+ 	Element charge=1.0 handled OK
+ 	Element mass=1836.2 handled OK
+ 	Element nparticles_per_cell=1 handled OK
+ 	Element number_density=number_density(Electron) handled OK
 
  Ending "species" block
 
@@ -128,6 +153,7 @@ Deck state:  2
  	Element boundary=x_min handled OK
  	Element intensity=1.0e22 handled OK
  	Element lambda=lambda0 handled OK
+ 	Element phase=- 2.0 * pi* y* sin(theta)/ lambda0 handled OK
  	Element profile=gauss(y,0,w_bnd) handled OK
 
  Ending "laser" block

@@ -1,4 +1,4 @@
- EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663596171.400          
+ EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663742754.57           
 
 Deck state:  1
 
@@ -27,6 +27,9 @@ Deck state:  1
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
+ 	Element max_den=2.0e27 handled OK
+ 	Element profile_x=if((x gt 0.0), 1.0, 0.0) handled OK
+ 	Element profile_y=1.0 handled OK
  	Element w_0=5.0 * micron handled OK
  	Element x_spot=1 * micron handled OK
  	Element fwhm=3 * micron handled OK
@@ -44,7 +47,7 @@ Deck state:  1
  	Element charge=-1.0 handled OK
  	Element mass=1.0 handled OK
  	Element nparticles_per_cell=1 handled OK
- 	Element density=2.0e27 handled OK
+ 	Element number_density=max_den*profile_x*profile_y handled OK
 
  Ending "species" block
 
@@ -65,6 +68,7 @@ Deck state:  1
  	Element ex=always handled OK
  	Element ey=always handled OK
  	Element ez=always handled OK
+ 	Element number_density=always + species handled OK
 
  Ending "output" block
 
@@ -95,6 +99,9 @@ Deck state:  2
  Beginning "constant" block
 
  	Element lambda0=1.0 * micron handled OK
+ 	Element max_den=2.0e27 handled OK
+ 	Element profile_x=if((x gt 0.0), 1.0, 0.0) handled OK
+ 	Element profile_y=1.0 handled OK
  	Element w_0=5.0 * micron handled OK
  	Element x_spot=1 * micron handled OK
  	Element fwhm=3 * micron handled OK
@@ -112,7 +119,7 @@ Deck state:  2
  	Element charge=-1.0 handled OK
  	Element mass=1.0 handled OK
  	Element nparticles_per_cell=1 handled OK
- 	Element density=2.0e27 handled OK
+ 	Element number_density=max_den*profile_x*profile_y handled OK
 
  Ending "species" block
 
@@ -133,6 +140,7 @@ Deck state:  2
  	Element ex=always handled OK
  	Element ey=always handled OK
  	Element ez=always handled OK
+ 	Element number_density=always + species handled OK
 
  Ending "output" block
 

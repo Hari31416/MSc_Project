@@ -25,7 +25,10 @@ end:boundaries
 
 begin:constant
   lambda0 = 1.0 * micron
-  max_den =  1.0e24
+  theta = 16*pi/18
+  lambdaf = lambda0 * cos(theta)
+
+  max_den =  2.0e27
   profile_x = if((x gt 0.0), 1.0, 0.0)
   profile_y = 1.0
 
@@ -48,8 +51,16 @@ begin:species
   name = Electron
   charge = -1.0
   mass = 1.0
-  nparticles_per_cell = 1
+  nparticles_per_cell = 2
   number_density = max_den*profile_x*profile_y
+end:species
+
+begin:species
+  name = Proton
+  charge = 1.0
+  mass = 1836.2
+  nparticles_per_cell = 1
+  number_density = number_density(Electron)
 end:species
 
 begin:laser
@@ -58,7 +69,7 @@ begin:laser
   lambda = lambda0
   # pol_angle = 0.0
 
-  #phase = 2.0 * pi/ lambda0 * y^2 / (2.0 * RC) - gouy
+  phase = - 2.0 * pi* y* sin(theta)/ lambda0
 
   profile = gauss(y,0,w_bnd)
   #profile = 1

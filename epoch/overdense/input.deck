@@ -25,7 +25,9 @@ end:boundaries
 
 begin:constant
   lambda0 = 1.0 * micron
-  
+  max_den =  2.0e27
+  profile_x = if((x gt 0.0), 1.0, 0.0)
+  profile_y = 1.0
 
   # These two set the beam focus
   w_0 = 5.0 * micron # Beam waist size
@@ -47,8 +49,10 @@ begin:species
   charge = -1.0
   mass = 1.0
   nparticles_per_cell = 1
-  density = 2.0e27
+  number_density = max_den*profile_x*profile_y
 end:species
+
+
 
 begin:laser
   boundary = x_min
@@ -82,4 +86,5 @@ begin:output
   # bx = always
   # by = always
   # bz = always
+  number_density = always + species
 end:output
