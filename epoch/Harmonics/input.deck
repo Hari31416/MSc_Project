@@ -7,12 +7,16 @@ begin:constant
   las_time = 20*tau
 
   # Plasma parameters
-  factor = 7
+  factor = 4
   thickness = 2*lambda0
-  nc = omega0*omega0/(324*pi*pi)
-  max_den = factor*nc
-  profile_x = if((x gt 0.0), 1.0, 0.0)
-  profile_x2 = if((x gt thickness), 0.0, 1.0)
+  start = 5*micron
+  
+  crtical_den = omega0*omega0/(4*pi*pi*81)
+  max_den = factor*crtical_den
+  profile_x = if((x gt start), 1.0, 0.0)
+  profile_x2 = if((x gt start+thickness), 0.0, 1.0)
+  temp = 50.0
+  temperature_0 = temp*qe/kb
 
   # These two set the beam focus
   w_0 = 5.0 * micron # Beam waist size
@@ -31,10 +35,10 @@ begin:control
   nx = 4000
 
   # Final time of simulation
-  t_end = 50*tau
+  t_end = 55*tau
 
   # Size of domain
-  x_min = -4*lambda0
+  x_min = -20*lambda0
   x_max = -x_min
 
   stdout_frequency = 10
@@ -52,6 +56,7 @@ begin:species
   charge = -1.0
   mass = 1.0
   nparticles_per_cell = 100
+  temperature = temperature_0
   number_density = max_den*profile_x*profile_x2
 end:species
 

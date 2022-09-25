@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1664016338.18           
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1664092425.155          
 
 Deck state:  1
 
@@ -8,12 +8,15 @@ Deck state:  1
  	Element omega0=2 * pi * c / lambda0 handled OK
  	Element tau=lambda0/c handled OK
  	Element las_time=20*tau handled OK
- 	Element factor=7 handled OK
+ 	Element factor=4 handled OK
  	Element thickness=2*lambda0 handled OK
- 	Element nc=omega0*omega0/(324*pi*pi) handled OK
- 	Element max_den=factor*nc handled OK
- 	Element profile_x=if((x gt 0.0), 1.0, 0.0) handled OK
- 	Element profile_x2=if((x gt thickness), 0.0, 1.0) handled OK
+ 	Element start=5*micron handled OK
+ 	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
+ 	Element max_den=factor*crtical_den handled OK
+ 	Element profile_x=if((x gt start), 1.0, 0.0) handled OK
+ 	Element profile_x2=if((x gt start+thickness), 0.0, 1.0) handled OK
+ 	Element temp=50.0 handled OK
+ 	Element temperature_0=temp*qe/kb handled OK
  	Element w_0=5.0 * micron handled OK
  	Element x_spot=0 * micron handled OK
  	Element x_R=pi * w_0^2 / lambda0 handled OK
@@ -26,8 +29,8 @@ Deck state:  1
  Beginning "control" block
 
  	Element nx=4000 handled OK
- 	Element t_end=50*tau handled OK
- 	Element x_min=-4*lambda0 handled OK
+ 	Element t_end=55*tau handled OK
+ 	Element x_min=-20*lambda0 handled OK
  	Element x_max=-x_min handled OK
  	Element stdout_frequency=10 handled OK
 
@@ -46,6 +49,7 @@ Deck state:  1
  	Element charge=-1.0 handled OK
  	Element mass=1.0 handled OK
  	Element nparticles_per_cell=100 handled OK
+ 	Element temperature=temperature_0 handled OK
  	Element number_density=max_den*profile_x*profile_x2 handled OK
 
  Ending "species" block
@@ -79,12 +83,15 @@ Deck state:  2
  	Element omega0=2 * pi * c / lambda0 handled OK
  	Element tau=lambda0/c handled OK
  	Element las_time=20*tau handled OK
- 	Element factor=7 handled OK
+ 	Element factor=4 handled OK
  	Element thickness=2*lambda0 handled OK
- 	Element nc=omega0*omega0/(324*pi*pi) handled OK
- 	Element max_den=factor*nc handled OK
- 	Element profile_x=if((x gt 0.0), 1.0, 0.0) handled OK
- 	Element profile_x2=if((x gt thickness), 0.0, 1.0) handled OK
+ 	Element start=5*micron handled OK
+ 	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
+ 	Element max_den=factor*crtical_den handled OK
+ 	Element profile_x=if((x gt start), 1.0, 0.0) handled OK
+ 	Element profile_x2=if((x gt start+thickness), 0.0, 1.0) handled OK
+ 	Element temp=50.0 handled OK
+ 	Element temperature_0=temp*qe/kb handled OK
  	Element w_0=5.0 * micron handled OK
  	Element x_spot=0 * micron handled OK
  	Element x_R=pi * w_0^2 / lambda0 handled OK
@@ -97,8 +104,8 @@ Deck state:  2
  Beginning "control" block
 
  	Element nx=4000 handled OK
- 	Element t_end=50*tau handled OK
- 	Element x_min=-4*lambda0 handled OK
+ 	Element t_end=55*tau handled OK
+ 	Element x_min=-20*lambda0 handled OK
  	Element x_max=-x_min handled OK
  	Element stdout_frequency=10 handled OK
 
@@ -117,6 +124,7 @@ Deck state:  2
  	Element charge=-1.0 handled OK
  	Element mass=1.0 handled OK
  	Element nparticles_per_cell=100 handled OK
+ 	Element temperature=temperature_0 handled OK
  	Element number_density=max_den*profile_x*profile_x2 handled OK
 
  Ending "species" block
