@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  25 SEP 2022 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  27 SEP 2022 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -279,34 +279,51 @@ Package pdftex.def Info: logo.png  used on input line 22.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 
-      [1] [2] [3] (./main.aux)
+l.81     \end{equation}
+                        [1]
+<reflection.png, id=68, 1084.05pt x 722.7pt>
+File: reflection.png Graphic file (type png)
+<use reflection.png>
+Package pdftex.def Info: reflection.png  used on input line 111.
+(pdftex.def)             Requested size: 569.06862pt x 369.88438pt.
+
+Overfull \hbox (25.97691pt too wide) in paragraph at lines 111--112
+[][] 
+ []
+
+[2]
+<density.png, id=78, 1011.78pt x 722.7pt>
+File: density.png Graphic file (type png)
+<use density.png>
+Package pdftex.def Info: density.png  used on input line 122.
+(pdftex.def)             Requested size: 455.25047pt x 256.06956pt.
+ [3 <./reflection.png>] [4 <./density.png>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6FB2CAD3536868E313B14A39E9C694F9;1454.
  ) 
 Here is how much of TeX's memory you used:
- 9392 strings out of 480171
- 144853 string characters out of 5894489
- 430324 words of memory out of 5000000
- 27207 multiletter control sequences out of 15000+600000
- 476697 words of font info for 55 fonts, out of 8000000 for 9000
+ 9403 strings out of 480171
+ 145066 string characters out of 5894489
+ 428344 words of memory out of 5000000
+ 27217 multiletter control sequences out of 15000+600000
+ 476076 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,9n,63p,995b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (4 pages, 192289 bytes).
+ 60i,9n,63p,773b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (5 pages, 768028 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
