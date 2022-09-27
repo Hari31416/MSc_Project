@@ -7,7 +7,7 @@ begin:constant
   las_time = 20*tau
 
   # Plasma parameters
-  factor = 4
+  factor = 7
   thickness = 2*lambda0
   start = 5*micron
   

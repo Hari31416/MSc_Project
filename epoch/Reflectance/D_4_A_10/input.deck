@@ -1,0 +1,98 @@
+begin:constant
+
+  # Laser parameters
+  lambda0 = 1.0 * micron
+  omega0 = 2 * pi * c / lambda0
+  tau = lambda0/c
+  las_time = 10*tau
+  a0 = 10
+
+  # Plasma parameters
+  factor = 4
+  thickness = 2*lambda0
+  start = 0*micron
+  
+  crtical_den = omega0*omega0/(4*pi*pi*81)
+  max_den = factor*crtical_den
+  profile_x = if((x gt start), 1.0, 0.0)
+  profile_x2 = if((x gt start+thickness), 0.0, 1.0)
+
+  # These two set the beam focus
+  w_0 = 5.0 * micron # Beam waist size
+  x_spot = 0 * micron # Distance from x_min to spot
+
+
+  # These are the parameters calculated for driving the laser
+  # These should not need to be modified
+  x_R = pi * w_0^2 / lambda0 # Rayleigh range
+  RC = x_spot * (1.0 + (x_R/x_spot)^2) # Radius of curvature on x_min
+  w_bnd = w_0 * sqrt( 1.0 + (x_spot/x_R)^2) # Spot size at x_min
+  gouy = atan(x_spot/x_R) # Gouy phase shift at x_min
+end:constant
+
+begin:control
+  nx = 1000
+
+  # Final time of simulation
+  t_end = 20*tau
+
+  # Size of domain
+  x_min = -10*lambda0
+  x_max = -x_min
+
+  stdout_frequency = 10
+end:control
+
+
+begin:boundaries  
+  bc_x_min = simple_laser
+  bc_x_max = open
+end:boundaries
+
+
+begin:species
+  name = Electron
+  charge = -1.0
+  mass = 1.0
+  nparticles_per_cell = 100
+  number_density = max_den*profile_x*profile_x2
+end:species
+
+begin:species
+  name = Proton
+  charge = 1.0
+  mass = 1836
+  nparticles_per_cell = 100
+  number_density = max_den*profile_x*profile_x2
+end:species
+
+begin:laser
+  boundary = x_min
+  intensity = a0*a0*1.37e22
+  lambda = lambda0
+
+  t_profile = if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0)
+end:laser
+
+
+begin:output
+  name = normal
+
+  # Simulated time between output dumps
+  dt_snapshot = 0.5 * femto
+
+  # px = always
+  # py = always
+  # pz = always
+  # charge_density = always
+  
+  # Properties on grid
+  grid = always
+  ex = always
+  ey = always
+  ez = always
+  # bx = always
+  # by = always
+  # bz = always
+  number_density = always + species
+end:output
