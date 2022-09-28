@@ -1,5 +1,6 @@
-\documentclass[12pt]{article}
+\documentclass[]{article}
 \usepackage{amsmath, amssymb, graphicx, hyperref}
+\usepackage[margin=2cm]{geometry}
 \usepackage{indentfirst}
 \title{Plasma Mirrors}
 \author{Harikesh}
@@ -17,7 +18,8 @@
 \item[]}{\end{list}}
 \begin{document}
 \begin{titlepage}
-    \begin{changemargin}{-2cm}{-2cm}
+    \begin{center}
+        % \begin{changemargin}{-2cm}{-2cm}
         \begin{figure}
             \includegraphics[width=5cm, height=5cm]{logo.png}
             \centering
@@ -40,107 +42,156 @@
         \end{center}
         \begin{flushleft}
 
-
+            \hspace{1cm}
             \textbf{Signature of student 1: \ldots \ldots \ldots}\\
             \vspace*{1cm}
+            \hspace{1cm}
             \textbf{Signature of student 2: \ldots \ldots \ldots}
             \hspace*{3cm}
             \textbf{Signature of the adviser: \ldots \ldots \ldots}
         \end{flushleft}
-    \end{changemargin}
+        % \end{changemargin}
+    \end{center}
 \end{titlepage}
 \newpage
-\begin{changemargin}{-3cm}{-3cm}
-    \section{Introduction And Motivation}
-    Interaction of relativistic and non-relativistic laser pulse is studied with underdense and overdense plasma. Underdense plasma is transparent to the laser pulse while overdense plamsa is opaque and reflects the laser back.
-    In case of relativistic laser pulse, the plasma frequency gets shifted and hence the pulse passes through the plasma even though the plasma was underdense to start with.
+% \begin{changemargin}{-3cm}{-3cm}
+\section{Introduction And Motivation}
+Interaction of relativistic and non-relativistic laser pulse is studied with underdense and overdense plasma. Underdense plasma is transparent to the laser pulse while overdense plamsa is opaque and reflects the laser back.
+In case of relativistic laser pulse, the plasma frequency gets shifted and hence the pulse passes through the plasma even though the plasma was underdense to start with.
 
-    When a laser pulse is incident upon plasma, it reflects if the density of plasma is large enough, forming a plasma mirror (PM). Upon reflection from the plasma the laser field drives relativistic oscillation of the PM surface due to pondermotive force that induces a periodic temporal compression of the reflected field through the Doppler effect. These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters}
+When an electromagnetic wave is incident upon plasma, it reflects if the density of plasma is greater than the critical density \ref{critical-density}, forming a plasma mirror (PM). Upon reflection from the plasma the laser field drives relativistic oscillation of the PM surface due to pondermotive force that induces a periodic temporal compression of the reflected field through the Doppler effect. These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters}
 
 
-    \section{Methodology}
-    The simulation uses \textit{epoch}, a parallised, second order and fully relativistic implementation of particle in cell (PIC) algorithm.\cite{epoch} Though \textit{epoch} is implemented in 3D, the current simulation is performed in 1D3V only.
-    \subsection{PIC Algorithm}
-    In plasma physics, the PIC method is a numerical approach that simulates a collection
-    of charged particles that interact via external and self-induced electromagnetic fields. A
-    spatial grid is used to describe the field while the particles move in the continuous space. The field and the particle motion are solved concurrently. In this case the simulation
-    requires less amount of work, since each particle only interacts with the grid points of
-    the cell where it is located.\cite{suciu}
+\section{Methodology}
+The simulation uses \textit{EPOCH}, a parallised, second order and fully relativistic implementation of particle in cell (PIC) algorithm.\cite{epoch} Though \textit{EPOCH} is implemented in 3D, the current simulation is performed in 1D3V only.
+\subsection{PIC Algorithm}
+In plasma physics, the PIC method is a numerical approach that simulates a collection
+of particles that interact via external and self-induced electromagnetic fields. A
+spatial grid is used to describe the field while the particles move in the continuous space. The field and the particle motion are solved concurrently. In this case the simulation
+requires less amount of work, since each particle only interacts with the grid points of
+the cell where it is located.\cite{suciu}
 
-    % \newpage
-    % \noindent
+In PIC, the plasma is represented by collection of particles, macro particle, with same charge to mass ratio. The system is discretised parallel to the boundaries forming a grid (mesh). The particles are free to move anywhere inside the system boundaries, however, the continuous electromagnetic field is replaced by discrete values assigned only to the mesh points.
 
-    \subsection{Underdense and Overdense Plasma}
-    Plasma frequency for plasma density $n_p$ is given by\cite{chen}
-    \begin{equation}\label{plasma-frequency}
-        \omega_p = \sqrt{\frac{n_p e^2}{\epsilon_0 m_e}}
-    \end{equation}
-    If the frequency of the incident laser pulse, $\omega_l$, is greater than the plasma frequency, the plasma is called underdense. In this case, the plasma is transparent to the laser pulse. On the other hand, if the frequency of the incident laser pulse is less than the plasma frequency, the plasma is called overdense. In this case, the laser can not penetrate the plasma deeply and is reflected back. The case $\omega_l = \omega_p$ corresponds to critical plasma and density in this case is called critical density $n_c$. Using Equation \hyperref[plasma-frequency]{1} gives;
-    \begin{equation}\label{critical-density}
-        n_c = \frac{\epsilon_0 m_e \omega_l^2}{e^2}
-    \end{equation}
-    % The skin depth of the plasma is given by
-    % \begin{equation*}
-    %     \delta = \frac{c}{\omega_p}
-    % \end{equation*}
-    \subsection{Laser Pulse}
-    The simulation uses ultrashort laser pulses. An ultrashort laser emitts pulse with duration of the order of pico second. Defining the laser vector potential as $$ a_0 = \frac{eE_0}{m w_l c}$$
-    A laser is called relativistic if $a_0 \ge 1$.
-
-    \subsection{Parameters for Simulation}
-    The simulation box extends for $20 \lambda _l$ (from $-10 \lambda _l$ to $10 \lambda _l$), where $\lambda_l$ is the laser wavelength and has total 1000 cells. The plasma is placed at $x=0$ and with a thickess of $\lambda_l$. Number of particles per cell are 100.  The plasma density $n_p$ is defined in terms of the critical density $n_c$ and is varied from 0.1 to 10. The vector potential $a_0$ of the laser pulse is also varied as 0.1, 1.0 and 10 for each set of plasma density.
-
-    The envelope of the incident laser field varies according to
-    \begin{equation}\label{envelope}
-        P(t)=
-        \begin{cases}
-             & \sin^2(\pi t/T) \text{ for } 0 \leq t \le T \\
-             & 0         \;      \text{ otherwise }
-        \end{cases}
-    \end{equation}
-    Where T is the pulse duration here taken as $T=10\tau$ with $\tau = 2\pi/\omega_l$ is the time of one laser cycle. The simulation is performed for $t=20\tau$.
-    \section{Result and Discussion}
-    Reflecatance here is define as
-
-    \begin{equation}\label{reflectance}
-        R
-        = \frac{{E_{300}^2}-{E_{600}^2}}{{E_{300}^2}}
-    \end{equation}
-    where $E_{300}$ is the sum of y component of the electric field at $300^{th}$ node and $E_{600}$ is the sum of y component of the electric field at $600^{th}$ node for all the simulation time. The plot of reflectance with different ratio of $n_c$ and $n_0$ is shown in the figure below for different values of vector potential $a_0$.
-
-    \includegraphics[width=20cm, height=13cm]{reflection.png}
+% \newpage
+% \noindent
+The arrangement of the fields is called the Yee cell.
+Since the charge density is defined on the corners, the central difference places the electric fields at the edges. Meanwhile, the magnetic fields are located on the face. After the initial condition is given, PIC start by calculating the charge density ($\rho$) at grid points from nearby charged
+particles. The charge of each particle is distributed among the grid points using a weighting algorithm. Usually, a bilinear interpolation is used where the charge on the grid is determined using the subarea of the opposite vertex.
+\begin{minipage}{0.6\textwidth}\raggedright
+    \includegraphics[height=9cm, width=9cm]{yee.png}
     \begin{center}
-        Plot of reflectance (see \hyperref[reflectance]{4}) with different ratio of $n_c$ and $n_0$ for different values of vector potential $a_0$.
+        \textbf{The Yee cell}
     \end{center}
-    \vspace*{0.2cm}
-    The ideal curve for the interaction of laser pulse with underdense and overdense plasma is shown in the figure with black dotted line. Ideally, when the ration $r = \frac{n_0}{n_c}$ becomes 1, the reflectance should also become 1. However, when the laser becomes relativistic for $a_0 \ge 1$, the particles inside plasma starts to oscillate with relativistic velocity, gaining mass. This results in change in the plasma frequency and hence the laser does not get reflected even for density greater than the critical density corresponding to the non-relativistic case. So, there is a shift in the critical density due to relativistic laser pulse.
-
-    Next, the plot of the oscillation of plasma surface with time is shown for different values of vector potential. The laser pulse, after interacting with electrons, makes them oscillate. If the pulse becomes relativistic, the oscillations becomes strong and hence the plasma surface oscillates with relativistic velocity.
-    The figure below shows that for $a_0=0.1$, the oscillation is very weak. As $a_0$ increases, the oscillation becomes stronger.
-    \noindent
+\end{minipage}
+\begin{minipage}{0.35\textwidth}\raggedright
+    \includegraphics[height=5cm, width=7cm]{charge.png}
     \begin{center}
-        \includegraphics[height=9cm, width=16cm]{density.png}
-
+        \textbf{Bi-linear interpolation}
     \end{center}
-    \section{Current Status and Future Plan of Work}
-    Study of interaction of relativistic and non-relativistic laser pulse is studied with underdense and overdense plasma. Future plan is simulation of harmonic generation in 1D using ultrashort intense laser pulse.
-    \section{Acknowledgement}
-    We are very thankful to Prof. Vikrant Saxena for his support and valuable guidance.
-    \begin{thebibliography}{9}
-        \bibitem{lichters}
-        R. Lichters Et al. Physics of Plasmas 3, pp. 3425-3437 (1996)
+\end{minipage}
 
-        \bibitem{epoch}
-        Arber, T D Et al. Plasma Physics and Controlled Fusion 57 1-26 (2015)
+% \noindent
+% \begin{minipage}{0.55\textwidth}\raggedleft
+%     After the initial condition is given, PIC start by calculating the charge density ($\rho$) at grid points from nearby charged
+%     particles. The charge of each particle is distributed among the grid points using a weighting algorithm. Usually, a bilinear interpolation is used where the charge on the grid is determined using the subarea of the opposite vertex.
+% \end{minipage}
+% \begin{minipage}{0.4\textwidth}\raggedleft
+%     \includegraphics[height=5cm, width=7cm]{charge.png}
+% \end{minipage}
 
-        \bibitem{suciu}
-        Alin Suciu Et al. 2020 15th Conference on Computer Science and Information Systems (FedCSIS), pp.381-385, 2020
+Update of $\mathbf{E}$ and $\mathbf{B}$ is done by Yee algorithm. The advancement of $\mathbf{E}$ from step $n$ to $n+1$ is done via central differencing using $\mathbf{B}$ at $n+1/2$. While, the advancement of $\mathbf{B}$ from step $n-1/2$ to $n+1/2$ is done via central differencing using $\mathbf{E}$ and the current density ($\textbf{J}$) at step $n$. Finally, the updated electric and magnetic fields are used to forward velocity for step $n-1/2$ to $n+1/2$ and velocity at step $n+1/2$ is used to forward position for step $n$ to $n+1$. The charge and hence the current density is updated using this newly updated position which in turn updates magnetic field and the cycle continues. The fact that the velocity ($\mathbf{B}$) at half step is used to forward position ($\mathbf{E}$) at full step and vice versa makes this update rule leap-frog method.
 
-        \bibitem{chen}
-        Francis F. Chen
-        Introduction to Plasma Physics and Controlled Fusion $3^{rd}$ Ed.
+The velocity is updated with Boris method. First, a half-step acceleration is performed in the electric field direction, followed by full rotation in magnetic field and finally, another half-step acceleration is performed in the electric field direction.
+% \newpage
+% \noindent
+\begin{figure}
+    \includegraphics[width=10cm, height=5cm]{PIC.png}
+    \centering
+    \caption{PIC Cycle}
+\end{figure}
 
-    \end{thebibliography}
+\subsection{Underdense and Overdense Plasma}
+Plasma frequency for plasma density $n_p$ is given by\cite{chen}
+\begin{equation}\label{plasma-frequency}
+    \omega_p = \sqrt{\frac{n_p e^2}{\epsilon_0 m_e}}
+\end{equation}
+If the frequency of the incident laser pulse, $\omega_l$, is greater than the plasma frequency, the plasma is called underdense. In this case, the plasma is transparent to the laser pulse. On the other hand, if the frequency of the incident laser pulse is less than the plasma frequency, the plasma is called overdense. In this case, the laser can not penetrate the plasma and is reflected back. The case $\omega_l = \omega_p$ corresponds to critical plasma and density in this case is called critical density $n_c$. Using Equation \hyperref[plasma-frequency]{1} gives;
+\begin{equation}\label{critical-density}
+    n_c = \frac{\epsilon_0 m_e \omega_l^2}{e^2}
+\end{equation}
+% The skin depth of the plasma is given by
+% \begin{equation*}
+%     \delta = \frac{c}{\omega_p}
+% \end{equation*}
+\subsection{Relativistic Laser Pulse}
+For a laser of frequency $\omega_l$ and electric field amplitude $E_0$, the laser vector potential is defined as
+\begin{equation}\label{vector_potential}
+    a_0 = \frac{eE_0}{m w_l c}
+\end{equation}
+A laser is called relativistic if $a_0 \ge 1$. In this situation, the intensity of laser becomes very high and it starts to drive the charged particle it interacts with by relativistic speeds.
 
-\end{changemargin}
+\subsection{Parameters for Simulation}
+The simulation box extends for $20 \lambda _l$ (from $-10 \lambda _l$ to $10 \lambda _l$), where $\lambda_l$ is the laser wavelength and has total 1000 cells, i.e., 50 cells per wavelength. The plasma is placed at $x=0$ and with a thickess of $\lambda_l$. Number of particles per cell are 100.  The plasma density $n_p$ is defined in terms of the critical density $n_c$ and is varied from 0.1 to 10. The vector potential $a_0$ of the laser pulse is also varied as 0.1, 1.0 and 10 for each set of plasma density.
+
+The envelope of the incident laser field varies according to \cite{lichters}
+\begin{equation}\label{envelope}
+    P(t)=
+    \begin{cases}
+         & \sin^2(\pi t/T) \text{ for } 0 \leq t \le T \\
+         & 0         \;      \text{ otherwise }
+    \end{cases}
+\end{equation}
+Where T is the pulse duration here taken as $T=10\tau$ with $\tau = 2\pi/\omega_l$ is the time of one laser cycle. The simulation is performed for $t=20\tau$.
+\section{Result and Discussion}
+The goal is to study the transmittence and reflectance of the laser pulse in underdense and overdense plasma for relativistic and non-relativistic case. For this, we define the reflectance as
+
+\begin{equation}\label{reflectance}
+    R
+    = \frac{{E_{300}^2}-{E_{600}^2}}{{E_{300}^2}}
+\end{equation}
+where $E_{300}$ is the sum of y component of the electric field at $300^{th}$ node and $E_{600}$ is the sum of y component of the electric field at $600^{th}$ node for all the simulation time. The node 300 corresponds to a node before the plasma starts and 600 node is just as the plasma ends. This way, the above relation gives a indication of the ratio of the intensity passing through the plasma to the intensity getting reflected.
+
+The plot of reflectance with different ratio of $n_c$ and $n_0$ is shown in the figure 1 for different values of vector potential $a_0$. All the curves are obtained for a laser pulse with time envelope defined by equation \ref{envelope}.
+\begin{figure}
+    \label{reflectance_fig}
+    \includegraphics[width=16cm, height=13cm]{reflection.png}
+    \centering
+    \caption{Plot of reflectance (see \ref{reflectance}) with different ratio of $n_c$ and $n_0$ and vector potential $a_0$.}
+
+\end{figure}
+% \begin{center}
+%     \includegraphics[width=18cm, height=13cm]{reflection.png}
+%     Plot of reflectance (see \hyperref[reflectance]{4}) with different ratio of $n_c$ and $n_0$ for different values of vector potential $a_0$.
+% \end{center}
+The ideal curve for the interaction of laser pulse with underdense and overdense plasma is also shown in the figure with black dotted line. Ideally, when the ratio $r = \frac{n_0}{n_c}$ becomes 1, the reflectance also becomes 1. However, when the laser becomes relativistic for $a_0 \ge 1$, the particles inside plasma starts to oscillate with relativistic velocity, gaining mass. This results in change in the plasma frequency and hence the laser does not get reflected even for density greater than the critical density corresponding to the non-relativistic case. So, there is a shift in the critical density due to relativistic laser pulse.
+
+Next, the plot of these oscillation of plasma surface with time is also shown for different values of vector potential. The plasma density is taken to be critical density, i.e., $r=1$.The laser pulse, after interacting with electrons, makes them oscillate. If the pulse becomes relativistic, the oscillations becomes strong and hence the plasma surface oscillates with relativistic velocity.
+The figure below shows that for $a_0=0.1$, the oscillation is very weak. As $a_0$ increases, the oscillation becomes stronger.
+\noindent
+\begin{center}
+    \includegraphics[height=9cm, width=16cm]{density.png}
+
+\end{center}
+\section{Current Status and Future Plan of Work}
+Study of interaction of relativistic and non-relativistic laser pulse is studied with underdense and overdense plasma. Future plan is the study and simulation of harmonic generation in 1D using ultrashort intense laser pulse.
+\section{Acknowledgement}
+We are very thankful to Prof. Vikrant Saxena for his support and valuable guidance.
+\begin{thebibliography}{9}
+    \bibitem{lichters}
+    R. Lichters Et al. Physics of Plasmas 3, pp. 3425-3437 (1996)
+
+    \bibitem{epoch}
+    Arber, T D Et al. Plasma Physics and Controlled Fusion 57 1-26 (2015)
+
+    \bibitem{suciu}
+    Alin Suciu Et al. 2020 15th Conference on Computer Science and Information Systems (FedCSIS), pp.381-385, 2020
+
+    \bibitem{chen}
+    Francis F. Chen
+    Introduction to Plasma Physics and Controlled Fusion $3^{rd}$ Ed.
+
+\end{thebibliography}
+
+% \end{changemargin}
 \end{document}
