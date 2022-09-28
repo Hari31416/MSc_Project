@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  28 SEP 2022 22:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  29 SEP 2022 00:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,7 +597,7 @@ Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
 \l_mix_pbtn_box=\box82
 \g_mix_mbtncnt_int=\count350
 \mix@btn@dim=\dimen300
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeseahorse.sty)
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeseahorse.sty)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 16.
@@ -639,14 +639,14 @@ LaTeX Font Info:    ... okay on input line 17.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -756,6 +756,61 @@ Dictionary: translator-theorem-dictionary, Language: English
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/pag/m/it' in size <10> not available
+(Font)              Font shape `OT1/pag/m/sl' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/pag/m/it' in size <7> not available
+(Font)              Font shape `OT1/pag/m/sl' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/pag/m/it' in size <5> not available
+(Font)              Font shape `OT1/pag/m/sl' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <10> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <7> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/pag/b/n' in size <5> not available
+(Font)              Font shape `OT1/pag/db/n' tried instead on input line 41.
+ [3
+
+]
+<PIC.png, id=119, 1446.40375pt x 690.58pt>
+File: PIC.png Graphic file (type png)
+<use PIC.png>
+Package pdftex.def Info: PIC.png  used on input line 52.
+(pdftex.def)             Requested size: 284.5305pt x 199.16718pt.
+
+Overfull \vbox (10.67021pt too high) detected at line 52
+ []
+
+[4
+
+ <./PIC.png>] [5
+
+]
+<reflection.png, id=178, 1084.05pt x 722.7pt>
+File: reflection.png Graphic file (type png)
+<use reflection.png>
+Package pdftex.def Info: reflection.png  used on input line 96.
+(pdftex.def)             Requested size: 227.60759pt x 170.71672pt.
+ [6
+
+ <./reflection.png>]
+<density.png, id=208, 1011.78pt x 722.7pt>
+File: density.png Graphic file (type png)
+<use density.png>
+Package pdftex.def Info: density.png  used on input line 109.
+(pdftex.def)             Requested size: 227.6098pt x 170.71672pt.
+ [7
+
+ <./density.png>] [8
+
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write5
 \openout5 = `main.nav'.
 
@@ -767,18 +822,18 @@ Dictionary: translator-theorem-dictionary, Language: English
 
  (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25701 strings out of 480171
- 517309 string characters out of 5894489
- 779866 words of memory out of 5000000
- 43161 multiletter control sequences out of 15000+600000
- 477439 words of font info for 39 fonts, out of 8000000 for 9000
+ 26206 strings out of 480171
+ 531814 string characters out of 5894489
+ 785864 words of memory out of 5000000
+ 43606 multiletter control sequences out of 15000+600000
+ 495919 words of font info for 67 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,14n,104p,496b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on main.pdf (2 pages, 15761 bytes).
+ 99i,15n,104p,496b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb>
+Output written on main.pdf (8 pages, 924006 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
