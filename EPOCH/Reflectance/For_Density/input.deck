@@ -5,11 +5,11 @@ begin:constant
   omega0 = 2 * pi * c / lambda0
   tau = lambda0/c
   las_time = 10*tau
-  a0 = 10
+  a0 = 0.1
 
   # Plasma parameters
-  factor = 10
-  thickness = 2*lambda0
+  factor = 1.0
+  thickness = 1*lambda0
   start = 0*micron
   
   crtical_den = omega0*omega0/(4*pi*pi*81)
@@ -70,6 +70,8 @@ begin:laser
   boundary = x_min
   intensity = a0*a0*1.37e22
   lambda = lambda0
+
+  t_profile = if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0)
 end:laser
 
 

@@ -1,7 +1,7 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1664378601.8            
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1664456788.476          
 
- Loaded 10000 particles of species "Electron"
- Loaded 10000 particles of species "Proton"
+ Loaded 5000 particles of species "Electron"
+ Loaded 5000 particles of species "Proton"
 Wrote normal  dump number    0 at time  0.316885890438E-16 and iteration      0
 Wrote normal  dump number    1 at time  0.507017424701E-15 and iteration      8
 Wrote normal  dump number    2 at time  0.101403484940E-14 and iteration     16

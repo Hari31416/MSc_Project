@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1664378601.8            
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1664456788.476          
 
 Deck state:  1
 
@@ -8,9 +8,9 @@ Deck state:  1
  	Element omega0=2 * pi * c / lambda0 handled OK
  	Element tau=lambda0/c handled OK
  	Element las_time=10*tau handled OK
- 	Element a0=10 handled OK
- 	Element factor=10 handled OK
- 	Element thickness=2*lambda0 handled OK
+ 	Element a0=0.1 handled OK
+ 	Element factor=1.0 handled OK
+ 	Element thickness=1*lambda0 handled OK
  	Element start=0*micron handled OK
  	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
  	Element max_den=factor*crtical_den handled OK
@@ -67,6 +67,7 @@ Deck state:  1
  	Element boundary=x_min handled OK
  	Element intensity=a0*a0*1.37e22 handled OK
  	Element lambda=lambda0 handled OK
+ 	Element t_profile=if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0) handled OK
 
  Ending "laser" block
 
@@ -90,9 +91,9 @@ Deck state:  2
  	Element omega0=2 * pi * c / lambda0 handled OK
  	Element tau=lambda0/c handled OK
  	Element las_time=10*tau handled OK
- 	Element a0=10 handled OK
- 	Element factor=10 handled OK
- 	Element thickness=2*lambda0 handled OK
+ 	Element a0=0.1 handled OK
+ 	Element factor=1.0 handled OK
+ 	Element thickness=1*lambda0 handled OK
  	Element start=0*micron handled OK
  	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
  	Element max_den=factor*crtical_den handled OK
@@ -149,6 +150,7 @@ Deck state:  2
  	Element boundary=x_min handled OK
  	Element intensity=a0*a0*1.37e22 handled OK
  	Element lambda=lambda0 handled OK
+ 	Element t_profile=if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0) handled OK
 
  Ending "laser" block
 

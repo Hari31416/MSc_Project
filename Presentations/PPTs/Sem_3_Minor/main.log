@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  29 SEP 2022 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  29 SEP 2022 22:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -716,60 +716,84 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./main.nav)
-<logo.png, id=30, 195.73125pt x 199.49532pt>
+<logo.png, id=26, 195.73125pt x 199.49532pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 16.
+Package pdftex.def Info: logo.png  used on input line 17.
 (pdftex.def)             Requested size: 71.13188pt x 72.5001pt.
+ [1
 
-Overfull \vbox (4.69008pt too high) detected at line 16
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>] [2
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 42.
- [3
+) [2
 
 ]
-<PIC.png, id=123, 1446.40375pt x 690.58pt>
+<PIC.png, id=99, 1446.40375pt x 690.58pt>
 File: PIC.png Graphic file (type png)
 <use PIC.png>
-Package pdftex.def Info: PIC.png  used on input line 53.
-(pdftex.def)             Requested size: 284.5305pt x 199.16718pt.
- [4
+Package pdftex.def Info: PIC.png  used on input line 42.
+(pdftex.def)             Requested size: 284.5305pt x 170.71623pt.
 
- <./PIC.png>] [5
+Overfull \vbox (4.09009pt too high) detected at line 42
+ []
 
-]
-<reflection.png, id=180, 1084.05pt x 722.7pt>
+[3
+
+ <./PIC.png>]
+<plasma.png, id=129, 867.24pt x 722.7pt>
+File: plasma.png Graphic file (type png)
+<use plasma.png>
+Package pdftex.def Info: plasma.png  used on input line 74.
+(pdftex.def)             Requested size: 184.93117pt x 128.02927pt.
+
+Overfull \hbox (13.78352pt too wide) in paragraph at lines 74--74
+[][]  
+ []
+
+
+Overfull \vbox (0.90312pt too high) detected at line 74
+ []
+
+[4
+
+ <./plasma.png>]
+<p1.png, id=160, 1300.86pt x 433.62pt>
+File: p1.png Graphic file (type png)
+<use p1.png>
+Package pdftex.def Info: p1.png  used on input line 79.
+(pdftex.def)             Requested size: 341.43124pt x 85.35284pt.
+<p2.png, id=161, 1300.86pt x 433.62pt>
+File: p2.png Graphic file (type png)
+<use p2.png>
+Package pdftex.def Info: p2.png  used on input line 79.
+(pdftex.def)             Requested size: 341.43124pt x 85.35284pt.
+<p3.png, id=162, 1300.86pt x 433.62pt>
+File: p3.png Graphic file (type png)
+<use p3.png>
+Package pdftex.def Info: p3.png  used on input line 79.
+(pdftex.def)             Requested size: 341.43124pt x 85.35284pt.
+ [5
+
+ <./p1.png> <./p2.png> <./p3.png>]
+<reflection.png, id=192, 1084.05pt x 722.7pt>
 File: reflection.png Graphic file (type png)
 <use reflection.png>
-Package pdftex.def Info: reflection.png  used on input line 97.
+Package pdftex.def Info: reflection.png  used on input line 95.
 (pdftex.def)             Requested size: 227.60759pt x 170.71672pt.
  [6
 
  <./reflection.png>]
-<density.png, id=209, 1011.78pt x 722.7pt>
+<density.png, id=221, 1091.07625pt x 706.64pt>
 File: density.png Graphic file (type png)
 <use density.png>
-Package pdftex.def Info: density.png  used on input line 110.
-(pdftex.def)             Requested size: 227.6098pt x 170.71672pt.
+Package pdftex.def Info: density.png  used on input line 106.
+(pdftex.def)             Requested size: 227.61777pt x 170.71843pt.
  [7
 
  <./density.png>] [8
@@ -786,21 +810,25 @@ Package pdftex.def Info: density.png  used on input line 110.
 
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AEA4B6A8AE45636C75679C2F0DFA4493;93.
- ) 
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 16 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 24719 strings out of 480171
- 496762 string characters out of 5894489
- 739183 words of memory out of 5000000
- 42158 multiletter control sequences out of 15000+600000
- 475922 words of font info for 52 fonts, out of 8000000 for 9000
+ 24733 strings out of 480171
+ 496919 string characters out of 5894489
+ 738793 words of memory out of 5000000
+ 42170 multiletter control sequences out of 15000+600000
+ 475040 words of font info for 49 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,15n,104p,496b,570s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (8 pages, 1015793 bytes).
+ 99i,15n,104p,496b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (8 pages, 2942523 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
+ 332 PDF objects out of 1000 (max. 8388607)
  266 compressed objects within 3 object streams
- 22 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
