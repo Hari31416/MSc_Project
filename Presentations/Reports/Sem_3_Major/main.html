@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Harikesh" />
+  <meta name="dcterms.date" content="2022-10-01" />
+  <title>Plasma Mirrors</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Plasma Mirrors</h1>
+<p class="author">Harikesh</p>
+<p class="date">2022-10-01</p>
+</header>
+<div class="titlepage">
+<div class="list">
+<p><span> </span></p>
+<p><img src="logo.png" style="width:5cm;height:5cm" alt="image" /></p>
+<div class="center">
+<p><strong><span>Department of Physics, IIT Delhi</span></strong><br />
+<strong><span>Course Code : PYD561</span></strong><br />
+<strong><span>Semester - III, 2022-23</span></strong><br />
+<strong><span>Plasma Mirrors</span></strong><br />
+<strong><span>Kulwinder Kaur (2021PHS7190)</span></strong><br />
+<strong><span>Harikesh Kushwaha (2021PHS7181)</span></strong><br />
+<strong><span>Adviser: Prof. Vikrant Saxena</span></strong><br />
+</p>
+</div>
+<div class="flushleft">
+<p><strong>Signature of student 1: ………</strong><br />
+<strong>Signature of student 2: ………</strong> <strong>Signature of the
+adviser: ………</strong></p>
+</div>
+</div>
+</div>
+<div class="list">
+<p><span> </span></p>
+<h1 id="introduction-and-motivation">Introduction And Motivation</h1>
+<p>The generation of harmonics by interaction of an ultrashort high
+intensity laser pulse with a step boundary of a overdense plasma layer
+is studied at various intensities. For this, fully relativistic
+particle-in-cell (PIC) simulations are performed using
+<em>epoch</em>.</p>
+<p>When a laser pulse is incident upon plasma, it reflects if the
+density of plasma is large enough, forming a plasma mirror (PM). Upon
+reflection from the plasma the laser field drives relativistic
+oscillation of the PM surface due to pondermotive force that induces a
+periodic temporal compression of the reflected field through the Doppler
+effect. These oscillations results in generation of high harmonics of
+the incident laser frequency.<span class="citation"
+data-cites="lichters"></span></p>
+<p>The idea is to generate high harmonics which can then be focused to
+achieve light intensities higher than currently available intensity
+(<span class="math inline">\(I \approx 10^{22}\)</span> <span
+class="math inline">\(W.cm^{-2}\)</span>). Light with these high
+intensities can be used to investigate light-matter interation in
+regimes barely explored in lab.<span class="citation"
+data-cites="henri"></span></p>
+<h1 id="methodology">Methodology</h1>
+<p>The simulation uses <em>epoch</em>, a parallised, second order and
+fully relativistic implementation of particle in cell (PIC)
+algorithm.<span class="citation" data-cites="epoch"></span> Though
+<em>epoch</em> is implemented in 3D, the current simulation is performed
+in 1D3V only.</p>
+<h2 id="pic-algorithm">PIC Algorithm</h2>
+<p>In plasma physics, the PIC method is a numerical approach that
+simulates a collection of charged particles that interact via external
+and self-induced electromagnetic fields. A spatial grid is used to
+describe the field while the particles move in the continuous space. The
+field and the particle motion are solved concurrently. In this case the
+simulation requires less amount of work, since each particle only
+interacts with the grid points of the cell where it is located.<span
+class="citation" data-cites="suciu"></span></p>
+<p>In PIC, the plasma is represented by collection of particles, macro
+particle, with same charge to mass ratio. The system is discretised
+parallel to the boundaries forming a grid (mesh). The particles are free
+to move anywhere inside the system boundaries, however, the continuous
+electromagnetic field is replaced by discrete values assigned only to
+the mesh points.</p>
+<p>The arrangement of the fields is called the Yee cell. Since the
+charge density is defined on the corners, the central difference places
+the electric fields at the edges. Meanwhile, the magnetic fields are
+located on the face. After the initial condition is given, PIC start by
+calculating the charge density (<span
+class="math inline">\(\rho\)</span>) at grid points from nearby charged
+particles. The charge of each particle is distributed among the grid
+points using a weighting algorithm. Usually, a bilinear interpolation is
+used where the charge on the grid is determined using the subarea of the
+opposite vertex.</p>
+<p>Update of <span class="math inline">\(\mathbf{E}\)</span> and <span
+class="math inline">\(\mathbf{B}\)</span> is done by Yee algorithm. The
+advancement of <span class="math inline">\(\mathbf{E}\)</span> from step
+<span class="math inline">\(n\)</span> to <span
+class="math inline">\(n+1\)</span> is done via central differencing
+using <span class="math inline">\(\mathbf{B}\)</span> at <span
+class="math inline">\(n+1/2\)</span>. While, the advancement of <span
+class="math inline">\(\mathbf{B}\)</span> from step <span
+class="math inline">\(n-1/2\)</span> to <span
+class="math inline">\(n+1/2\)</span> is done via central differencing
+using <span class="math inline">\(\mathbf{E}\)</span> and the current
+density (<span class="math inline">\(\textbf{J}\)</span>) at step <span
+class="math inline">\(n\)</span>. Finally, the updated electric and
+magnetic fields are used to forward velocity for step <span
+class="math inline">\(n-1/2\)</span> to <span
+class="math inline">\(n+1/2\)</span> and velocity at step <span
+class="math inline">\(n+1/2\)</span> is used to forward position for
+step <span class="math inline">\(n\)</span> to <span
+class="math inline">\(n+1\)</span>. The charge and hence the current
+density is updated using this newly updated position which in turn
+updates magnetic field and the cycle continues. The fact that the
+velocity (<span class="math inline">\(\mathbf{B}\)</span>) at half step
+is used to forward position (<span
+class="math inline">\(\mathbf{E}\)</span>) at full step and vice versa
+makes this update rule leap-frog method.</p>
+<p>The velocity is updated with Boris method. First, a half-step
+acceleration is performed in the electric field direction, followed by
+full rotation in magnetic field and finally, another half-step
+acceleration is performed in the electric field direction.</p>
+<h2 id="underdense-and-overdense-plasma">Underdense and Overdense
+Plasma</h2>
+<p>Plasma frequency for plasma density <span
+class="math inline">\(n_p\)</span> is given by<span class="citation"
+data-cites="chen"></span> <span
+class="math display">\[\label{plasma-frequency}
+        \omega_p = \sqrt{\frac{n_p e^2}{\epsilon_0 m_e}}\]</span> If the
+frequency of the incident laser pulse, <span
+class="math inline">\(\omega_l\)</span>, is greater than the plasma
+frequency, the plasma is called underdense. In this case, the plasma is
+transparent to the laser pulse. On the other hand, if the frequency of
+the incident laser pulse is less than the plasma frequency, the plasma
+is called overdense. In this case, the laser can not penetrate the
+plasma deeply and is reflected back. The case <span
+class="math inline">\(\omega_l = \omega_p\)</span> corresponds to
+critical plasma and density in this case is called critical density
+<span class="math inline">\(n_c\)</span>. Using Equation <a
+href="#plasma-frequency">1</a> gives; <span
+class="math display">\[\label{critical-density}
+        n_c = \frac{\epsilon_0 m_e \omega_l^2}{e^2}\]</span></p>
+<h2 id="laser-pulse">Laser Pulse</h2>
+<p>The simulation uses ultrashort laser pulses. An ultrashort laser
+emitts pulse with duration of the order of pico second. Defining the
+laser vector potential as <span class="math inline">\(a_0 =
+\frac{eE_0}{m w_l c}\)</span>, a laser is called relativistic if <span
+class="math inline">\(a_0 \ge 1\)</span>. For a laser wavelength of
+<span class="math inline">\(1 \mu m\)</span> laser the intensity <span
+class="math inline">\(1.4 \times10^{22}\)</span> <span
+class="math inline">\(W.m^{-2}\)</span> corresponds to <span
+class="math inline">\(a_0=1\)</span>.</p>
+<h2 id="parameters-for-simulation">Parameters for Simulation</h2>
+<p>The simulation box extends for <span class="math inline">\(8 \lambda
+_l\)</span> (from <span class="math inline">\(-4 \lambda _l\)</span> to
+<span class="math inline">\(4 \lambda _l\)</span>), where <span
+class="math inline">\(\lambda_l\)</span> is the laser wavelength and has
+total 1000 cells. The plasma is placed at <span
+class="math inline">\(x=0\)</span> and with a thickess of <span
+class="math inline">\(\lambda_l\)</span>. Number of particles per cell
+are 100. Initial temperature of electron is <span
+class="math inline">\(50 \; eV\)</span>. The plasma density <span
+class="math inline">\(n_p\)</span> is defined in terms of the critical
+density <span class="math inline">\(n_c\)</span>.</p>
+<p>The envelope of the incident laser field varies according to <span
+class="math display">\[\label{envelope}
+        P(t)=
+        \begin{cases}
+             &amp; \sin^2(\pi t/T) \text{ for } 0 \leq t \le T \\
+             &amp; 0         \;      \text{ otherwise }
+        \end{cases}\]</span> Where T is the pulse duration here taken as
+<span class="math inline">\(T=20\tau\)</span> with <span
+class="math inline">\(\tau = 2\pi/\omega_l\)</span> is the time of one
+laser cycle. The simulation is performed for <span
+class="math inline">\(t=55\tau\)</span>.</p>
+<h1 id="result-and-discussion">Result and Discussion</h1>
+<h1 id="current-status-and-future-plan-of-work">Current Status and
+Future Plan of Work</h1>
+<p>Simulation of harmonic generation in 1D using ultrashort intense
+laser pulse is performed. Future plan is to expand the Simulation to 2D
+and use focusing techniques to generate extreme intensity light
+beam.</p>
+<h1 id="acknowledgement">Acknowledgement</h1>
+<p>We are very thankful to Prof. Vikrant Saxena for his support and
+valuable guidance.</p>
+<div class="thebibliography">
+<p><span>9</span> R. Lichters Et al. Physics of Plasmas 3, pp. 3425-3437
+(1996)</p>
+<p>Henri Vincenti Phys. Rev. Lett. 123, 105001 (2019)</p>
+<p>Arber, T D Et al. Plasma Physics and Controlled Fusion 57 1-26
+(2015)</p>
+<p>Alin Suciu Et al. 2020 15th Conference on Computer Science and
+Information Systems (FedCSIS), pp.381-385, 2020</p>
+<p>Francis F. Chen Introduction to Plasma Physics and Controlled Fusion
+<span class="math inline">\(3^{rd}\)</span> Ed.</p>
+</div>
+</div>
+</body>
+</html>

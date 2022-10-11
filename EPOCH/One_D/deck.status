@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1663934397.112          
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1665468434.794          
 
 Deck state:  1
 
@@ -60,7 +60,7 @@ Deck state:  1
  Beginning "output" block
 
  	Element name=normal handled OK
- 	Element dt_snapshot=1 * femto handled OK
+ 	Element dt_snapshot=0.5 * femto handled OK
  	Element grid=always handled OK
  	Element ex=always handled OK
  	Element ey=always handled OK
@@ -129,7 +129,7 @@ Deck state:  2
  Beginning "output" block
 
  	Element name=normal handled OK
- 	Element dt_snapshot=1 * femto handled OK
+ 	Element dt_snapshot=0.5 * femto handled OK
  	Element grid=always handled OK
  	Element ex=always handled OK
  	Element ey=always handled OK

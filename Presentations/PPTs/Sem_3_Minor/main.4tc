@@ -1,0 +1,5 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}}}{}\relax 
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\headcommand {\beamer@framepages {1}{1}}}}{}\relax 
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\headcommand {\slideentry {0}{0}{2}{4/4}{}{0}}}}{}\relax 
+\doTocEntry\tocnav{}{\csname a:TocLink\endcsname{1}{x1-1}{}{\headcommand {\beamer@framepages {4}{4}}}}{}\relax 
