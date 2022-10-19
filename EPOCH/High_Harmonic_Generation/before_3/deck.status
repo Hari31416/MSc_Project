@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1666102864.813          
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1666102483.64           
 
 Deck state:  1
 
@@ -9,7 +9,7 @@ Deck state:  1
  	Element tau=lambda0/c handled OK
  	Element las_time=20*tau handled OK
  	Element a0=0.5 handled OK
- 	Element factor=7 handled OK
+ 	Element factor=4 handled OK
  	Element thickness=1*lambda0 handled OK
  	Element start=0*micron handled OK
  	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
@@ -79,7 +79,7 @@ Deck state:  2
  	Element tau=lambda0/c handled OK
  	Element las_time=20*tau handled OK
  	Element a0=0.5 handled OK
- 	Element factor=7 handled OK
+ 	Element factor=4 handled OK
  	Element thickness=1*lambda0 handled OK
  	Element start=0*micron handled OK
  	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK

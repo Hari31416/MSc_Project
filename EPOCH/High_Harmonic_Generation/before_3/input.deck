@@ -8,7 +8,7 @@ begin:constant
   a0 = 0.5
 
   # Plasma parameters
-  factor = 7
+  factor = 4
   thickness = 1*lambda0
   start = 0*micron
   

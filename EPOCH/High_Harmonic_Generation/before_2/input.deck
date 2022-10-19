@@ -24,10 +24,10 @@ begin:control
   nx = 16000
 
   # Final time of simulation
-  t_end = 20*tau
+  t_end = 40*tau
 
   # Size of domain
-  x_min = -25*lambda0
+  x_min = -20*lambda0
   x_max = -x_min
 
   stdout_frequency = 10

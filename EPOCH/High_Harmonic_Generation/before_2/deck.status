@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1666072860.261          
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1666109951.100          
 
 Deck state:  1
 
@@ -24,8 +24,8 @@ Deck state:  1
  Beginning "control" block
 
  	Element nx=16000 handled OK
- 	Element t_end=20*tau handled OK
- 	Element x_min=-25*lambda0 handled OK
+ 	Element t_end=40*tau handled OK
+ 	Element x_min=-20*lambda0 handled OK
  	Element x_max=-x_min handled OK
  	Element stdout_frequency=10 handled OK
 
@@ -94,8 +94,8 @@ Deck state:  2
  Beginning "control" block
 
  	Element nx=16000 handled OK
- 	Element t_end=20*tau handled OK
- 	Element x_min=-25*lambda0 handled OK
+ 	Element t_end=40*tau handled OK
+ 	Element x_min=-20*lambda0 handled OK
  	Element x_max=-x_min handled OK
  	Element stdout_frequency=10 handled OK
 
