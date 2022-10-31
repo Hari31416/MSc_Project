@@ -20,18 +20,6 @@ begin:constant
   temp = 50.0
   temperature_0 = temp*qe/kb
   t_profile_1 = if ((time lt half), time/las_time, if((time lt 2*half), 1-time/las_time, 0.0))
-
-  # These two set the beam focus
-  w_0 = 5.0 * micron # Beam waist size
-  x_spot = 0 * micron # Distance from x_min to spot
-
-
-  # These are the parameters calculated for driving the laser
-  # These should not need to be modified
-  x_R = pi * w_0^2 / lambda0 # Rayleigh range
-  RC = x_spot * (1.0 + (x_R/x_spot)^2) # Radius of curvature on x_min
-  w_bnd = w_0 * sqrt( 1.0 + (x_spot/x_R)^2) # Spot size at x_min
-  gouy = atan(x_spot/x_R) # Gouy phase shift at x_min
 end:constant
 
 begin:control
