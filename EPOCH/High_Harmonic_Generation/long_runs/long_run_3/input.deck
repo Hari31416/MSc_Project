@@ -21,7 +21,7 @@ begin:constant
 end:constant
 
 begin:control
-  nx = 30000
+  nx = 50000
 
   # Final time of simulation
   t_end = 100*tau
@@ -64,10 +64,10 @@ begin:output
   name = normal
 
   # Simulated time between output dumps
-  dt_snapshot = 0.04 * femto
+  dt_snapshot = 0.02 * femto
   
   # Properties on grid
   grid = always
-  ey = always
-  number_density = always + species
+  ey = always + single
+  number_density = always + species + single
 end:output
