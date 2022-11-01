@@ -8,7 +8,7 @@ begin:constant
   a0 = 0.5
 
   # Plasma parameters
-  factor = 4
+  factor = 7
   thickness = 1*lambda0
   start = 0*micron
   
@@ -18,28 +18,16 @@ begin:constant
   profile_x2 = if((x gt start+thickness), 0.0, 1.0)
   temp = 50.0
   temperature_0 = temp*qe/kb
-
-  # These two set the beam focus
-  w_0 = 5.0 * micron # Beam waist size
-  x_spot = 0 * micron # Distance from x_min to spot
-
-
-  # These are the parameters calculated for driving the laser
-  # These should not need to be modified
-  x_R = pi * w_0^2 / lambda0 # Rayleigh range
-  RC = x_spot * (1.0 + (x_R/x_spot)^2) # Radius of curvature on x_min
-  w_bnd = w_0 * sqrt( 1.0 + (x_spot/x_R)^2) # Spot size at x_min
-  gouy = atan(x_spot/x_R) # Gouy phase shift at x_min
 end:constant
 
 begin:control
-  nx = 8000
+  nx = 16000
 
   # Final time of simulation
-  t_end = 15*tau
+  t_end = 40*tau
 
   # Size of domain
-  x_min = -4*lambda0
+  x_min = -20*lambda0
   x_max = -x_min
 
   stdout_frequency = 10
