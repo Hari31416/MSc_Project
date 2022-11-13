@@ -1,0 +1,640 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{henri}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31c6893cec91f5270e6ddc3a1b6947cb}{%
+           family={Vincenti},
+           familyi={V\bibinitperiod},
+           given={Henri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{fullhash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{bibnamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authorbibnamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authornamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authorfullhash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{9}
+      \field{number}{10}
+      \field{title}{Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors}
+      \field{volume}{123}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1103/physrevlett.123.105001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103%2Fphysrevlett.123.105001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103%2Fphysrevlett.123.105001
+      \endverb
+    \endentry
+    \entry{highintensity}{article}{}
+      \name{author}{7}{}{%
+        {{hash=83690b5af9deda9253d8d8ca6bca834c}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Jin\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=9585ed9449b53b9133da4756de3d603d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yeong\bibnamedelima Gyu},
+           giveni={Y\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=77901f5a7bd6805876920755e28d7b02}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Il\bibnamedelima Woo},
+           giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cac0d3120af4069026f09479edfb5d7a}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Jae\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fa0e51883486e9c2ab115b84d95c544d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwang\bibnamedelima Woon},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=41c42d4abded554e48eeae121a617fc2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seong\bibnamedelima Ku},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=57de7ade62b99f86bbedcda72fc4bc4f}{%
+           family={Nam},
+           familyi={N\bibinitperiod},
+           given={Chang\bibnamedelima Hee},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{fullhash}{be554f9f6a872e98c0221a5737a99de3}
+      \strng{bibnamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authorbibnamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authornamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authorfullhash}{be554f9f6a872e98c0221a5737a99de3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optica}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Realization of laser intensity over 1023 W/cm2}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{630\bibrangedash 635}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1364/OPTICA.420520
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/optica/abstract.cfm?URI=optica-8-5-630
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/optica/abstract.cfm?URI=optica-8-5-630
+      \endverb
+      \keyw{Compton scattering; High power lasers; Laser beams; Laser matter interactions; Parabolic mirrors; Strong field physics}
+    \endentry
+    \entry{lichters}{article}{}
+      \name{author}{3}{}{%
+        {{hash=607ade96aba3f7747fb1fe8a0fa9319b}{%
+           family={Lichters},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=338be294306f120be115d7e7c1352358}{%
+           family={Meyer-ter-Vehn},
+           familyi={M\bibinithyphendelim t\bibinithyphendelim V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=699f6b0d7f0482275f4dbe3d677646eb}{%
+           family={Pukhov},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{fullhash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{bibnamehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{authorbibnamehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{authornamehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{authorfullhash}{d707edfbce9b39406f1c3425fdd79f01}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{9}
+      \field{title}{Short-pulse laser harmonics from oscillating plasma surfaces driven at relativistic intensity}
+      \field{volume}{3}
+      \field{year}{1996}
+      \field{pages}{3425\bibrangedash 3437}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1063/1.871619
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.871619
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.871619
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.871619
+      \endverb
+    \endentry
+    \entry{hormonics1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=340837f7deb8331d16b4a2b7849548cd}{%
+           family={Perry},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c14b305d6ca186c4f28f522e5fc8d3c1}{%
+           family={Mourou},
+           familyi={M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{fullhash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{bibnamehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{authorbibnamehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{authornamehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{authorfullhash}{dda4235dc6f2249836b59a965b6b56ec}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The application of the chirped-pulse amplification technique to solid-state lasers combined with the availability of broad-bandwidth materials has made possible the development of small-scale terawatt and now even petawatt (1000-terawatt) laser systems. The laser technology used to produce these intense pulses and examples of new phenomena resulting from the application of these systems to atomic and plasma physics are described.}
+      \field{journaltitle}{Science}
+      \field{number}{5161}
+      \field{title}{Terawatt to Petawatt Subpicosecond Lasers}
+      \field{volume}{264}
+      \field{year}{1994}
+      \field{pages}{917\bibrangedash 924}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.264.5161.917
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.264.5161.917
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.264.5161.917
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.264.5161.917
+      \endverb
+    \endentry
+    \entry{hormonics2}{article}{}
+      \name{author}{3}{}{%
+        {{hash=af2971b83fed53713aff70aae979db12}{%
+           family={Macklin},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7abad4ad1fce013e8823fa8a83cb27ab}{%
+           family={Kmetec},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2ead31abce48a7788bb5a529e8f6893d}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{fullhash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{bibnamehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{authorbibnamehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{authornamehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{authorfullhash}{cc7f40573a0cca69d6d6daba8def8910}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{2}
+      \field{title}{High-order harmonic generation using intense femtosecond pulses}
+      \field{volume}{70}
+      \field{year}{1993}
+      \field{pages}{766\bibrangedash 769}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.70.766
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.70.766
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.70.766
+      \endverb
+    \endentry
+    \entry{hormonics3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0dfd2730bf5d4fc29708364f7bcbdc4f}{%
+           family={Preston},
+           familyi={P\bibinitperiod},
+           given={S\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=29f496805e8703fa18c6f7be321cc9ad}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={J\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{fullhash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{bibnamehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{authorbibnamehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{authornamehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{authorfullhash}{bccb67a5aca1921eb27844e7011fe699}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present simulations of the two-colour harmonic response of a one-dimensional model atom exposed to a superposition of two laser fields of varying relative intensities and of non-commensurate frequencies. We show that this interaction can be used to efficiently generate a quasi-continuum of very closely spaced harmonics and explain how such a scheme can be implemented experimentally. We show how the generation process can be described in terms of the beat frequencies between the two fields. Finally, we discuss the limitations of the - interaction (which has been studied extensively elsewhere).}
+      \field{journaltitle}{Journal of Physics B: Atomic, Molecular and Optical Physics}
+      \field{month}{5}
+      \field{number}{10}
+      \field{title}{Generation of a harmonic quasi-continuum from beating laser fields}
+      \field{volume}{31}
+      \field{year}{1998}
+      \field{pages}{2247}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-4075/31/10/014
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0953-4075/31/10/014
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0953-4075/31/10/014
+      \endverb
+    \endentry
+    \entry{polarization1}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f06ce478e5db505f837c99ce76c760a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qianni},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=f75d72aa46c377c96e649bea7d762c2a}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xinrong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=34749a3903c8d71f11fa7940853c02d0}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yanbo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7a55148c2e7d01893171b38cbf0b8d1d}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=979dfc855100a5fb3898cdcb4bcd868f}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Debin},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cfef773615239602f1c813a2a40aba14}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Tongpu},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{1dd2bf76c26d50d0eac70c9afa191381}
+      \strng{fullhash}{1c05e5e2a52f78857a04815c612e039b}
+      \strng{bibnamehash}{1dd2bf76c26d50d0eac70c9afa191381}
+      \strng{authorbibnamehash}{1dd2bf76c26d50d0eac70c9afa191381}
+      \strng{authornamehash}{1dd2bf76c26d50d0eac70c9afa191381}
+      \strng{authorfullhash}{1c05e5e2a52f78857a04815c612e039b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Opt. Express}
+      \field{month}{4}
+      \field{number}{9}
+      \field{title}{Efficient high-order harmonics generation from overdense plasma irradiated by a two-color co-rotating circularly polarized laser pulse}
+      \field{volume}{30}
+      \field{year}{2022}
+      \field{pages}{15470\bibrangedash 15481}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1364/OE.459866
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/oe/abstract.cfm?URI=oe-30-9-15470
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/oe/abstract.cfm?URI=oe-30-9-15470
+      \endverb
+      \keyw{Attosecond pulses; Frequency combs; Frequency modulated lasers; Laser beams; Laser matter interactions; Laser plasmas}
+    \endentry
+    \entry{polarization2}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9360fdd4806a5b865cde93e9dd3dbf77}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={S\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b655f2b515f1da4ce56292eed2bba94c}{%
+           family={Zhuo},
+           familyi={Z\bibinitperiod},
+           given={H\bibnamedelima B},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d8607510926222c472b1f6949188da2e}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={D\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=1f529083166380c8cf809ba2e14dd75a}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=38c4b7a2f285e9c91b08bf74b0f1a92b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{d7d7c7db222006ed251647e97fe25815}
+      \strng{fullhash}{8c6764ecc9781a68fe55a6e1fdc398c1}
+      \strng{bibnamehash}{d7d7c7db222006ed251647e97fe25815}
+      \strng{authorbibnamehash}{d7d7c7db222006ed251647e97fe25815}
+      \strng{authornamehash}{d7d7c7db222006ed251647e97fe25815}
+      \strng{authorfullhash}{8c6764ecc9781a68fe55a6e1fdc398c1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A novel scheme for generating relativistic high-order harmonics by a relativistic radially polarized laser interacting with a plasma annular grating is proposed. The particle-in-cell results show that the radial laser field can drive the relativistic electron bunches to oscillate radially in all azimuth directions, resulting in the emission of strong harmonics. Firstly, the interference of the laser field on the plasma grating structure significantly enhances the radiated harmonics which match the phase conditions. Secondly, due to the common ring symmetry of the grating structure and laser polarization, the transverse distribution of harmonics presents a Bessel form, and there is a sharp bright spot in the center with relativistic intensity. Such high-intensity short-wave structured harmonics have broad applications in areas such as plasma diagnostics, high resolution imaging and detection.}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{month}{6}
+      \field{number}{8}
+      \field{title}{Relativistic high-order harmonic generation by a femto-second radially polarized laser pulse irradiating a ring plasma grating}
+      \field{volume}{64}
+      \field{year}{2022}
+      \field{pages}{085007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6587/ac7415
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-6587/ac7415
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-6587/ac7415
+      \endverb
+    \endentry
+    \entry{two-color1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c2ce9fc074bfd04600deb0a7df198c86}{%
+           family={{Xie}},
+           familyi={X\bibinitperiod},
+           given={Duan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7a55148c2e7d01893171b38cbf0b8d1d}{%
+           family={{Yin}},
+           familyi={Y\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9ea368cdb24f054207e6cb0508d65065}{%
+           family={{Zhuo}},
+           familyi={Z\bibinitperiod},
+           given={Hong-bin},
+           giveni={H\bibinithyphendelim b\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccec0fcaae3ae4a03cb42fc38ad3f26d}
+      \strng{fullhash}{ccec0fcaae3ae4a03cb42fc38ad3f26d}
+      \strng{bibnamehash}{ccec0fcaae3ae4a03cb42fc38ad3f26d}
+      \strng{authorbibnamehash}{ccec0fcaae3ae4a03cb42fc38ad3f26d}
+      \strng{authornamehash}{ccec0fcaae3ae4a03cb42fc38ad3f26d}
+      \strng{authorfullhash}{ccec0fcaae3ae4a03cb42fc38ad3f26d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{105}
+      \field{journaltitle}{Applied Physics B: Lasers and Optics}
+      \field{month}{5}
+      \field{number}{6}
+      \field{title}{{A theoretical model of high-harmonic generation from two-color relativistic circularly polarized laser pulse interacting with over-dense plasmas}}
+      \field{volume}{126}
+      \field{year}{2020}
+      \field{pages}{105}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s00340-020-07457-w
+      \endverb
+    \endentry
+    \entry{two-color2}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8c7d34f6db8f5ddd92834ae65f0489a5}{%
+           family={XIE},
+           familyi={X\bibinitperiod},
+           given={Duan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9d93978904378df25f31f0fcd7078a38}{%
+           family={YIN},
+           familyi={Y\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d06474c368d369ac07d0cb3f5261d924}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={Tongpu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=27d393eaa64c07a299e806d4327dee33}{%
+           family={ZHOU},
+           familyi={Z\bibinitperiod},
+           given={Hongyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ea2270f474215bd29c5592177ae302ea}{%
+           family={CHEN},
+           familyi={C\bibinitperiod},
+           given={Ziyu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=334a29afe2b2d8a99af24d33346b5de4}{%
+           family={ZHUO},
+           familyi={Z\bibinitperiod},
+           given={Hongbin},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{0741be7acb9fe3debc1b065198400fe7}
+      \strng{fullhash}{5430d85e8b51558780fa5ea54c9fa912}
+      \strng{bibnamehash}{0741be7acb9fe3debc1b065198400fe7}
+      \strng{authorbibnamehash}{0741be7acb9fe3debc1b065198400fe7}
+      \strng{authornamehash}{0741be7acb9fe3debc1b065198400fe7}
+      \strng{authorfullhash}{5430d85e8b51558780fa5ea54c9fa912}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{High harmonic generation (HHG) by two-color counter-rotating relativistic laser pulses with arbitrary frequency ratio is investigated through particle-in-cell simulations. It is shown that the dichromatic laser driver at various frequency ratios can effectively produce high-order harmonics with different spectral features. A general selection rule of this extended scheme can be obtained and the corresponding harmonic helicity can be identified through a simple analytical model based on a relativistic oscillating mirror. Thus, the results in this paper may offer new opportunities for arbitrary spectral control of generated harmonics, which is of significance for diverse potential applications in practice.}
+      \field{journaltitle}{Plasma Science and Technology}
+      \field{month}{3}
+      \field{number}{4}
+      \field{title}{High harmonic generation driven by two-color relativistic circularly polarized laser pulses at various frequency ratios}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{pages}{045502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/2058-6272/abe848
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/2058-6272/abe848
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/2058-6272/abe848
+      \endverb
+    \endentry
+    \entry{EPOCH}{article}{}
+      \name{author}{11}{}{%
+        {{hash=5d59bc87f9df037ad01a8771d21cae6a}{%
+           family={Arber},
+           familyi={A\bibinitperiod},
+           given={T\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4ad15ddff138dc47ae0c1da17ece3b06}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=42c32fbc0243408def6d2666c28cbad8}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={C\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=98bdb1353088e11f88af563dfff611a2}{%
+           family={Lawrence-Douglas},
+           familyi={L\bibinithyphendelim D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89ef41c2176ebe1b9a2deb66e38e315c}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=53f7bf5963c6aead4aafcbb7fc2d5ec4}{%
+           family={Sircombe},
+           familyi={S\bibinitperiod},
+           given={N\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1c2a2bd19b6dced6dccbfd86308b7aad}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9dac33abab4ddc1f11cb1468cbe40d91}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={R\bibnamedelima G},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=157625c94d6f8c7ca6052d4e84e40200}{%
+           family={Schmitz},
+           familyi={S\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7c54b8956af1b23c45ec779bf37ab3d7}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={A\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a5a3b47e15da60b22b3f12a1a09db3c5}{%
+           family={Ridgers},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{fullhash}{2961b237423c30eab7f6d81aaa5a3cf1}
+      \strng{bibnamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authorbibnamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authornamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authorfullhash}{2961b237423c30eab7f6d81aaa5a3cf1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{month}{9}
+      \field{number}{11}
+      \field{title}{Contemporary particle-in-cell approach to laser-plasma modelling}
+      \field{volume}{57}
+      \field{year}{2015}
+      \field{pages}{113001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0741-3335/57/11/113001
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

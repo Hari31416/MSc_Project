@@ -1,6 +1,8 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath, amssymb, graphicx, hyperref}
 \usepackage{indentfirst}
+\usepackage[sorting=none]{biblatex}
+\bibliography{refs}
 \title{Plasma Mirrors}
 \author{Harikesh}
 \date{\today}
@@ -50,105 +52,146 @@
     \end{changemargin}
 \end{titlepage}
 \newpage
-\begin{changemargin}{-3cm}{-3cm}
+\begin{changemargin}{-2cm}{-2cm}
     \section{Introduction And Motivation}
-    The generation of harmonics by interaction of an ultrashort high intensity laser pulse with a step boundary of a overdense plasma layer is studied at various intensities. For this, fully relativistic particle-in-cell (PIC) simulations are performed using \textit{epoch}.
+    There is great interest in high intensity physics where the study of interaction of light with matter at Ultra High Light Intensity (UHLI) is performed. The main goal is to achieve high intensity which give access to novel physical regimes.\cite{henri}
+    Intensity of laser in order of $10^{23} \; W/cm^{-2}$ has been reached experimentally with the CoReLS petawatt (PW) laser.\cite{highintensity}. The next step is to push forward these intensities above $10^{25}W/cm^{-2}$. Above this limit, quantum electrodynamics effects start playing a major role on the dynamics of electrons. Intensity level of $10^{29}W/cm^{-2}$ corresponds to the Schwinger field. At this field, light starts generating electron positron pair out of vacuum. Vacuum starts acting like a nonlinear medium and its refractive index becomes a function of light intensity. These physical regimes are barely, if at all, explored in lab.
 
-    When a laser pulse is incident upon plasma, it reflects if the density of plasma is large enough, forming a plasma mirror (PM). Upon reflection from the plasma the laser field drives relativistic oscillation of the PM surface due to pondermotive force that induces a periodic temporal compression of the reflected field through the Doppler effect. These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters}
+    One way to get these UHLI is by using plasma mirrors (PM). When a laser pulse is incident upon plasma, it reflects if the density of plasma is high, forming PM. Upon reflection from plasma the laser field, because of pondermotive force, propels a relativistic oscillation of the PM which results in periodic temporal compression of the reflected field (Doppler effect). These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters} Experiments have been performed showing generation of high harmonics of order up to 141st of Nd glass laser\cite{hormonics1}, 109th of Ti sapphire laser\cite{hormonics2}, and 37th of krypton fluoride laser\cite{hormonics3}.
 
-    The idea is to generate high harmonics which can then be focused to achieve light intensities higher than currently available intensity ($I \approx 10^{22}$ $W.cm^{-2}$). Light with these high intensities can be used to investigate light-matter interation in regimes barely explored in lab.\cite{henri}
-
-
+    Here, the generation of harmonics of incident laser pulse by interaction of a high intensity laser pulse with a step boundary overdense plasma layer is studied and the effect of variuos parameters on the generated high hormonics is investigated. For this, fully relativistic particle in cell simulations are performed using \textit{EPOCH}. Already, variuos experiments and simulations have been performed to study how high hormonics are changed by using different polarization of laser pulse \cite{polarization1} \cite{polarization2}, different PM shapes \cite{henri}, two color laser pulses \cite{two-color1} \cite{two-color2}. In this article, we study the effect of plasma density, laser intensity, envelope and pulse duration on generated high harmonics.
     \section{Methodology}
-    The simulation uses \textit{epoch}, a parallised, second order and fully relativistic implementation of particle in cell (PIC) algorithm.\cite{epoch} Though \textit{epoch} is implemented in 3D, the current simulation is performed in 1D3V only.
-    % which implementats a fully relativistic particle in cell (PIC) algorithm.
-    \subsection{PIC Algorithm}
-    In plasma physics, the PIC method is a numerical approach that simulates a collection
-    of charged particles that interact via external and self-induced electromagnetic fields. A
-    spatial grid is used to describe the field while the particles move in the continuous space. The field and the particle motion are solved concurrently. In this case the simulation
-    requires less amount of work, since each particle only interacts with the grid points of
-    the cell where it is located.\cite{suciu}
 
-    In PIC, the plasma is represented by collection of particles, macro particle, with same charge to mass ratio. The system is discretised parallel to the boundaries forming a grid (mesh). The particles are free to move anywhere inside the system boundaries, however, the continuous electromagnetic field is replaced by discrete values assigned only to the mesh points.
-
-    % \newpage
-    % \noindent
-    The arrangement of the fields is called the Yee cell.
-    Since the charge density is defined on the corners, the central difference places the electric fields at the edges. Meanwhile, the magnetic fields are located on the face. After the initial condition is given, PIC start by calculating the charge density ($\rho$) at grid points from nearby charged
-    particles. The charge of each particle is distributed among the grid points using a weighting algorithm. Usually, a bilinear interpolation is used where the charge on the grid is determined using the subarea of the opposite vertex.
-    % \begin{minipage}{0.6\textwidth}\raggedright
-    %     \includegraphics[height=7cm, width=7cm]{yee.png}
-    % \end{minipage}
-    % \begin{minipage}{0.35\textwidth}\raggedright
-    %     The arrangement of the fields is called the Yee grid.
-    %     Since the charge density is defined on the corners, the central difference places the electric fields at the edges. Meanwhile, the magnetic fields are located on the face.
-    % \end{minipage}
-
-    % \noindent
-    % \begin{minipage}{0.55\textwidth}\raggedleft
-    %     After the initial condition is given, PIC start by calculating the charge density ($\rho$) at grid points from nearby charged
-    %     particles. The charge of each particle is distributed among the grid points using a weighting algorithm. Usually, a bilinear interpolation is used where the charge on the grid is determined using the subarea of the opposite vertex.
-    % \end{minipage}
-    % \begin{minipage}{0.4\textwidth}\raggedleft
-    %     \includegraphics[height=5cm, width=5cm]{charge.png}
-    % \end{minipage}
-    \vspace*{0.5cm}
-
-    Update of $\mathbf{E}$ and $\mathbf{B}$ is done by Yee algorithm. The advancement of $\mathbf{E}$ from step $n$ to $n+1$ is done via central differencing using $\mathbf{B}$ at $n+1/2$. While, the advancement of $\mathbf{B}$ from step $n-1/2$ to $n+1/2$ is done via central differencing using $\mathbf{E}$ and the current density ($\textbf{J}$) at step $n$. Finally, the updated electric and magnetic fields are used to forward velocity for step $n-1/2$ to $n+1/2$ and velocity at step $n+1/2$ is used to forward position for step $n$ to $n+1$. The charge and hence the current density is updated using this newly updated position which in turn updates magnetic field and the cycle continues. The fact that the velocity ($\mathbf{B}$) at half step is used to forward position ($\mathbf{E}$) at full step and vice versa makes this update rule leap-frog method.
-
-    The velocity is updated with Boris method. First, a half-step acceleration is performed in the electric field direction, followed by full rotation in magnetic field and finally, another half-step acceleration is performed in the electric field direction.
-    \subsection{Underdense and Overdense Plasma}
-    Plasma frequency for plasma density $n_p$ is given by\cite{chen}
-    \begin{equation}\label{plasma-frequency}
-        \omega_p = \sqrt{\frac{n_p e^2}{\epsilon_0 m_e}}
-    \end{equation}
-    If the frequency of the incident laser pulse, $\omega_l$, is greater than the plasma frequency, the plasma is called underdense. In this case, the plasma is transparent to the laser pulse. On the other hand, if the frequency of the incident laser pulse is less than the plasma frequency, the plasma is called overdense. In this case, the laser can not penetrate the plasma deeply and is reflected back. The case $\omega_l = \omega_p$ corresponds to critical plasma and density in this case is called critical density $n_c$. Using Equation \hyperref[plasma-frequency]{1} gives;
-    \begin{equation}\label{critical-density}
-        n_c = \frac{\epsilon_0 m_e \omega_l^2}{e^2}
-    \end{equation}
-    % The skin depth of the plasma is given by
-    % \begin{equation*}
-    %     \delta = \frac{c}{\omega_p}
-    % \end{equation*}
-    \subsection{Laser Pulse}
-    The simulation uses ultrashort laser pulses. An ultrashort laser emitts pulse with duration of the order of pico second. Defining the laser vector potential as $ a_0 = \frac{eE_0}{m w_l c}$, a laser is called relativistic if $a_0 \ge 1$. For a laser wavelength of $1 \mu m$ laser the intensity $1.4 \times10^{22}$  $W.m^{-2}$ corresponds to $a_0=1$.
-
-    \subsection{Parameters for Simulation}
-    The simulation box extends for $8 \lambda _l$ (from $-4 \lambda _l$ to $4 \lambda _l$), where $\lambda_l$ is the laser wavelength and has total 1000 cells. The plasma is placed at $x=0$ and with a thickess of $\lambda_l$. Number of particles per cell are 100. Initial temperature of electron is $50 \; eV$. The plasma density $n_p$ is defined in terms of the critical density $n_c$.
-
-    The envelope of the incident laser field varies according to
-    \begin{equation}\label{envelope}
+    The simulation uses \textit{EPOCH}, a parallised, second order and fully relativistic implementation of particle in cell algorithm.\cite{EPOCH} Though \textit{EPOCH} is implemented in 3D, the current simulation is performed in 1D3V only.
+    \subsection{Simulation Parameters}
+    We want to study the effect of various plasma and laser parameters on the generated high harmonics. The parameters which are constant throughout the entire experimentation are these:
+    The simulation box extends for $40 \lambda _l$ (from $-20 \lambda _l$ to $20 \lambda _l$), where $\lambda_l$ is the laser wavelength taken as $1\mu m$ and has total 16000 cells, i.e., 400 cells per wavelength. The plasma is placed at $x=0$ and with a thickess of $\lambda_l$. Number of particles per cell are 100.
+    For most of the simulations the pulse duration is $T = 20 \tau$ and simulation is run till $T_{end} = 40 \tau$. Here $\tau$ is the time period of laser pulse.\\
+    Some parameters in the simulations are varied to observe their effect on high harmonic generation. These are listed below:\\
+    \textbf{Laser Envelope}:
+    Three laser envelopes are used. They are:\\
+    \noindent
+    1. Sine Sqaured
+    \begin{equation}\label{sin-sq-env}
         P(t)=
         \begin{cases}
              & \sin^2(\pi t/T) \text{ for } 0 \leq t \le T \\
              & 0         \;      \text{ otherwise }
         \end{cases}
     \end{equation}
-    Where T is the pulse duration here taken as $T=20\tau$ with $\tau = 2\pi/\omega_l$ is the time of one laser cycle. The simulation is performed for $t=55\tau$.
+    2. Gaussian
+    \begin{equation}\label{gaussian-env}
+        P(t)=
+        \begin{cases}
+             & e^{\frac{-(t-T/2)^2}{2(0.2T)^2}} \text{ for } 0 \leq t \le T \\
+             & 0         \;      \text{ otherwise }
+        \end{cases}
+    \end{equation}
+    3. Triangular
+    \begin{equation}\label{triangle-env}
+        P(t)= 2\times
+        \begin{cases}
+             & t/T \text{ for } 0 \leq t \le T/2    \\
+             & 1-t/T \text{ for } T/2 \leq t \le T  \\
+             & 0         \;      \text{ otherwise }
+        \end{cases}
+    \end{equation}
+    \noindent
+    \textbf{Plasma Density}:
+    The ratio of plasma density to the critical density is varied as $7$ and $4$.\\
+    \noindent
+    \textbf{Normalized Vector Potential}:
+    Normalized Vector Potential, $a_0$, is varied as 0.5 and 1.\\
+    \noindent
+    \textbf{Pulse Duration}:
+    The pulse duration is varied as $5\tau$, $10\tau$, $20\tau$, $30\tau$.
+
     \section{Result and Discussion}
+    A number of simulations are performed to study the effect of various parameters discussed above on the generated high harmonics. The results are presented in the following subsections.
+    % The following figure shows the generation of harmonic when short laser pulse is reflected from plasma with density eqaul to four times the critical density. The laser envelope is sine squared and the normalized vector potential is 0.5.
+
+    % \label{fig:base}
+    % \includegraphics[width=0.8\textwidth]{images/base.jpg}
+
+    % A number of simulations is performed to study the effect of different parameters on the high harmonic generation. The above case is used as a base to discuss the changes due to the  variation of different parameters.
+    \subsection{Effect of Plasma Density}
+    Increasing plasma density decreases the number of harmonics generated. The amplitude of the harmonics also decreases. The Figure \ref{fig:density} shows the effect of plasma density on the harmonics generated.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1.0\textwidth]{images/density.jpg}
+        \caption{Effect of laser density on the harmonics generated.}
+        \label{fig:density}
+    \end{figure}
+    \subsection{Effect of Laser Intensity}
+    Increasing the laser intensity increases the number of harmonics generated. The amplitude of the harmonics also increases. The Figure \ref{fig:intensity} shows the effect of laser intensity on the harmonics generated.
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1.0\textwidth, height=0.4\textwidth]{images/intensity.jpg}
+        \caption{Effect of plasma intensity on the harmonics generated.}
+        \label{fig:intensity}
+    \end{figure}
+    \subsection{Effect of Laser Envelope}
+    The laser envelope does not seem to have any effect at all. See the Figure \ref{fig:env}.
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1.0\textwidth, height=0.8\textwidth]{images/env.jpg}
+        \caption{Effect of the laser envelope on the harmonics generated.}
+        \label{fig:env}
+    \end{figure}
+
+    \subsection{Effect of Pulse Duration}
+    Increasing the pulse duration increases the number of harmonics generated. The amplitude of the harmonics also increases. The Figure \ref{fig:pulse} on shows the effect of the laser pulse duration on the harmonics generated.
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1.0\textwidth, height=0.8\textwidth]{images/pulse.jpg}
+        \caption{Effect of the laser pulse duration on the harmonics generated.}
+        \label{fig:pulse}
+    \end{figure}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1.0\textwidth, height=0.7\textwidth]{images/oscillation1.jpg}
+        \caption{The effect of laser intensity on electron oscillations}
+        \label{fig:oscillation1}
+    \end{figure}
+    \subsection{The Plasma Oscillations}
+    In this section, we give some simulation results related to the oscillation of the PM surface.
+    \subsubsection{Effect of Laser Intensity on Electron Oscillation}
+    The electromagnetic field of high intensity laser beam with plasma makes the electrons inside the plasma oscillate. These oscillations become more and more intetense as the intensity of the EM field increases. (See the Figure \ref{fig:oscillation1})
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=0.9\textwidth, height=0.9\textwidth]{images/oscillation2.jpg}
+        \caption{Frequency of electron oscillations during different times}
+        \label{fig:oscillation2}
+    \end{figure}
+    \subsection{The Frequency of Oscillations}
+    We found out that the frequency of oscillations is even harmonic of the frequency of the incident laser pulse. Furthermore, electrons are oscillating only till they are interacting with the laser field. (See the Figure \ref{fig:oscillation2})
+    \subsection{Theoretical Considerations}
+    We use linearly polarized laser pulse and the pondermotive force for this case $\propto \; (1-cos(2\omega_0t))$ which drives the plasma surface twice the laser frequency. We conclude that density is even function.
+    Starting from Maxwell's  equation and combining this with equation of motion we get, For normal incidence
+    \begin{equation}
+        \left (\partial^2 - \frac{1}{c^2}\partial_t^2\right )a = \left (\frac{\omega_p}{c}\right )^2s(x,t)
+    \end{equation}
+    where $a$ is the vector potential, $s$ is the source term and $\omega_p$ is the plasma frequency. If we assume incident light to be linearly polarized in the z- direction, the source term is given by
+    \begin{equation}\label{source}
+        s(x,t) = n(x,t)\sqrt{1-\beta_x^2(x,t)}\frac{a_z(x,t)}{\sqrt{1+a_z^2(x,t)}}
+    \end{equation}
+    Since we are using overdense plasma the major part of the incident light is reflected and the vector potential $a_z(x,t)$  decays rapidly inside the plasma. This can be  approximated by
+    \begin{equation}\label{a_z}
+        a_z(x,t) \approx \begin{cases}
+            -2\mathbf{a_0}\sin(kx-\theta)\sin(\omega t) \; & \text{ for } x < 0   \\
+            \mathbf{a_s}\exp(-x/d_s)\sin(\omega t)  \;     & \text{ for } x \ge 0
+        \end{cases}
+    \end{equation}
+    where $d_s = (c/\omega_p)\sqrt{1-(\omega_0 / \omega_p)^2}$\\ \\
+    Now, the density $n(x,t)$ is even function. $\sqrt{1-\beta_x^2(x,t)}$ is also an even function while \ref{a_z} is odd function, hence the source function Equation \ref{source} is an odd function. So, normal incidence of lineraly polarized light will generated only odd harmonics. Even harmonic can be found if we use different polarization. \cite{lichters}
     \section{Current Status and Future Plan of Work}
-    Simulation of harmonic generation in 1D using ultrashort intense laser pulse is performed. Future plan is to expand the Simulation to 2D and use focusing techniques to generate extreme intensity light beam.
+    The interaction of high intensity laser pulse with overdense plasma is investigated. During this, odd harmonics of the incident laser pulse is generated and the effect of variuos laser and plasma parameters on the hormonic generation is studied. Future plan of work is to study about the effects of some more parameters on the harmonics generation escpecially the effect of oblique incidence and different polarization of the laser pulse.
     \section{Acknowledgement}
-    We are very thankful to Prof. Vikrant Saxena for his support and valuable guidance.
-    % \section{References}
-    \begin{thebibliography}{9}
-        \bibitem{lichters}
-        R. Lichters Et al. Physics of Plasmas 3, pp. 3425-3437 (1996)
+    % We are very thankful to Prof. Vikrant Saxena for his support and valuable guidance.
+    We would want to express our sincere gratitude to our supervisor Prof. Vikrant Saxena for his continous support and for his patience, motivation, enthusiasm and valuable guidance.
 
-        \bibitem{henri}
-        Henri Vincenti Phys. Rev. Lett. 123, 105001 (2019)
-
-        \bibitem{epoch}
-        Arber, T D Et al. Plasma Physics and Controlled Fusion 57 1-26 (2015)
-
-        \bibitem{suciu}
-        Alin Suciu Et al. 2020 15th Conference on Computer Science and Information Systems (FedCSIS), pp.381-385, 2020
-
-        \bibitem{chen}
-        Francis F. Chen
-        Introduction to Plasma Physics and Controlled Fusion $3^{rd}$ Ed.
-
-    \end{thebibliography}
-
+    % \bibliographystyle{plain}
+    \printbibliography
 \end{changemargin}
 \end{document}

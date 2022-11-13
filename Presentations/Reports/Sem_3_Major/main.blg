@@ -1,0 +1,24 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[119] biber:340> INFO - === Sun Nov 13, 2022, 22:48:24
+[153] Biber.pm:418> INFO - Reading 'main.bcf'
+[277] Biber.pm:972> INFO - Found 11 citekeys in bib section 0
+[300] Biber.pm:4383> INFO - Processing section 0
+[317] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[320] bibtex.pm:1713> INFO - LaTeX decoding ...
+[349] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[575] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[575] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[576] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[576] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[598] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[615] bbl.pm:757> INFO - Output to main.bbl
+[616] Biber.pm:130> WARN - legacy month field 'sep' in entry 'henri' is not an integer - this will probably not sort properly.
+[616] Biber.pm:130> WARN - legacy month field 'May' in entry 'highintensity' is not an integer - this will probably not sort properly.
+[616] Biber.pm:130> WARN - legacy month field 'Feb' in entry 'hormonics2' is not an integer - this will probably not sort properly.
+[617] Biber.pm:130> WARN - legacy month field 'may' in entry 'hormonics3' is not an integer - this will probably not sort properly.
+[617] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'polarization1' is not an integer - this will probably not sort properly.
+[617] Biber.pm:130> WARN - legacy month field 'jun' in entry 'polarization2' is not an integer - this will probably not sort properly.
+[617] Biber.pm:130> WARN - legacy month field 'mar' in entry 'two-color2' is not an integer - this will probably not sort properly.
+[617] Biber.pm:130> WARN - legacy month field 'sep' in entry 'EPOCH' is not an integer - this will probably not sort properly.
+[618] Biber.pm:132> INFO - WARNINGS: 8
