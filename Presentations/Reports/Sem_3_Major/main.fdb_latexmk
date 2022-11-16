@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber main"] 1668359903 "main.bcf" "main.bbl" "main" 1668360513
-  "main.bcf" 1668360512 107313 7d33b46d51a7263e41804c50c1dc8162 "pdflatex"
+["biber main"] 1668359903 "main.bcf" "main.bbl" "main" 1668527078
+  "main.bcf" 1668527078 107313 7d33b46d51a7263e41804c50c1dc8162 "pdflatex"
   "refs.bib" 1668353858 9804 8a6dadd800f80050d8ad49738a6fea73 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1668360510 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" "main.pdf" "main" 1668360513
+["pdflatex"] 1668527076 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" "main.pdf" "main" 1668527078
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" 1668360508 13104 fa8f8b462c484c78c6beb941fcefdc0d ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" 1668527073 13104 4a0c289fafb931b7c682810e18f7d064 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -123,14 +123,14 @@
   "images/env.jpg" 1667749610 462659 59393373053d2ae8cce9e0e83ae27bcf ""
   "images/intensity.jpg" 1667748253 408767 55e32fad02c6804780690492cc88249b ""
   "images/oscillation1.jpg" 1668347029 715600 2fb6f2856aad3d6d7d1dcb116a2b5396 ""
-  "images/oscillation2.jpg" 1668357807 707705 3730cba57594dcce23a8567c4a0469fb ""
+  "images/oscillation2.jpg" 1668408687 502110 31210de7de6f3dcaf854ecc71850a33d ""
   "images/pulse.jpg" 1668354519 587880 9947ef91cdd37480af3e632e5b3b2561 ""
   "logo.png" 1663951263 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1668360512 6106 35b0232757c778d7374d8f1706979206 "pdflatex"
+  "main.aux" 1668527078 6106 19dc32521cd68046ed370b99da6a43ea "pdflatex"
   "main.bbl" 1668359905 27241 6fd749ad553c690d0777d9be91600579 "biber main"
-  "main.out" 1668360512 2633 f716db63ae46a6094e57ce4d5603e0bd "pdflatex"
-  "main.run.xml" 1668360512 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1668360508 13104 fa8f8b462c484c78c6beb941fcefdc0d ""
+  "main.out" 1668527078 2633 f716db63ae46a6094e57ce4d5603e0bd "pdflatex"
+  "main.run.xml" 1668527078 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1668527073 13104 4a0c289fafb931b7c682810e18f7d064 ""
   (generated)
   "main.aux"
   "main.bcf"

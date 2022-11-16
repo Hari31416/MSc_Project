@@ -1,0 +1,221 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{henri}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31c6893cec91f5270e6ddc3a1b6947cb}{%
+           family={Vincenti},
+           familyi={V\bibinitperiod},
+           given={Henri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{fullhash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{bibnamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authorbibnamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authornamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authorfullhash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{9}
+      \field{number}{10}
+      \field{title}{Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors}
+      \field{volume}{123}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1103/physrevlett.123.105001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103%2Fphysrevlett.123.105001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103%2Fphysrevlett.123.105001
+      \endverb
+    \endentry
+    \entry{highintensity}{article}{}
+      \name{author}{7}{}{%
+        {{hash=83690b5af9deda9253d8d8ca6bca834c}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Jin\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=9585ed9449b53b9133da4756de3d603d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yeong\bibnamedelima Gyu},
+           giveni={Y\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=77901f5a7bd6805876920755e28d7b02}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Il\bibnamedelima Woo},
+           giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cac0d3120af4069026f09479edfb5d7a}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Jae\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fa0e51883486e9c2ab115b84d95c544d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwang\bibnamedelima Woon},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=41c42d4abded554e48eeae121a617fc2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seong\bibnamedelima Ku},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=57de7ade62b99f86bbedcda72fc4bc4f}{%
+           family={Nam},
+           familyi={N\bibinitperiod},
+           given={Chang\bibnamedelima Hee},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{fullhash}{be554f9f6a872e98c0221a5737a99de3}
+      \strng{bibnamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authorbibnamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authornamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authorfullhash}{be554f9f6a872e98c0221a5737a99de3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optica}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Realization of laser intensity over 1023 W/cm2}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{630\bibrangedash 635}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1364/OPTICA.420520
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/optica/abstract.cfm?URI=optica-8-5-630
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/optica/abstract.cfm?URI=optica-8-5-630
+      \endverb
+      \keyw{Compton scattering; High power lasers; Laser beams; Laser matter interactions; Parabolic mirrors; Strong field physics}
+    \endentry
+    \entry{EPOCH}{article}{}
+      \name{author}{11}{}{%
+        {{hash=5d59bc87f9df037ad01a8771d21cae6a}{%
+           family={Arber},
+           familyi={A\bibinitperiod},
+           given={T\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4ad15ddff138dc47ae0c1da17ece3b06}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=42c32fbc0243408def6d2666c28cbad8}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={C\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=98bdb1353088e11f88af563dfff611a2}{%
+           family={Lawrence-Douglas},
+           familyi={L\bibinithyphendelim D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89ef41c2176ebe1b9a2deb66e38e315c}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=53f7bf5963c6aead4aafcbb7fc2d5ec4}{%
+           family={Sircombe},
+           familyi={S\bibinitperiod},
+           given={N\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1c2a2bd19b6dced6dccbfd86308b7aad}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9dac33abab4ddc1f11cb1468cbe40d91}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={R\bibnamedelima G},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=157625c94d6f8c7ca6052d4e84e40200}{%
+           family={Schmitz},
+           familyi={S\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7c54b8956af1b23c45ec779bf37ab3d7}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={A\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a5a3b47e15da60b22b3f12a1a09db3c5}{%
+           family={Ridgers},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{fullhash}{2961b237423c30eab7f6d81aaa5a3cf1}
+      \strng{bibnamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authorbibnamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authornamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authorfullhash}{2961b237423c30eab7f6d81aaa5a3cf1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{month}{9}
+      \field{number}{11}
+      \field{title}{Contemporary particle-in-cell approach to laser-plasma modelling}
+      \field{volume}{57}
+      \field{year}{2015}
+      \field{pages}{113001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0741-3335/57/11/113001
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
