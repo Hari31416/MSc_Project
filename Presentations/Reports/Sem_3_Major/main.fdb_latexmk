@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber main"] 1668359903 "main.bcf" "main.bbl" "main" 1668527078
-  "main.bcf" 1668527078 107313 7d33b46d51a7263e41804c50c1dc8162 "pdflatex"
+["biber main"] 1668676447 "main.bcf" "main.bbl" "main" 1668676994
+  "main.bcf" 1668676994 107313 7d33b46d51a7263e41804c50c1dc8162 "pdflatex"
   "refs.bib" 1668353858 9804 8a6dadd800f80050d8ad49738a6fea73 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1668527076 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" "main.pdf" "main" 1668527078
+["pdflatex"] 1668676992 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" "main.pdf" "main" 1668676994
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" 1668527073 13104 4a0c289fafb931b7c682810e18f7d064 ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Major/main.tex" 1668676991 12761 904cea8964115ebe6904c963976d504d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -119,18 +119,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1663949472 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1663949492 1435942 9d98639693e0e7a93fe7badfeef9706a ""
-  "images/density.jpg" 1668346568 343956 900459863a8cd5ecbf6013332f798d46 ""
-  "images/env.jpg" 1667749610 462659 59393373053d2ae8cce9e0e83ae27bcf ""
-  "images/intensity.jpg" 1667748253 408767 55e32fad02c6804780690492cc88249b ""
-  "images/oscillation1.jpg" 1668347029 715600 2fb6f2856aad3d6d7d1dcb116a2b5396 ""
-  "images/oscillation2.jpg" 1668408687 502110 31210de7de6f3dcaf854ecc71850a33d ""
-  "images/pulse.jpg" 1668354519 587880 9947ef91cdd37480af3e632e5b3b2561 ""
+  "images/density.jpg" 1668669141 365887 742b25d3f3a42bfd561b1cb1628b57fd ""
+  "images/env.jpg" 1668669275 507824 e559a0e85e9b6a80fa44ea9db2ca50c9 ""
+  "images/intensity.jpg" 1668669160 424056 a738191cd4fca9b074f2ffb7d9bc70f2 ""
+  "images/oscillation1.jpg" 1668669490 724291 888d867fb83b9358835a189cb49b0002 ""
+  "images/oscillation2.jpg" 1668669615 550077 eb6184b3fbe5c5b59e76c39c0a8f842b ""
+  "images/pulse.jpg" 1668669344 617363 21cd49fe9c273db3d30ee2a5eca1e6b7 ""
   "logo.png" 1663951263 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1668527078 6106 19dc32521cd68046ed370b99da6a43ea "pdflatex"
-  "main.bbl" 1668359905 27241 6fd749ad553c690d0777d9be91600579 "biber main"
-  "main.out" 1668527078 2633 f716db63ae46a6094e57ce4d5603e0bd "pdflatex"
-  "main.run.xml" 1668527078 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1668527073 13104 4a0c289fafb931b7c682810e18f7d064 ""
+  "main.aux" 1668676994 6106 d070e1814ae9846f86d0b2441843254b "pdflatex"
+  "main.bbl" 1668676448 27241 6fd749ad553c690d0777d9be91600579 "biber main"
+  "main.out" 1668676994 2633 f716db63ae46a6094e57ce4d5603e0bd "pdflatex"
+  "main.run.xml" 1668676994 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1668676991 12761 904cea8964115ebe6904c963976d504d ""
   (generated)
   "main.aux"
   "main.bcf"
