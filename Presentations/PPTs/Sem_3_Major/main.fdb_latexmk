@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1669052297 "main.bcf" "main.bbl" "main" 1669052541
-  "main.bcf" 1669052541 105711 ae89e10b1967a553367f5220073f3ec4 "pdflatex"
+["biber main"] 1669091441 "main.bcf" "main.bbl" "main" 1669092455
+  "main.bcf" 1669092454 105711 ae89e10b1967a553367f5220073f3ec4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1669052537 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/PPTs/Sem_3_Major/main.tex" "main.pdf" "main" 1669052541
+["pdflatex"] 1669092452 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/PPTs/Sem_3_Major/main.tex" "main.pdf" "main" 1669092455
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/PPTs/Sem_3_Major/main.tex" 1669052536 9179 e7a081b1adc432b8479dd69ffe7c27ff ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/PPTs/Sem_3_Major/main.tex" 1669092451 9666 f4e550e7fea63f609daba21d55ceaec6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1246382020 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -37,6 +37,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb" 1248133631 24373 a91d375736817a75026663adcb2190c1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb" 1248133631 25150 e0d09798d232ab9d00c5c0a8df6cc22d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb" 1248133631 25168 33771b85f45c82138dd7745db7092d1c ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb" 1248133631 25029 6f2cec9646ca278302ed7d604e506e3e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1248133631 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
@@ -237,6 +238,7 @@
   "images/PIC.png" 1664386995 131035 7be93f28aeb9b51eb20c412fd12d7fe7 ""
   "images/density.jpg" 1668669141 365887 742b25d3f3a42bfd561b1cb1628b57fd ""
   "images/env.jpg" 1668669275 507824 e559a0e85e9b6a80fa44ea9db2ca50c9 ""
+  "images/field.jpg" 1669091059 180717 b9267a5b840144b1e14618f96a534af4 ""
   "images/harmonics.png" 1668680178 546455 83428fc3abdb03231d07b952dd62ede4 ""
   "images/intensity.jpg" 1668669160 424056 a738191cd4fca9b074f2ffb7d9bc70f2 ""
   "images/oscillation1.jpg" 1668669490 724291 888d867fb83b9358835a189cb49b0002 ""
@@ -244,12 +246,12 @@
   "images/plasma.jpg" 1668675220 189744 c57906e6c7f6de3add6502f65df1ef73 ""
   "images/pulse.jpg" 1668669344 617363 21cd49fe9c273db3d30ee2a5eca1e6b7 ""
   "logo.png" 1668488986 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1669052541 3552 d0d59f656eac0ec1e8be3125d523e7c4 "pdflatex"
-  "main.bbl" 1669052298 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.nav" 1669052541 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
-  "main.out" 1669052539 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1669052541 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1669052536 9179 e7a081b1adc432b8479dd69ffe7c27ff ""
+  "main.aux" 1669092454 3643 c7e1dcf6823078e8b7d1ab11ee20cbcf "pdflatex"
+  "main.bbl" 1669091442 466 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.nav" 1669092454 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
+  "main.out" 1669092453 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1669092454 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1669092451 9666 f4e550e7fea63f609daba21d55ceaec6 ""
   (generated)
   "main.aux"
   "main.bcf"
