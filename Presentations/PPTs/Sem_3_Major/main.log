@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  22 NOV 2022 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  24 NOV 2022 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -990,11 +990,11 @@ Overfull \vbox (4.14908pt too high) detected at line 57
 [2
 
  <./images/field.jpg> <./images/harmonics.png>]
-<images/PIC.png, id=100, 1446.40375pt x 690.58pt>
+<images/PIC.png, id=100, 848.16875pt x 505.89pt>
 File: images/PIC.png Graphic file (type png)
 <use images/PIC.png>
 Package pdftex.def Info: images/PIC.png  used on input line 73.
-(pdftex.def)             Requested size: 342.28853pt x 130.23158pt.
+(pdftex.def)             Requested size: 308.05833pt x 156.29164pt.
  [3
 
  <./images/PIC.png>]
@@ -1009,56 +1009,56 @@ Package pdftex.def Info: images/plasma.jpg  used on input line 106.
 <images/density.jpg, id=159, 1806.75pt x 867.24pt>
 File: images/density.jpg Graphic file (type jpg)
 <use images/density.jpg>
-Package pdftex.def Info: images/density.jpg  used on input line 128.
+Package pdftex.def Info: images/density.jpg  used on input line 133.
 (pdftex.def)             Requested size: 342.2936pt x 104.1834pt.
 <images/intensity.jpg, id=160, 1806.75pt x 867.24pt>
 File: images/intensity.jpg Graphic file (type jpg)
 <use images/intensity.jpg>
-Package pdftex.def Info: images/intensity.jpg  used on input line 128.
+Package pdftex.def Info: images/intensity.jpg  used on input line 133.
 (pdftex.def)             Requested size: 342.2936pt x 104.1834pt.
 
-Overfull \vbox (23.49622pt too high) detected at line 128
+Overfull \vbox (24.54515pt too high) detected at line 133
  []
 
 [5
 
  <./images/density.jpg> <./images/intensity.jpg>]
-<images/env.jpg, id=189, 1445.4pt x 1300.86pt>
-File: images/env.jpg Graphic file (type jpg)
-<use images/env.jpg>
-Package pdftex.def Info: images/env.jpg  used on input line 169.
-(pdftex.def)             Requested size: 219.05025pt x 208.38005pt.
+<images/env2.jpg, id=190, 1084.05pt x 867.24pt>
+File: images/env2.jpg Graphic file (type jpg)
+<use images/env2.jpg>
+Package pdftex.def Info: images/env2.jpg  used on input line 174.
+(pdftex.def)             Requested size: 219.05577pt x 208.38005pt.
  [6
 
- <./images/env.jpg>]
-<images/pulse.jpg, id=225, 1445.4pt x 1589.94pt>
+ <./images/env2.jpg>]
+<images/pulse.jpg, id=226, 1445.4pt x 1589.94pt>
 File: images/pulse.jpg Graphic file (type jpg)
 <use images/pulse.jpg>
-Package pdftex.def Info: images/pulse.jpg  used on input line 179.
+Package pdftex.def Info: images/pulse.jpg  used on input line 184.
 (pdftex.def)             Requested size: 342.2936pt x 208.37343pt.
 
-Overfull \vbox (0.90285pt too high) detected at line 179
+Overfull \vbox (0.90285pt too high) detected at line 184
  []
 
 [7
 
  <./images/pulse.jpg>]
-<images/oscillation1.jpg, id=254, 1806.75pt x 867.24pt>
+<images/oscillation1.jpg, id=255, 1806.75pt x 867.24pt>
 File: images/oscillation1.jpg Graphic file (type jpg)
 <use images/oscillation1.jpg>
-Package pdftex.def Info: images/oscillation1.jpg  used on input line 188.
+Package pdftex.def Info: images/oscillation1.jpg  used on input line 193.
 (pdftex.def)             Requested size: 342.2936pt x 208.38005pt.
 
-Overfull \vbox (0.90947pt too high) detected at line 188
+Overfull \vbox (0.90947pt too high) detected at line 193
  []
 
 [8
 
  <./images/oscillation1.jpg>]
-<images/oscillation2.jpg, id=283, 1445.4pt x 1300.86pt>
+<images/oscillation2.jpg, id=284, 1445.4pt x 1300.86pt>
 File: images/oscillation2.jpg Graphic file (type jpg)
 <use images/oscillation2.jpg>
-Package pdftex.def Info: images/oscillation2.jpg  used on input line 198.
+Package pdftex.def Info: images/oscillation2.jpg  used on input line 203.
 (pdftex.def)             Requested size: 273.83487pt x 208.38005pt.
  [9
 
@@ -1082,18 +1082,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31668 strings out of 480171
- 636731 string characters out of 5894489
+ 31670 strings out of 480171
+ 636765 string characters out of 5894489
  1290437 words of memory out of 5000000
- 49022 multiletter control sequences out of 15000+600000
- 481755 words of font info for 74 fonts, out of 8000000 for 9000
+ 49023 multiletter control sequences out of 15000+600000
+ 482049 words of font info for 75 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,15n,104p,828b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (10 pages, 4286500 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (10 pages, 4047482 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
+ 412 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
  34 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

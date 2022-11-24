@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [1] Config.pm:310> INFO - Logfile is 'main.blg'
-[133] biber:340> INFO - === Tue Nov 22, 2022, 10:00:42
-[155] Biber.pm:418> INFO - Reading 'main.bcf'
-[258] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[282] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[283] bbl.pm:757> INFO - Output to main.bbl
-[283] Biber.pm:130> WARN - The file 'main.bcf' does not contain any citations!
-[283] Biber.pm:132> INFO - WARNINGS: 1
+[127] biber:340> INFO - === Thu Nov 24, 2022, 10:46:11
+[151] Biber.pm:418> INFO - Reading 'main.bcf'
+[259] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[284] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[285] bbl.pm:757> INFO - Output to main.bbl
+[286] Biber.pm:130> WARN - The file 'main.bcf' does not contain any citations!
+[286] Biber.pm:132> INFO - WARNINGS: 1
