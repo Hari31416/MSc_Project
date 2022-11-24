@@ -2,8 +2,8 @@
 \beamer@slide {fig:harmonics}{2}
 \beamer@slide {fig:pic}{3}
 \beamer@slide {fig:plasma}{4}
-\beamer@slide {fig:PlasmaDensity}{5}
 \beamer@slide {fig:LaserIntensity}{5}
+\beamer@slide {fig:PlasmaDensity}{5}
 \beamer@slide {sin-sq-env}{6}
 \beamer@slide {gaussian-env}{6}
 \beamer@slide {triangle-env}{6}
