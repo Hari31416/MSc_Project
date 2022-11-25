@@ -30,7 +30,7 @@
             \vspace*{1cm}
             \textbf{\Large{Course Code : PYD561}}\\
             \vspace*{0.2cm}
-            \textbf{\Large {Semester - III, 2022-23}}\\
+            \textbf{\Large {Semester - I, 2022-23}}\\
             \vspace*{1cm}
             \textbf{\LARGE{Plasma Mirrors}}\\
             \vspace*{1cm}
@@ -44,10 +44,10 @@
         \begin{flushleft}
 
 
-            \textbf{Signature of student 1: \ldots \ldots \ldots}\\
+            \textbf{Signature of first student: \ldots \ldots \ldots}\\
             \vspace*{1cm}
-            \textbf{Signature of student 2: \ldots \ldots \ldots}
-            \hspace*{3cm}
+            \textbf{Signature of second student: \ldots \ldots \ldots}
+            \hspace*{2cm}
             \textbf{Signature of the adviser: \ldots \ldots \ldots}
         \end{flushleft}
     \end{changemargin}
@@ -56,18 +56,23 @@
 \begin{changemargin}{-2cm}{-2cm}
     % INTRODUCTION
     \section{Introduction And Motivation}
-    There is great interest in high intensity physics where the study of interaction of light with matter at Ultra High Light Intensity (UHLI) is performed. The main goal is to achieve high intensity which give access to novel physical regimes.\cite{henri}
-    Intensity of laser in order of $10^{23} \; W/cm^{-2}$ has been reached experimentally with the CoReLS petawatt (PW) laser.\cite{highintensity}. The next step is to push forward these intensities above $10^{25}W/cm^{-2}$. Above this limit, quantum electrodynamics effects start playing a major role on the dynamics of electrons. Intensity level of $10^{29}W/cm^{-2}$ corresponds to the Schwinger field. At this field, light starts generating electron positron pair out of vacuum. Vacuum starts acting like a nonlinear medium and its refractive index becomes a function of light intensity. These physical regimes are barely, if at all, explored in lab.
+    There is great interest in the study of interaction of light with matter at Ultra High Light Intensity (UHLI). The main goal is to achieve high intensity which give access to novel physical regimes.\cite{henri}
+    Intensity of laser in order of $10^{23} \; W/cm^{-2}$ has been reached experimentally with the CoReLS petawatt (PW) laser.\cite{highintensity} One way to get high intensity laser pulse is by using the high harmonics generated when a laser pulse interacts with overdense plasma. Apart from this, high harmonics have many other applications. Ultrafast quantum information processing, attosecond sources, and all-optical mapping of the electronic band structure are to name a few. There are a number of ways to generate high harmonics. Here, generation of high harmonics by using plasma is discussed.
+    % Using plasma laser interaction is one of many ways high harmonics are generated.
+    % The next step is to push forward these intensities above $10^{25}W/cm^{-2}$. Above this limit, quantum electrodynamics effects start playing a major role on the dynamics of electrons.
+    % Intensity level of $10^{29}W/cm^{-2}$ corresponds to the Schwinger field. At this field, light starts generating electron positron pair out of vacuum. Vacuum starts acting like a nonlinear medium and its refractive index becomes a function of light intensity. These physical regimes are barely, if at all, explored in lab.
 
-    One way to get these UHLI is by using plasma mirrors (PM). When a laser pulse is incident upon plasma, it reflects if the density of plasma is high, forming PM. Upon reflection from plasma the laser field, because of pondermotive force, propels a relativistic oscillation of the PM which results in periodic temporal compression of the reflected field (Doppler effect). These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters} Experiments have been performed showing generation of high harmonics of order up to 141st of Nd glass laser\cite{hormonics1}, 109th of Ti sapphire laser\cite{hormonics2}, and 37th of krypton fluoride laser\cite{hormonics3}.
+    One way to get these UHLI is by using plasma mirrors (PM). When a laser pulse is incident upon plasma, it reflects if the density of plasma is high, forming PM. Upon reflection from plasma the laser field, because of pondermotive force, propels a relativistic oscillation of the PM which results in periodic temporal compression of the reflected field (Doppler effect). These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters} High harmonics of order up to 141st of Nd glass laser\cite{hormonics1}, 109th of Ti sapphire laser\cite{hormonics2}, and 37th of krypton fluoride laser\cite{hormonics3} have been demonstrated experimentally[6]
 
-    Here, the generation of harmonics of incident laser pulse by interaction of a high intensity laser pulse with a step boundary overdense plasma layer is studied and the effect of variuos parameters on the generated high hormonics is investigated. For this, fully relativistic particle in cell simulations are performed using \textit{EPOCH}. Already, variuos experiments and simulations have been performed to study how high hormonics are changed by using different polarization of laser pulse \cite{polarization1} \cite{polarization2}, different PM shapes \cite{henri}, two color laser pulses \cite{two-color1} \cite{two-color2}. In this article, we study the effect of plasma density, laser intensity, envelope and pulse duration on generated high harmonics.
+    % Here, the generation of harmonics of incident laser pulse by interaction of a high intensity laser pulse with a step boundary overdense plasma layer is studied and the effect of variuos parameters on the generated high hormonics is investigated. 
+    Here, we examine the effect of different laser and plasma parameters on the creation of high harmonics by studying the interaction of a high intensity laser pulse with a step boundary overdense plasma layer.
+    For this, fully relativistic particle-in-cell simulations are performed using \textit{EPOCH}. Already, variuos experiments and simulations have been performed to study how high hormonics are changed by using different polarization of laser pulse \cite{polarization1} \cite{polarization2}, different PM shapes \cite{henri}, two color laser pulses \cite{two-color1} \cite{two-color2}. In this article, we study the effect of plasma density, laser intensity, envelope and pulse duration on generated high harmonics.
 
     % METHODOLOGY
     \section{Methodology}
     The simulation uses \textit{EPOCH}, a parallised, second order and fully relativistic implementation of particle in cell algorithm.\cite{EPOCH} Though \textit{EPOCH} is implemented in 3D, the current simulation is performed in 1D3V only.
     \subsection{Simulation Parameters}
-    We want to study the effect of various plasma and laser parameters on the generated high harmonics. The parameters which are constant throughout the entire experimentation are these:
+    We want to study the effect of various plasma parameters and laser parameters on the generated high harmonics. For this, some parameters which are constant throughout the entire experimentation are these:
     The simulation box extends for $40 \lambda _l$ (from $-20 \lambda _l$ to $20 \lambda _l$), where $\lambda_l$ is the laser wavelength taken as $1\mu m$ and has total 16000 cells, i.e., 400 cells per wavelength. The plasma is placed at $x=0$ and with a thickess of $\lambda_l$. Number of particles per cell are 100.
     For most of the simulations the pulse duration is $T = 20 \tau$ and simulation is run till $T_{end} = 40 \tau$. Here $\tau$ is the time period of laser pulse.\\
     Some parameters in the simulations are varied to observe their effect on high harmonic generation. These are listed below:\\
@@ -113,11 +118,12 @@
     \section{Result and Discussion}
     A number of simulations are performed to study the effect of various parameters discussed above on the generated high harmonics. The results are presented in the following subsections.
     \subsection{Effect of Plasma Density}
-    Increasing plasma density decreases the number of harmonics generated. The amplitude of the harmonics also decreases. The Figure \ref{fig:density} shows the effect of plasma density on the harmonics generated.
+    No significant effect of plasma density on generation of high harmonics is observed. However, a resonace is observed at plasma density of $4n_c$ giving more harmonics at that density. This resonace is because the plasma frequency is equal to the frequency of the driving pondermotive force. (Since $F\propto (1-\cos{2\omega t})$)
+    % No conclusion has reac The Figure \ref{fig:density} shows the effect of plasma density on the harmonics generated.
     \begin{figure}[h]
         \centering
         \includegraphics[width=1.0\textwidth]{images/density.jpg}
-        \caption{Effect of plasma density on the harmonics generated.}
+        \caption{Resonance at $n = 4n_c$}
         \label{fig:density}
     \end{figure}
     \subsection{Effect of Laser Intensity}
@@ -126,12 +132,13 @@
     \begin{figure}[h]
         \centering
         \includegraphics[width=1.0\textwidth, height=0.4\textwidth]{images/intensity.jpg}
-        \caption{Effect of laser intensity on the harmonics generated.}
+        \caption{Laser intensity and the harmonics generated.}
         \label{fig:intensity}
     \end{figure}
+    % \clearpage
     \subsection{Effect of Laser Envelope}
     The laser envelope does not seem to have any effect at all. See the Figure \ref{fig:env}.
-    \begin{figure}[t]
+    \begin{figure}[h]
         \centering
         \includegraphics[width=1.0\textwidth, height=0.8\textwidth]{images/env.jpg}
         \caption{Effect of the laser envelope on the harmonics generated.}
@@ -139,7 +146,7 @@
     \end{figure}
 
     \subsection{Effect of Pulse Duration}
-    Increasing the pulse duration increases the number of harmonics generated. The amplitude of the harmonics also increases. The Figure \ref{fig:pulse} on shows the effect of the laser pulse duration on the harmonics generated.
+    Increasing the pulse duration increases power within the pulse which then increases the number of harmonics generated. The harmonics also become more pronounced in amplitude. The Figure \ref{fig:pulse} on shows the effect of the laser pulse duration on the harmonics generated.
     \begin{figure}[t]
         \centering
         \includegraphics[width=1.0\textwidth, height=0.8\textwidth]{images/pulse.jpg}
@@ -154,7 +161,7 @@
     \end{figure}
     \subsection{The Plasma Oscillations}
     In this section, we give some simulation results related to the oscillation of the PM surface.
-    \subsubsection{Effect of Laser Intensity on Electron Oscillation}
+    \subsubsection{Laser Intensity and the Electron Oscillation}
     The electromagnetic field of high intensity laser beam with plasma makes the electrons inside the plasma oscillate. These oscillations become more and more intetense as the intensity of the EM field increases. (See the Figure \ref{fig:oscillation1})
     \subsection{The Frequency of Oscillations}
     We found out that the frequency of oscillations is even harmonic of the frequency of the incident laser pulse. Furthermore, electrons are oscillating only till they are interacting with the laser field. (See the Figure \ref{fig:oscillation2})
@@ -172,11 +179,11 @@
     \begin{equation}
         \left (\partial^2 - \frac{1}{c^2}\partial_t^2\right )a = \left (\frac{\omega_p}{c}\right )^2s(x,t)
     \end{equation}
-    where $a$ is the vector potential, $s$ is the source term and $\omega_p$ is the plasma frequency. If we assume incident light to be linearly polarized in the z- direction, the source term is given by
+    where $a$ is the vector potential, $s$ is the source term and $\omega_p$ is the plasma frequency. If we assume incident light to be linearly polarized with plane of polarization in z direction, the source term is given by
     \begin{equation}\label{source}
         s(x,t) = n(x,t)\sqrt{1-\beta_x^2(x,t)}\frac{a_z(x,t)}{\sqrt{1+a_z^2(x,t)}}
     \end{equation}
-    Since we are using overdense plasma the major part of the incident light is reflected and the vector potential $a_z(x,t)$  decays rapidly inside the plasma. This can be  approximated by
+    Since we are using overdense plasma the major part of the incident light is reflected and the vector potential $a_z(x,t)$  decays rapidly inside the plasma. The vector potentia can be  approximated by
     \begin{equation}\label{a_z}
         a_z(x,t) \approx \begin{cases}
             -2\mathbf{a_0}\sin(kx-\theta)\sin(\omega t) \; & \text{ for } x < 0   \\
@@ -188,7 +195,7 @@
 
     %FUTURE PLAN
     \section{Current Status and Future Plan of Work}
-    The interaction of high intensity laser pulse with overdense plasma is investigated. During this, odd harmonics of the incident laser pulse is generated and the effect of variuos laser and plasma parameters on the hormonic generation is studied. Morever, it has been observed that the relativistic oscillations of the PM surface has frequency which are even harmonics of the incident laser pulse. Future plan of work is to study about the effects of some more parameters on the harmonics generation escpecially the effect of oblique incidence, different polarization of the laser pulse as well as some more laser envelopes.
+    The interaction of high-intensity laser pulse with overdense plasma is investigated. During this, it is observed odd harmonics of the incident laser pulse is generated and the effect of variuos laser and plasma parameters on the hormonic generation is studied. Morever, it has been observed that the relativistic oscillations of the PM surface has frequency which are even harmonics of the incident laser pulse. Future plan of work is to study about the effects of some more parameters on the harmonics generation escpecially the effect of oblique incidence, different polarization of the laser pulse as well as some more laser envelopes.
 
     % ACKNOWLEDGEMENT
     \section{Acknowledgement}
