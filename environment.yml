@@ -2,7 +2,7 @@ name: msc-project
 
 dependencies:
   # Base dependencies
-  - python=3.7
+  - python=3.10
   - pip
   - cython
   # Numerical
@@ -12,6 +12,7 @@ dependencies:
   - matplotlib
   - seaborn
   - pandas
+  - plotly
   - pip:
       # Animation
       - imageio

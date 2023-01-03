@@ -1,4 +1,4 @@
- EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1663745286.444          
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1671283922.61           
 
 Deck state:  1
 
@@ -153,6 +153,10 @@ Deck state:  2
  	Element boundary=x_min handled OK
  	Element intensity=1.0e22 handled OK
  	Element lambda=lambda0 handled OK
+ *** WARNING ***
+ Input deck line number 72
+ A default value (set y and z to 0) was used for the constant "y"
+
  	Element phase=- 2.0 * pi* y* sin(theta)/ lambda0 handled OK
  	Element profile=gauss(y,0,w_bnd) handled OK
 
