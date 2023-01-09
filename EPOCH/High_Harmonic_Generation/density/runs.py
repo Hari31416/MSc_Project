@@ -4,7 +4,6 @@ import os
 from matplotlib import colors
 import sdf
 import re
-import imageio as imageio
 import glob
 import tqdm
 import sys
@@ -42,15 +41,15 @@ def main(DATA_DIR):
     NX = int(find_value("nx"))
     X_MIN = -int(find_value("x_min"))
 
-    print("Values from input.deck:")
-    print("lambda0 = ", LAMBD)
-    print("laser_time = ", LAS_TIME)
-    print("t_end = ", T_MAX)
-    print("dt_snapshot = ", DT)
-    print("a0 = ", A0)
-    print("factor = ", FACTOR)
-    print("nx = ", NX)
-    print("x_min = ", X_MIN)
+    # print("Values from input.deck:")
+    # print("lambda0 = ", LAMBD)
+    # print("laser_time = ", LAS_TIME)
+    # print("t_end = ", T_MAX)
+    # print("dt_snapshot = ", DT)
+    # print("a0 = ", A0)
+    # print("factor = ", FACTOR)
+    # print("nx = ", NX)
+    # print("x_min = ", X_MIN)
 
     # ## Calculated Constants
 
@@ -60,12 +59,12 @@ def main(DATA_DIR):
     Er = m * omega0 * c / e
     n0 = FACTOR * nc
     LAS_TIME = LAS_TIME * tau
-    print("Calculated Values for the simulation are:")
-    print("omega0 = ", omega0)
-    print("tau = ", tau)
-    print("nc = ", nc)
-    print("Er = ", Er)
-    print("n0 = ", n0)
+    # print("Calculated Values for the simulation are:")
+    # print("omega0 = ", omega0)
+    # print("tau = ", tau)
+    # print("nc = ", nc)
+    # print("Er = ", Er)
+    # print("n0 = ", n0)
 
     # ## Values for FT
 
@@ -90,11 +89,12 @@ def main(DATA_DIR):
     for i in tqdm.tqdm(range(len(ALL_FILES)), desc="Getting Data..."):
         data = sdf.read(ALL_FILES[i])
         ey = data.Electric_Field_Ey.data
-        Et0[i] = ey[0]
+        Et0[i] = ey[7940]
         Et1[i] = ey[4000]
         Et2[i] = ey[8000]
         d[i] = data.Derived_Number_Density_Electron.data
 
+    d = d / nc
 
     t_start = 1300
     t_end = 1500
@@ -108,8 +108,9 @@ def main(DATA_DIR):
         T_MAX * t_end / t_max,
         T_MAX * t_start / t_max,
     ]
+    print("Saving Density Plot")
     plt.figure()
-    plt.imshow(d[t_start:t_end, x_start:x_end], aspect="auto", extent=EXTENT, cmap="jet")
+    plt.imshow(d[t_start:t_end, x_start:x_end], aspect="auto", extent=EXTENT, cmap="jet", vmax=10, vmin=-10)
     cmap = colors.ListedColormap(["white", "black"])
     plt.colorbar(cmap=cmap)
     plt.savefig(f"images/density_{FACTOR}.png", dpi=300)
@@ -138,9 +139,9 @@ def main(DATA_DIR):
         plt.annotate(f"{p}", (p, 1e-2))
     plt.xlim(0, 20)
     plt.grid()
-    plt.title("Node 0")
-    plt.ylim(0.1)
-    plt.savefig(f"images/node0_{FACTOR}.png", dpi=300)
+    plt.title("Node 7940")
+    plt.ylim(0.1, 1e3)
+    plt.savefig(f"images/node7940_{FACTOR}.png", dpi=300)
 
     print("Saving plot 2")
     plt.figure()
@@ -152,6 +153,7 @@ def main(DATA_DIR):
         plt.annotate(f"{p}", (p, 1e-2))
     plt.xlim(0, 20)
     plt.grid()
+    plt.ylim(0.1, 1e3)
     plt.title("Reflected Node 4000")
     plt.savefig(f"images/node4000_{FACTOR}.png", dpi=300)
 
@@ -166,7 +168,7 @@ def main(DATA_DIR):
     plt.xlim(0, 20)
     plt.grid()
     plt.title("Reflected Node 8000")
-    plt.ylim(0.1)
+    plt.ylim(0.1, 1e3)
     plt.savefig(f"images/node8000_{FACTOR}.png", dpi=300)
 
 if __name__ == "__main__":

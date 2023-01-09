@@ -1,0 +1,88 @@
+# ROM
+
+To induce large intensity boosts on the reflected laser beam, plasma mirrors need to be set in relativistic motion, which is possible when they are exposed to laser intensities ranging from at least $10^{18} W/cm^2$ up to the highest laser intensities available to date, of a few $10^{22} W/cm^2$. The incident laser field then drives a periodic oscillation of the plasma mirror surface, at relativistic velocities. This relativistic oscillating mirror (ROM) induces a periodic Doppler effect on the reflected field . Each time the mirror surface moves outward, it compresses the laser energy in time, leading to a sharpening of the reflected waveform. Although still periodic in time, this waveform is no longer sinusoidal: its spectrum thus consists of the combination of the laser frequency $\omega_n$ with a comb of high-order harmonics of frequencies $n\omega_n$. This physical process is now fairly well-understood theoretically.
+
+## Models
+
+### Purturabation Theory
+
+Generation of harmonics of low order from plasmas can be treated by perturbation theory. It fails for high intensity.
+
+### Relativistic Equations
+
+Based on relativistic equation of motion and hydrodynamics approxiamation. The cutoff frequency is:
+
+$$
+n_{\max}^2 = n_p/n_c
+$$
+
+They demonstrated that the "principal source of high-harmonic emission is the strong non linear restoring force" which exists when resonant absorption occurs in a highlt steep density profile.
+
+### Moving Mirror Model
+
+”interpreted the harmonic generation as due to the Doppler effect produced by a reflecting charge sheet, formed in a narrow region at the plasma boundary, oscillating under the action of the laser pulse”. Maximum cutoff frequency $=4\gamma_{\max}^2$.
+
+### Moving Mirror Model 2
+
+The HH are generated due to sharp spikes in the relativistic $\gamma$ factor. Cutoff is $\sqrt{8\alpha \gamma_{\max}^3}$. This was done using the relativisticplasma similarity theory.
+
+The electrons are driven by the laser light pressure, a restoring electrostatic force comes from the ions. As a consequence, the plasma surface oscillates and the electrons gain a normal momentum component. Since the plasma is overdense, the incident electromagnetic wave is not able to penetrate it. This means that there is an electric current along the plasma surface. For this reason, the momenta of electrons in the skin layer have, apart from the components normal to the plasma surface, also tangential components. Though the motion of the plasma surface is qualitatively different: its velocity $v_s$ is not ultra relativistic for most of the times but smoothly approaches c only when the tangential electron momentum vanishes . The $\gamma$-factor of the surface $\gamma_s$ also shows specific behavior. It has sharp peaks at those times for which the velocity of the surface approaches c. When $v_s$ reaches its maximum and $\gamma_s$ has a sharp peak, high harmonics of the incident wave are generated and can be seen in the reflected radiation. Physically this means that the high harmonics are due to the collective motion of bunches of fast electrons moving towards the laser pulse.
+
+In the power law part the spectrum decays as:
+
+$$
+I_n \propto 1/n^{8/3}
+$$
+
+## Oscillating Mirror Model
+
+The interaction with light generates some periodic motion of the plasma in response to the electromagnetic forces. It is assumed that the duration of the light pulse is sufficiently short so that the motion of the ions may be neglected. The ions are treated as a fixed positive background charge.
+
+The basic approximation of the oscillating mirror model is to neglect the details of the changes of the electron density profile and to represent the collective electronic motion by the motion of the boundary of the supercritical region. This boundary represents an effective reflecting surface performing an oscillatory motion, the oscillating mirror.
+
+### Phase Modulation
+
+Neglecting for a moment retardation effects the phase shift of the reflected wave resulting from a sinusoidal displacement of the reflecting surface in the z-direction:
+
+$$
+s(t) = s_0 \sin(\omega t)
+$$
+
+is given by
+
+$$
+\phi(t) = (2\omega_0s_0/c)\cos\theta \sin \omega_m t
+$$
+
+where $\theta$ is the angle of incidence and $\omega_m$ is the mirror frequency (modulation frequency). The electric field of the reflected wave is given by
+
+$$
+E_R \propto e^{-i\omega_0 t}e^{i\phi(t)} =  e^{-i\omega_0 t} \sum _{n \to -\infty}^{n \to -\infty}J_n(\xi) e^{-i\omega_m t}
+$$
+
+where $J_n(\xi)$ is the Bessel function of order $n$ and $\xi =( 2\omega_0s_0/c)\cos\theta$.
+
+We can see that the phase modulation produced by the oscillating mirror
+gives rise to a series of sidebands at distances from the
+carrier frequency $\omega_0$ given by multiples of the modulation
+frequency $\omega_m$.
+
+The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or a superposition of $\omega_0$ and $2\omega_0$ , depending on the polarization and angle of incidence of the incoming light. Thus, the modulation frequencies provided by the mirror motion are $\omega_m = \omega_0$ and/or $\omega_m = 2\omega_0$. The key point is that this type of modulation produces sidebands representing even and odd harmonics of the fundamental frequency $\omega_0$ . These ideas suggests an interpretation of high-order harmonic generation from a plasma—vacuum interface as a phase modulation from a periodically moving reflecting surface (Doppler shift).
+
+#### s and p polarized light
+
+- _p-polarized light_: The electric and the magnetic field are, respectively, parallel and perpendicular to the plane of incidence. The electrons move in the plane of incidence. The electron boundary is driven at frequencies $\omega_0$ and $2\omega_0$ , because both the transverse and the longitudinal component of the electron velocity contribute to the motion of the boundary. It follows that in this case both even and odd harmonics with polarization are generated.
+- _s-polraized light_: The electric field is parallel to the plasma—vacuum interface. The electrons move in a plane perpendicular to the plane of incidence. In this configuration only the longitudinal component contributes, while the transverse component of the electron motion is ineffective. The normal motion of the mirror is driven at one frequency only, $\omega_m = 2\omega_0$ . It follows that the reflected light is composed of s-polarized odd harmonics. There are no s-polarized even harmonics.
+
+#### Spectral Intensity Distribution
+
+1. For a s-polarized fundamental wave we have. $\omega_m = 2 \omega_0$
+
+   $$
+   S((2n+1)\omega_0) = (\pi E_0)^2\left(\frac{J_n((n+1)\xi)}{(n+1)}- \frac{J_{n+1}(n\xi)}{(n)}\right)^2
+   $$
+
+2. For a p-polarized fundamental wave we have. $\omega_m = \omega_0$ and $\omega_m = 2 \omega_0$
+   $$
+    S((2n+1)\omega_0) = (\pi E_0)^2\left(\frac{J_{n-1}(\frac{1}{2}(n+1)\xi)}{\frac{1}{2}(n+1)}- \frac{J_{n+1}\frac{1}{2}((n-1)\xi)}{\frac{1}{2}(n-1)}\right)^2
+   $$
