@@ -62,11 +62,15 @@ def main(DATA_DIR):
         d[i] = data.Derived_Number_Density_Electron.data
 
     d = d / nc
+    d_max = FACTOR
+
+    t_start = 1300
+    t_end = 1500
 
     first = np.zeros(d.shape[0])
     last = np.zeros(d.shape[0])
     for i in range(d.shape[0]):
-        nonzeros = np.where(d[i]>1)[0]
+        nonzeros = np.where(d[i]>d_max/4)[0]
         if len(nonzeros) > 0:
                 
             first[i] = nonzeros[0]
@@ -75,18 +79,20 @@ def main(DATA_DIR):
     print("Saving Images...")
     plt.figure()
     plt.plot(T, first)
+    plt.xlim(T[t_start], T[t_end])
     plt.xlabel(r"Time $[\tau]$")
     plt.ylabel("Node")
-    plt.title("First Node with $n=n_c$")
-    plt.ylim(7960, 8040)
+    plt.title("First Node with $n=n_{0}/4$")
+    # plt.ylim(7960, 8040)
     plt.savefig(f"images/first_node_{FACTOR}.png", dpi=300)
 
     plt.figure()
     plt.plot(T, last)
     plt.xlabel(r"Time $[\tau]$")
     plt.ylabel("Node")
-    plt.title("Last Node with $n=n_c$")
-    plt.ylim(7960, 8040)
+    plt.xlim(T[t_start], T[t_end])
+    plt.title("Last Node with $n=n_{max}/4$")
+    # plt.ylim(8350, 8450)
     plt.savefig(f"images/last_node_{FACTOR}.png", dpi=300)
 
 if __name__ == "__main__":

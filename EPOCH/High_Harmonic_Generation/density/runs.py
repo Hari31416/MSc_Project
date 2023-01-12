@@ -8,10 +8,10 @@ import glob
 import tqdm
 import sys
 
+
 def main(DATA_DIR):
     plt.rcParams["font.size"] = 14
     plt.rcParams["figure.figsize"] = (10, 8)
-
 
     m = 9.10938356e-31
     e = 1.60217662e-19
@@ -22,7 +22,6 @@ def main(DATA_DIR):
     with open(os.path.join(DATA_DIR, "input.deck"), "r") as myfile:
         data = myfile.read()
 
-
     def find_value(info):
         regex = re.compile(rf"\s{info}\s*=\s*-?(\d+\.?\d*)")
         match = regex.search(data)
@@ -30,7 +29,6 @@ def main(DATA_DIR):
             return float(match.group(1))
         else:
             return None
-
 
     LAMBD = find_value("lambda0") * 1e-6
     LAS_TIME = int(find_value("las_time"))
@@ -108,68 +106,84 @@ def main(DATA_DIR):
         T_MAX * t_end / t_max,
         T_MAX * t_start / t_max,
     ]
+    # EXTENT = [
+    #     x_start,
+    #     x_end,
+    #     T_MAX * t_end / t_max,
+    #     T_MAX * t_start / t_max,
+    # ]
+
     print("Saving Density Plot")
     plt.figure()
-    plt.imshow(d[t_start:t_end, x_start:x_end], aspect="auto", extent=EXTENT, cmap="jet", vmax=10, vmin=-10)
+    plt.imshow(
+        d[t_start:t_end, x_start:x_end],
+        aspect="auto",
+        cmap="jet",
+        vmax=15,
+        vmin=0,
+        extent=EXTENT,
+    )
+    # plt.imshow(d[t_start:t_end, x_start:x_end], aspect="auto", extent=EXTENT, cmap="jet", vmax=15, vmin=0)
     cmap = colors.ListedColormap(["white", "black"])
     plt.colorbar(cmap=cmap)
     plt.savefig(f"images/density_{FACTOR}.png", dpi=300)
 
-    Et0 = Et0 / np.max(Et0)
-    Et1 = Et1 / np.max(Et1)
-    Et2 = Et2 / np.max(Et2)
-    y0 = np.fft.fft(Et0)
-    y1 = np.fft.fft(Et1)
-    y2 = np.fft.fft(Et2)
-    y0_shift = np.fft.fftshift(y0)
-    y1_shift = np.fft.fftshift(y1)
-    y2_shift = np.fft.fftshift(y2)
-    y0_f = np.abs(y0_shift)
-    y1_f = np.abs(y1_shift)
-    y2_f = np.abs(y2_shift)
 
-    print("Saving plot 1")
-    plt.figure()
-    omega = np.linspace(-omega_max / 2, omega_max / 2, len(ALL_FILES))
-    plt.plot(omega / omega0, 2 * np.abs(y0_f) * 2)
-    plt.yscale("log")
-    points = np.arange(1, 21, 2)
-    for p in points:
-        plt.axvline(p, color="red", linestyle="--")
-        plt.annotate(f"{p}", (p, 1e-2))
-    plt.xlim(0, 20)
-    plt.grid()
-    plt.title("Node 7940")
-    plt.ylim(0.1, 1e3)
-    plt.savefig(f"images/node7940_{FACTOR}.png", dpi=300)
+#     Et0 = Et0 / np.max(Et0)
+#     Et1 = Et1 / np.max(Et1)
+#     Et2 = Et2 / np.max(Et2)
+#     y0 = np.fft.fft(Et0)
+#     y1 = np.fft.fft(Et1)
+#     y2 = np.fft.fft(Et2)
+#     y0_shift = np.fft.fftshift(y0)
+#     y1_shift = np.fft.fftshift(y1)
+#     y2_shift = np.fft.fftshift(y2)
+#     y0_f = np.abs(y0_shift)
+#     y1_f = np.abs(y1_shift)
+#     y2_f = np.abs(y2_shift)
 
-    print("Saving plot 2")
-    plt.figure()
-    plt.plot(omega / omega0, 2 * np.abs(y1_f) * 2)
-    plt.yscale("log")
-    points = np.arange(1, 21, 2)
-    for p in points:
-        plt.axvline(p, color="red", linestyle="--")
-        plt.annotate(f"{p}", (p, 1e-2))
-    plt.xlim(0, 20)
-    plt.grid()
-    plt.ylim(0.1, 1e3)
-    plt.title("Reflected Node 4000")
-    plt.savefig(f"images/node4000_{FACTOR}.png", dpi=300)
+#     print("Saving plot 1")
+#     plt.figure()
+#     omega = np.linspace(-omega_max / 2, omega_max / 2, len(ALL_FILES))
+#     plt.plot(omega / omega0, 2 * np.abs(y0_f) * 2)
+#     plt.yscale("log")
+#     points = np.arange(1, 21, 2)
+#     for p in points:
+#         plt.axvline(p, color="red", linestyle="--")
+#         plt.annotate(f"{p}", (p, 1e-2))
+#     plt.xlim(0, 20)
+#     plt.grid()
+#     plt.title("Node 7940")
+#     plt.ylim(0.1, 1e3)
+#     plt.savefig(f"images/node7940_{FACTOR}.png", dpi=300)
 
-    print("Saving plot 3")
-    plt.figure()
-    plt.plot(omega / omega0, 2 * np.abs(y2_f) * 2)
-    plt.yscale("log")
-    points = np.arange(1, 21, 2)
-    for p in points:
-        plt.axvline(p, color="red", linestyle="--")
-        plt.annotate(f"{p}", (p, 1e-2))
-    plt.xlim(0, 20)
-    plt.grid()
-    plt.title("Reflected Node 8000")
-    plt.ylim(0.1, 1e3)
-    plt.savefig(f"images/node8000_{FACTOR}.png", dpi=300)
+#     print("Saving plot 2")
+#     plt.figure()
+#     plt.plot(omega / omega0, 2 * np.abs(y1_f) * 2)
+#     plt.yscale("log")
+#     points = np.arange(1, 21, 2)
+#     for p in points:
+#         plt.axvline(p, color="red", linestyle="--")
+#         plt.annotate(f"{p}", (p, 1e-2))
+#     plt.xlim(0, 20)
+#     plt.grid()
+#     plt.ylim(0.1, 1e3)
+#     plt.title("Reflected Node 4000")
+#     plt.savefig(f"images/node4000_{FACTOR}.png", dpi=300)
+
+#     print("Saving plot 3")
+#     plt.figure()
+#     plt.plot(omega / omega0, 2 * np.abs(y2_f) * 2)
+#     plt.yscale("log")
+#     points = np.arange(1, 21, 2)
+#     for p in points:
+#         plt.axvline(p, color="red", linestyle="--")
+#         plt.annotate(f"{p}", (p, 1e-2))
+#     plt.xlim(0, 20)
+#     plt.grid()
+#     plt.title("Reflected Node 8000")
+#     plt.ylim(0.1, 1e3)
+#     plt.savefig(f"images/node8000_{FACTOR}.png", dpi=300)
 
 if __name__ == "__main__":
     main(sys.argv[1])

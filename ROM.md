@@ -24,7 +24,7 @@ They demonstrated that the "principal source of high-harmonic emission is the st
 
 ### Moving Mirror Model 2
 
-The HH are generated due to sharp spikes in the relativistic $\gamma$ factor. Cutoff is $\sqrt{8\alpha \gamma_{\max}^3}$. This was done using the relativisticplasma similarity theory.
+The HH are generated due to sharp spikes in the relativistic $\gamma$ factor. Cutoff is $\sqrt{8\alpha \gamma_{\max}^3}$. This was done using the relativistic plasma similarity theory.
 
 The electrons are driven by the laser light pressure, a restoring electrostatic force comes from the ions. As a consequence, the plasma surface oscillates and the electrons gain a normal momentum component. Since the plasma is overdense, the incident electromagnetic wave is not able to penetrate it. This means that there is an electric current along the plasma surface. For this reason, the momenta of electrons in the skin layer have, apart from the components normal to the plasma surface, also tangential components. Though the motion of the plasma surface is qualitatively different: its velocity $v_s$ is not ultra relativistic for most of the times but smoothly approaches c only when the tangential electron momentum vanishes . The $\gamma$-factor of the surface $\gamma_s$ also shows specific behavior. It has sharp peaks at those times for which the velocity of the surface approaches c. When $v_s$ reaches its maximum and $\gamma_s$ has a sharp peak, high harmonics of the incident wave are generated and can be seen in the reflected radiation. Physically this means that the high harmonics are due to the collective motion of bunches of fast electrons moving towards the laser pulse.
 
@@ -57,7 +57,7 @@ $$
 where $\theta$ is the angle of incidence and $\omega_m$ is the mirror frequency (modulation frequency). The electric field of the reflected wave is given by
 
 $$
-E_R \propto e^{-i\omega_0 t}e^{i\phi(t)} =  e^{-i\omega_0 t} \sum _{n \to -\infty}^{n \to -\infty}J_n(\xi) e^{-i\omega_m t}
+E_R \propto e^{-i\omega_0 t}e^{i\phi(t)} =  e^{-i\omega_0 t} \sum _{n \to -\infty}^{n \to -\infty}J_n(\xi) e^{-in\omega_m t}
 $$
 
 where $J_n(\xi)$ is the Bessel function of order $n$ and $\xi =( 2\omega_0s_0/c)\cos\theta$.
