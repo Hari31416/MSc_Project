@@ -86,3 +86,63 @@ The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or
    $$
     S((2n+1)\omega_0) = (\pi E_0)^2\left(\frac{J_{n-1}(\frac{1}{2}(n+1)\xi)}{\frac{1}{2}(n+1)}- \frac{J_{n+1}\frac{1}{2}((n-1)\xi)}{\frac{1}{2}(n-1)}\right)^2
    $$
+
+## Universal Spectra
+
+### Ideal mirror is not possible
+
+The ‘‘ideal mirror’’ boundary condition implies zero tangential components of the vector potential at the mirror surface. As a consequence, when the ideal mirror moves with $\gamma >>1$ toward a laser pulse with the electric field $E_l$ and duration $\tau$, then the reflected pulse acquires the electric field $E_{refl} \propto \gamma^2 E_l$ and the duration $\tau_{refl} \propto \tau\gamma^2$ . Consequently, the energy of the reflected pulse must be $\gamma^2$ times higher than that of the incident one. However, as the plasma surface is driven by the same laser pulse, this scaling is energetically prohibited, and the plasma cannot serve as an ‘‘ideal mirror.’’ Indeed, the ideal mirror must support a surface current $J_m \propto (eN_c \gamma ac^2/ \omega)$ growing with the $\gamma$ factor. A realistic plasma surface does not provide such a current and the boundary condition must be changed.
+
+### Solution
+
+The boundary condition gives:
+
+$$
+E_r \left[t', X(t') \right] = -E_i \left[t', X(t') \right]
+$$
+
+Where
+
+$$
+t = t' - X(t')
+$$
+
+is the retardation relation
+
+No assumaption about the form of $X(t)$ is made. apart from it being a periodic function. They used the method of steepest descent to find the solution. This gave the cutoff.
+
+### The Power Law and Decay
+
+The power is
+
+$$
+I_n \propto 1/n^{5/2}
+$$
+
+for monochromatic wave and
+
+$$
+I_n \propto 1/n^{3}
+$$
+
+for broadband wave.
+
+While the cutoff is:
+
+$$
+n_c \propto 4\gamma_{\max}^2
+$$
+
+[Relativistic Doppler Effect: Universal Spectra and Zeptosecond Pulses](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.93.115002)
+
+## Doppler Shift Due to Moving Mirror
+
+The change in frequency follows:
+
+$$
+f = f_0 \frac{1-2\frac{v}{c}\cos \alpha + \frac{v^2}{c^2}}{1 - \frac{v^2}{c^2}}
+$$
+
+where $\alpha$ is the angle made by the incident light. This transforms to the usual frequency shift for normal incident when $\alpha = 0$.
+
+[The Doppler effect from a uniformly moving mirror](https://arxiv.org/pdf/physics/0409014.pdf)
