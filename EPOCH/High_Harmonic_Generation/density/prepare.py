@@ -1,5 +1,6 @@
 import os
 
+
 def main():
     runs = list(range(1, 15))
     densities = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20, 25]
@@ -17,9 +18,10 @@ def main():
 
         with open(file_name, "w") as file:
             file.write(text)
-        
+
         with open(deck_file, "w") as file:
             file.write(".")
+
 
 if __name__ == "__main__":
     main()

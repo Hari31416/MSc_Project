@@ -3,3 +3,5 @@ lib
 __pycache__
 *.sdf
 .fuse_hidden*
+epoch1d.dat
+normal.visit

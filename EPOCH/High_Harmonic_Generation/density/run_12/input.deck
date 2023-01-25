@@ -21,16 +21,16 @@ begin:constant
 end:constant
 
 begin:control
-  nx = 16000
+  nx = 21000
 
   # Final time of simulation
   t_end = 40*tau
 
   # Size of domain
   x_min = -20*lambda0
-  x_max = -x_min
+  x_max = 10*lambda0
 
-  stdout_frequency = 10
+  stdout_frequency = 1000
 end:control
 
 
@@ -64,7 +64,7 @@ begin:output
   name = normal
 
   # Simulated time between output dumps
-  dt_snapshot = 0.08 * femto
+  dt_snapshot = 0.06 * femto
 
   # px = always
   # py = always
@@ -73,9 +73,9 @@ begin:output
   
   # Properties on grid
   grid = always
-  ex = always
+  # ex = always
   ey = always
-  ez = always
+  # ez = always
   # bx = always
   # by = always
   # bz = always

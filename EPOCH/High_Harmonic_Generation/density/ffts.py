@@ -39,7 +39,7 @@ def main(DATA_DIR, FILE_NAME=None):
     FACTOR = int(find_value("factor"))
     NX = int(find_value("nx"))
     X_MIN = -int(find_value("x_min"))
-    X_MAX = int(find_value("x_max"))
+    # X_MAX = int(find_value("x_max"))
 
     if FILE_NAME is None:
         FILE_NAME = FACTOR
@@ -132,7 +132,6 @@ def main(DATA_DIR, FILE_NAME=None):
     plt.colorbar(cmap=cmap)
     plt.savefig(f"images/density_{FILE_NAME}.png", dpi=300)
 
-
     Et0 = Et0 / np.max(Et0)
     Et1 = Et1 / np.max(Et1)
     Et2 = Et2 / np.max(Et2)
@@ -188,6 +187,7 @@ def main(DATA_DIR, FILE_NAME=None):
     plt.title("Reflected Node 8000")
     plt.ylim(0.1, 1e3)
     plt.savefig(f"images/node8000_{FILE_NAME}.png", dpi=300)
+
 
 if __name__ == "__main__":
     main(sys.argv[1])

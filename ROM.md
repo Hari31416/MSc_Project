@@ -34,6 +34,8 @@ $$
 I_n \propto 1/n^{8/3}
 $$
 
+[Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma](https://www.researchgate.net/publication/6644474_Theory_of_high-order_harmonic_generation_in_relativistic_laser_interaction_with_overdense_plasma)
+
 ## Oscillating Mirror Model
 
 The interaction with light generates some periodic motion of the plasma in response to the electromagnetic forces. It is assumed that the duration of the light pulse is sufficiently short so that the motion of the ions may be neglected. The ions are treated as a fixed positive background charge.
@@ -72,7 +74,7 @@ The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or
 #### s and p polarized light
 
 - _p-polarized light_: The electric and the magnetic field are, respectively, parallel and perpendicular to the plane of incidence. The electrons move in the plane of incidence. The electron boundary is driven at frequencies $\omega_0$ and $2\omega_0$ , because both the transverse and the longitudinal component of the electron velocity contribute to the motion of the boundary. It follows that in this case both even and odd harmonics with polarization are generated.
-- _s-polraized light_: The electric field is parallel to the plasma—vacuum interface. The electrons move in a plane perpendicular to the plane of incidence. In this configuration only the longitudinal component contributes, while the transverse component of the electron motion is ineffective. The normal motion of the mirror is driven at one frequency only, $\omega_m = 2\omega_0$ . It follows that the reflected light is composed of s-polarized odd harmonics. There are no s-polarized even harmonics.
+- _s-polarized light_: The electric field is parallel to the plasma—vacuum interface. The electrons move in a plane perpendicular to the plane of incidence. In this configuration only the longitudinal component contributes, while the transverse component of the electron motion is ineffective. The normal motion of the mirror is driven at one frequency only, $\omega_m = 2\omega_0$ . It follows that the reflected light is composed of s-polarized odd harmonics. There are no s-polarized even harmonics.
 
 #### Spectral Intensity Distribution
 
@@ -84,14 +86,18 @@ The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or
 
 2. For a p-polarized fundamental wave we have. $\omega_m = \omega_0$ and $\omega_m = 2 \omega_0$
    $$
-    S((2n+1)\omega_0) = (\pi E_0)^2\left(\frac{J_{n-1}(\frac{1}{2}(n+1)\xi)}{\frac{1}{2}(n+1)}- \frac{J_{n+1}\frac{1}{2}((n-1)\xi)}{\frac{1}{2}(n-1)}\right)^2
+    S(n\omega_0) = (\pi E_0)^2\left(\frac{J_{n-1}(\frac{1}{2}(n+1)\xi)}{\frac{1}{2}(n+1)}- \frac{J_{n+1}\frac{1}{2}((n-1)\xi)}{\frac{1}{2}(n-1)}\right)^2
    $$
+
+We see that the spectrum depends only on $\xi$ where $\xi =( 2\omega_0s_0/c)\cos\theta$. The amplitude $s_0$ is bounded so that the velocity deos not exceed speed of light, that is $s_0<c/\omega_m$. For s-polarization, as $\omega_ = 2\omega_0$, we have $\xi < \cos \theta$. Further, for normal incident $\xi>1$.
+
+[High-order optical harmonic generation from solid surfaces](https://www.researchgate.net/publication/227076835_High-order_optical_harmonic_generation_from_solid_surfaces)
 
 ## Universal Spectra
 
 ### Ideal mirror is not possible
 
-The ‘‘ideal mirror’’ boundary condition implies zero tangential components of the vector potential at the mirror surface. As a consequence, when the ideal mirror moves with $\gamma >>1$ toward a laser pulse with the electric field $E_l$ and duration $\tau$, then the reflected pulse acquires the electric field $E_{refl} \propto \gamma^2 E_l$ and the duration $\tau_{refl} \propto \tau\gamma^2$ . Consequently, the energy of the reflected pulse must be $\gamma^2$ times higher than that of the incident one. However, as the plasma surface is driven by the same laser pulse, this scaling is energetically prohibited, and the plasma cannot serve as an ‘‘ideal mirror.’’ Indeed, the ideal mirror must support a surface current $J_m \propto (eN_c \gamma ac^2/ \omega)$ growing with the $\gamma$ factor. A realistic plasma surface does not provide such a current and the boundary condition must be changed.
+The 'ideal mirror' boundary condition implies zero tangential components of the vector potential at the mirror surface. As a consequence, when the ideal mirror moves with $\gamma >>1$ toward a laser pulse with the electric field $E_l$ and duration $\tau$, then the reflected pulse acquires the electric field $E_{refl} \propto \gamma^2 E_l$ and the duration $\tau_{refl} \propto \tau\gamma^2$ . Consequently, the energy of the reflected pulse must be $\gamma^2$ times higher than that of the incident one. However, as the plasma surface is driven by the same laser pulse, this scaling is energetically prohibited, and the plasma cannot serve as an 'ideal mirror.' Indeed, the ideal mirror must support a surface current $J_m \propto (eN_c \gamma ac^2/ \omega)$ growing with the $\gamma$ factor. A realistic plasma surface does not provide such a current and the boundary condition must be changed.
 
 ### Solution
 
@@ -146,3 +152,31 @@ $$
 where $\alpha$ is the angle made by the incident light. This transforms to the usual frequency shift for normal incident when $\alpha = 0$.
 
 [The Doppler effect from a uniformly moving mirror](https://arxiv.org/pdf/physics/0409014.pdf)
+
+## Naive Moving Mirror Model
+
+It is reasonable to assume that there is no significant absorption in the target and that the reflection of the pulse is perfect. Such assumption is equivalent to treating the oscillating surface as the surface of a perfect conductor and to adopting the corresponding boundary conditions in Maxwell equations.
+
+The motion of the surface corresponds to the motion of the electrons in the layer in the direction perpendicular to the surface. Thus this motion combines the effects of the Lorentz force, the relativistic mass correction, and the re- storing force in the x direction owing to plasma oscillations. Equations of motion for the mirror then read:
+
+$$
+\frac{d\mathbf{p}}{dt}
+ = q\mathbf{E}+\frac{q}{c}\mathbf{v}\times \mathbf{B} - m\omega_p^2x
+$$
+
+We define $\mathbf{u} = \gamma \mathbf{v}$. The non vanishing part of the above equations are:
+
+$$
+\begin{align*}
+\frac{du_x}{dt} &= \frac{q}{\gamma mc}u_yB_z(x,t) - \omega_p^2x\\
+\frac{du_y}{dt} &= \frac{q}{m}E_y(x, t) -\frac{q}{\gamma mc}u_xB_z(x,t)\\
+\end{align*}
+$$
+
+In the moving-mirror model we consider that all electrons move with exactly the same velocity and that all started from $s_x=0$. Therefore they constitute a plane that is oscillating according to the Lorentz and plasma forces. It is the moving mirror. The reflected field $E_R$ may be obtained from the requirement of vanishing of the total electric field at the electron surface $s_x(t)$,
+
+$$
+E_R[t-s_x(t)/c] + E_0 \cos[\omega_L(t + s_x(t)/c)] = 0
+$$
+
+[Generation of attosecond pulse trains during the reflection of a very intense laser on a solid surface](https://opg.optica.org/josab/fulltext.cfm?uri=josab-15-7-1904&id=35491)
