@@ -20,10 +20,10 @@ def main(DIR):
     times_are_nodes = False
     space_are_nodes = False
     vmax = min(FACTOR * 2, 20)
-    vmin = None
+    vmin = 0
 
     # Plotting density image
-    fig, ax = ez.plot_density_image(
+    fig1, ax1 = ez.plot_density_image(
         normalize=True,
         time_range=time_range,
         space_range=space_range,
@@ -38,9 +38,25 @@ def main(DIR):
         # title=f"Raw Density Factor: {FACTOR}",
     )
 
+    # # Plotting density image with same color scale
+    # fig2, ax2 = ez.plot_density_image(
+    #     normalize=True,
+    #     time_range=time_range,
+    #     space_range=space_range,
+    #     times_are_nodes=times_are_nodes,
+    #     space_are_nodes=space_are_nodes,
+    #     cmap="viridis",
+    #     aspect="auto",
+    #     show_fig=False,
+    #     vmax=20,
+    #     vmin=0,
+    #     # file_name=f"density_raw_{FACTOR}.png",
+    #     # title=f"Raw Density Factor: {FACTOR}",
+    # )
+
     ## Potting the envelope lines
-    Ts = np.linspace(ax.get_ylim()[0], ax.get_ylim()[1], ez.time_nodes.shape[0])
-    Xs = np.linspace(ax.get_xlim()[0], ax.get_xlim()[1], ez.space_nodes.shape[0])
+    Ts = np.linspace(ax1.get_ylim()[0], ax1.get_ylim()[1], ez.time_nodes.shape[0])
+    Xs = np.linspace(ax1.get_xlim()[0], ax1.get_xlim()[1], ez.space_nodes.shape[0])
     Ts = Ts[::-1]
 
     # Gradient
@@ -67,24 +83,45 @@ def main(DIR):
     # Mean
     mean = (0.5 * Xs[max_grad] + 1.5 * Xs[hilbert_points] + 3 * Xs[first]) / 5
 
-    # Plotting the lines on figure
-    ax.lines.clear()
-    ax.plot(Xs[max_grad], Ts, color="red", linewidth=1.5, label="Gradient")
-    ax.plot(Xs[first], Ts, color="black", linewidth=1.5, label="Threshold")
-    ax.plot(Xs[hilbert_points], Ts, color="green", linewidth=1.5, label="Hilbert")
-    ax.plot(mean, Ts, color="blue", linewidth=1.5, label="Mean")
-    ax.legend()
-    ax.set_title(f"Density with Envelopes Density: {FACTOR}")
-    fig.savefig(os.path.join(SAVE_DIR, f"density_{FACTOR}.png"))
+    # Plotting the lines on figure different scales
+    ax1.lines.clear()
+    ax1.plot(Xs[max_grad], Ts, color="red", linewidth=1.5, label="Gradient")
+    ax1.plot(Xs[first], Ts, color="black", linewidth=1.5, label="Threshold")
+    ax1.plot(Xs[hilbert_points], Ts, color="green", linewidth=1.5, label="Hilbert")
+    ax1.plot(mean, Ts, color="blue", linewidth=1.5, label="Mean")
+    ax1.legend()
+    ax1.set_title(f"Density with Envelopes Density: {FACTOR}")
+    fig1.savefig(os.path.join(SAVE_DIR, f"density_different_{FACTOR}.png"))
     plt.close()
 
-    # Plotting just the threshold line on figure
-    ax.lines.clear()
-    ax.plot(Xs[first], Ts, color="black", linewidth=1.5, label="Threshold")
-    ax.legend()
-    ax.set_title(f"Density with Envelopes Density: {FACTOR}")
-    fig.savefig(os.path.join(SAVE_DIR, f"density_just_threshold_{FACTOR}.png"))
+    # Plotting just the threshold line on figure different scales
+    ax1.lines.clear()
+    ax1.plot(Xs[first], Ts, color="black", linewidth=1.5, label="Threshold")
+    ax1.legend()
+    ax1.set_title(f"Density with Envelopes Density: {FACTOR}")
+    fig1.savefig(
+        os.path.join(SAVE_DIR, f"density_just_threshold_difference_{FACTOR}.png")
+    )
     plt.close()
+
+    # Plotting the lines on figure same scales
+    # ax2.lines.clear()
+    # ax2.plot(Xs[max_grad], Ts, color="red", linewidth=1.5, label="Gradient")
+    # ax2.plot(Xs[first], Ts, color="black", linewidth=1.5, label="Threshold")
+    # ax2.plot(Xs[hilbert_points], Ts, color="green", linewidth=1.5, label="Hilbert")
+    # ax2.plot(mean, Ts, color="blue", linewidth=1.5, label="Mean")
+    # ax2.legend()
+    # ax2.set_title(f"Density with Envelopes Density: {FACTOR}")
+    # fig2.savefig(os.path.join(SAVE_DIR, f"density_same_{FACTOR}.png"))
+    # plt.close()
+
+    # # Plotting just the threshold line on figure same scales
+    # ax2.lines.clear()
+    # ax2.plot(Xs[first], Ts, color="black", linewidth=1.5, label="Threshold")
+    # ax2.legend()
+    # ax2.set_title(f"Density with Envelopes Density: {FACTOR}")
+    # fig2.savefig(os.path.join(SAVE_DIR, f"density_just_threshold_same_{FACTOR}.png"))
+    # plt.close()
 
     # PLotting the gradient line
     plt.figure()

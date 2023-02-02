@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1667346068.814          
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1675172943.286          
 
 Deck state:  1
 
@@ -8,7 +8,7 @@ Deck state:  1
  	Element omega0=2 * pi * c / lambda0 handled OK
  	Element tau=lambda0/c handled OK
  	Element las_time=20*tau handled OK
- 	Element half=las_time/2 handled OK
+ 	Element fwhm=las_time handled OK
  	Element a0=0.5 handled OK
  	Element factor=4 handled OK
  	Element thickness=1*lambda0 handled OK
@@ -19,7 +19,12 @@ Deck state:  1
  	Element profile_x2=if((x gt start+thickness), 0.0, 1.0) handled OK
  	Element temp=50.0 handled OK
  	Element temperature_0=temp*qe/kb handled OK
- 	Element t_profile_1=if ((time lt half), time/las_time, if((time lt 2*half), 1-time/las_time, 0.0)) handled OK
+ 	Element w_0=5.0 * micron handled OK
+ 	Element x_spot=0 * micron handled OK
+ 	Element x_R=pi * w_0^2 / lambda0 handled OK
+ 	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
+ 	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
+ 	Element gouy=atan(x_spot/x_R) handled OK
 
  Ending "constant" block
 
@@ -56,7 +61,7 @@ Deck state:  1
  	Element boundary=x_min handled OK
  	Element intensity=a0*a0*1.37e22 handled OK
  	Element lambda=lambda0 handled OK
- 	Element t_profile=2*t_profile_1 handled OK
+ 	Element t_profile=if ((time lt las_time), (time^2*exp(-(time^2/fwhm^2))*0.5*(((time^2/fwhm^2)/2)^2 - 8*(time^2/fwhm^2) + 12), 0) handled OK
 
  Ending "laser" block
 
@@ -80,7 +85,7 @@ Deck state:  2
  	Element omega0=2 * pi * c / lambda0 handled OK
  	Element tau=lambda0/c handled OK
  	Element las_time=20*tau handled OK
- 	Element half=las_time/2 handled OK
+ 	Element fwhm=las_time handled OK
  	Element a0=0.5 handled OK
  	Element factor=4 handled OK
  	Element thickness=1*lambda0 handled OK
@@ -91,7 +96,12 @@ Deck state:  2
  	Element profile_x2=if((x gt start+thickness), 0.0, 1.0) handled OK
  	Element temp=50.0 handled OK
  	Element temperature_0=temp*qe/kb handled OK
- 	Element t_profile_1=if ((time lt half), time/las_time, if((time lt 2*half), 1-time/las_time, 0.0)) handled OK
+ 	Element w_0=5.0 * micron handled OK
+ 	Element x_spot=0 * micron handled OK
+ 	Element x_R=pi * w_0^2 / lambda0 handled OK
+ 	Element RC=x_spot * (1.0 + (x_R/x_spot)^2) handled OK
+ 	Element w_bnd=w_0 * sqrt( 1.0 + (x_spot/x_R)^2) handled OK
+ 	Element gouy=atan(x_spot/x_R) handled OK
 
  Ending "constant" block
 
@@ -128,7 +138,7 @@ Deck state:  2
  	Element boundary=x_min handled OK
  	Element intensity=a0*a0*1.37e22 handled OK
  	Element lambda=lambda0 handled OK
- 	Element t_profile=2*t_profile_1 handled OK
+ 	Element t_profile=if ((time lt las_time), (time^2*exp(-(time^2/fwhm^2))*0.5*(((time^2/fwhm^2)/2)^2 - 8*(time^2/fwhm^2) + 12), 0) handled OK
 
  Ending "laser" block
 

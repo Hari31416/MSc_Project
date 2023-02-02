@@ -5,6 +5,7 @@ begin:constant
   omega0 = 2 * pi * c / lambda0
   tau = lambda0/c
   las_time = 20*tau
+  fwhm = las_time
   a0 = 0.5
 
   # Plasma parameters
@@ -67,9 +68,9 @@ begin:laser
   boundary = x_min
   intensity = a0*a0*1.37e22
   lambda = lambda0
-  t_profile = if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0)
 
- # t_profile = if ((time lt las_time), exp((-(time-0.5*las_time)*(time-0.5*las_time))/(2*las_time*las_time*0.15*0.15)), 0)
+  # t_profile = if ((time lt las_time), exp((-(time-0.5*las_time)*(time-0.5*las_time))/(2*las_time*las_time*0.15*0.15)), 0)
+  t_profile = if ((time lt las_time), (time^2*exp(-(time^2/fwhm^2))*0.5*(((time^2/fwhm^2)/2)^2 - 8*(time^2/fwhm^2) + 12), 0)
 end:laser
 
 
