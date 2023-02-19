@@ -16,7 +16,7 @@ $$
 n_{\max}^2 = n_p/n_c
 $$
 
-They demonstrated that the "principal source of high-harmonic emission is the strong non linear restoring force" which exists when resonant absorption occurs in a highlt steep density profile.
+They demonstrated that the "principal source of high-harmonic emission is the strong non linear restoring force" which exists when resonant absorption occurs in a highly steep density profile.
 
 ### Moving Mirror Model
 

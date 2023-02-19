@@ -124,6 +124,8 @@ Polarization Angle: {POL_ANGLE}
 
 
 if __name__ == "__main__":
+    file_dir = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(file_dir)
     dirs = glob.glob("run_*")
     dirs = [dir for dir in dirs if os.path.isdir(dir)]
     dirs = sorted(dirs)

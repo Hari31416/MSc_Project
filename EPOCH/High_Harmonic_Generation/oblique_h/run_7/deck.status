@@ -1,4 +1,4 @@
- EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1676791522.490          
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1676788366.426          
 
 Deck state:  1
 
@@ -61,6 +61,7 @@ Deck state:  1
  	Element boundary=x_min handled OK
  	Element intensity=a0*a0*1.37e22*beta^2 handled OK
  	Element lambda=lambda handled OK
+ 	Element polarisation=90 handled OK
  	Element t_profile=if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0) handled OK
 
  Ending "laser" block
@@ -138,6 +139,7 @@ Deck state:  2
  	Element boundary=x_min handled OK
  	Element intensity=a0*a0*1.37e22*beta^2 handled OK
  	Element lambda=lambda handled OK
+ 	Element polarisation=90 handled OK
  	Element t_profile=if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0) handled OK
 
  Ending "laser" block

@@ -8,7 +8,7 @@ from tqdm import tqdm
 from style import *
 from tabulate import tabulate
 
-plt.rcParams["font.size"] = 14
+plt.rcParams["font.size"] = 20
 plt.rcParams["figure.figsize"] = (10, 8)
 
 c = 299792458
@@ -153,23 +153,18 @@ def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
         fft_y = np.abs(fft_y) / max(np.abs(fft_y))
 
         plt.figure()
-        # plt.plot(omegas / omega_m, fft_x, label="Ex")
-        plt.plot(omegas / omega_m, fft_y / np.max(fft_y), label="$E_y$")
-        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), label="$E_x$")
-        plt.xlabel(r"$\omega [\omega_m]$")
-        # plt.plot(omegas_l / omega_0, fft_x, label="Ex")
-        # plt.plot(omegas_l / omega_0, fft_y, label="Ey")
-        # plt.xlabel(r"$\omega [\omega_l]$")
-        plt.ylabel(r"Magnitude")
+        plt.plot(omegas / omega_m, fft_y / np.max(fft_y), "r", label="$E_y (p)$")
+        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), "b", label="$E_x (p)$")
+        plt.xlabel(r"$\omega [\omega_0]$")
+        plt.ylabel(r"Amplitude")
         plt.legend()
         plt.yscale("log")
         plt.xlim(0, 20)
-        x_ticks = np.arange(1, 21, 2)
-        lines = np.arange(1, 21, 2)
-        for line in lines:
-            plt.axvline(line, color="k", linestyle="--", alpha=1)
-        else:
-            plt.xticks(x_ticks)
+        x_ticks = np.arange(1, 21, 1)
+        plt.xticks(x_ticks)
+        plt.ylim(
+            1e-3,
+        )
 
         if file_name:
             plt.savefig(os.path.join(SAVE_DIR, f"{file_name}.png"))
@@ -192,29 +187,23 @@ def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
             Etx[i] = data.Electric_Field_Ex.data[8000]
 
         fft_z = np.fft.fftshift(np.fft.fft(Etz / (ErL * beta)))
-        # fft_z = np.abs(fft_z) / max(np.abs(fft_z * tan_factor))
         fft_z = np.abs(fft_z)
-        fft_x = np.fft.fftshift(np.fft.fft(Etx / ErL))
-        # fft_x = np.abs(fft_x) / max(np.abs(fft_x))
+        fft_x = np.fft.fftshift(np.fft.fft(Etx * tan_factor / ErL))
         fft_x = np.abs(fft_x)
 
         plt.figure()
-        plt.plot(omegas / omega_m, fft_z / np.max(fft_z), label="$E_z$")
-        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), label="$E_x$")
-        plt.xlabel(r"$\omega [\omega_m]$")
-        # plt.plot(omegas_l / omega_0, fft_x, label="Ex")
-        # plt.plot(omegas_l / omega_0, fft_y, label="Ey")
-        # plt.xlabel(r"$\omega [\omega_l]$")
-        plt.ylabel(r"$\mathcal{F}(E_y)$")
+        plt.plot(omegas / omega_m, fft_z / np.max(fft_z), "r", label="$E_z (s)$")
+        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), "b", label="$E_x (p)$")
+        plt.xlabel(r"$\omega [\omega_0]$")
+        plt.ylabel(r"Amplitude")
         plt.legend()
         plt.yscale("log")
         plt.xlim(0, 20)
         x_ticks = np.arange(1, 21, 1)
-        lines = np.arange(1, 21, 1)
-        for line in lines:
-            plt.axvline(line, color="k", linestyle="--", alpha=1)
-        else:
-            plt.xticks(x_ticks)
+        plt.xticks(x_ticks)
+        plt.ylim(
+            1e-3,
+        )
 
         if file_name:
             plt.savefig(os.path.join(SAVE_DIR, f"{file_name}.png"))
@@ -237,8 +226,13 @@ if __name__ == "__main__":
     dirs = glob.glob("run_*")
     dirs = [dir for dir in dirs if os.path.isdir(dir)]
     dirs = sorted(dirs)
-    # for dir in dirs:
-    #     cprint(f"Plotting {dir}", "red")
-    #     plot(data_dir=dir, show_fig=False, file_name=f"fft_{dir}", save_dir="images")
-    # plot(dirs[-1], show_fig=True, file_name=f"fft_{dirs[-1]}", save_dir="images")
-    plot("run_3")
+    for dir in ["run_3", "run_5"]:
+        cprint(f"Plotting {dir}", "red")
+        plot(data_dir=dir, show_fig=False, file_name=f"f_fft_{dir}", save_dir="images")
+    # plot(
+    #     data_dir=dirs[-1],
+    #     show_fig=False,
+    #     file_name=f"f_fft_{dirs[-1]}",
+    #     save_dir="images",
+    # )
+    # plot(dirs[0])
