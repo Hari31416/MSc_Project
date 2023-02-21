@@ -3,7 +3,8 @@
 \usepackage{indentfirst}
 \usepackage[sorting=none]{biblatex}
 % Use geometry to reduce the vertical margin
-\usepackage[top=2.0cm, bottom=2.0cm, left=2.0cm, right=2.0cm]{geometry}
+% \usepackage[top=2.0cm, bottom=2.0cm, left=2.0cm, right=2.0cm]{geometry}
+\usepackage[top=1.7cm, bottom=1.7cm, left=1.5cm, right=1.5cm]{geometry}
 \bibliography{refs}
 \title{Plasma Mirrors}
 \author{Harikesh}
@@ -62,7 +63,7 @@ The study of how light interacts with matter at extremely high intensity levels,
 
 When a laser pulse is incident upon plasma, it reflects if the density of plasma is high, forming PM. Upon reflection from plasma the laser field, because of pondermotive force, propels a relativistic oscillation of the PM which results in periodic temporal compression of the reflected field. These oscillations results in generation of high harmonics of the incident laser frequency.\cite{lichters} Experimental demonstrations have shown the generation of high harmonics up to the 141st order of Nd glass laser \cite{hormonics1}, 109th order of Ti sapphire laser \cite{hormonics2}, and 37th order of krypton fluoride laser \cite{hormonics3}.
 
-To begin, a concise explanation of high harmonic generation is provided, including its occurrence in both gases \cite{gas-main}\cite{gas-second} and plasma \cite{hhg-relativistic}\cite{hhg-main}\cite{hhg-second}\cite{history-similarity}\cite{universal-spectra}. The focus then shifts to the generation of harmonics of an incident laser pulse through interaction with an overdense plasma layer at a step boundary, under the influence of a high-intensity laser pulse. The impact of the laser pulse envelope, super Gaussian (SG) with different rank $p$, on the resulting high harmonics is explored. Previously, simulations involving normal laser incidence revealed that only odd harmonics were generated. However, in this study, various polarization and oblique incidences of laser light are simulated, resulting in the generation of both odd and even harmonics. For this, fully relativistic particle-in-cell simulations are performed using \textit{EPOCH}\cite{EPOCH}.
+To begin, a concise explanation of high harmonic generation is provided, including its occurrence in both gases \cite{gas-main}\cite{gas-second}\cite{hhg-book} and plasma \cite{hhg-relativistic}\cite{hhg-main}\cite{hhg-second}\cite{history-similarity}\cite{universal-spectra}. The focus then shifts to the generation of harmonics of an incident laser pulse through interaction with an overdense plasma layer at a step boundary, under the influence of a high-intensity laser pulse. The impact of the laser pulse envelope, super Gaussian (SG) with different rank $p$, on the resulting high harmonics is explored. Previously, simulations involving normal laser incidence revealed that only odd harmonics were generated. However, in this study, various polarization and oblique incidences of laser light are simulated, resulting in the generation of both odd and even harmonics. For this, fully relativistic particle-in-cell simulations are performed using \textit{EPOCH}\cite{EPOCH}.
 
 \section{Methodology}
 \subsection{Theory}
@@ -71,29 +72,49 @@ High harmonic generation (HHG) is an optical phenomenon that involves nonlinear 
 We'll start be a brief overview of the theory of HHG in gases, followed by a discussion of HHG in plasma.
 
 \subsection{HHG in Gases}
-% \begin{minipage}{0.45\textwidth}\raggedright
-%     % \centering
-%     \includegraphics[width=0.95\textwidth]{images/three_step_one.png}
-%     % \caption{The Three Step Model}
-%     \label{fig:3-step-1}
-% \end{minipage}
-% \begin{minipage}{0.45\textwidth}\raggedleft
-%     % \centering
-%     \includegraphics[width=0.95\textwidth]{images/three_step_two.png}
-%     % \caption{The Three Step Model}
-%     \label{fig:3-step-2}
-% \end{minipage}
+HHG in gases occur when an intense laser pulse is focused on gases. When the light photon interacts with atom of gases, Three types of ionization occurs depending on the frequency and intensity of the light: if the energy of photon is greater or just equal to the atom ionization potential, then photon ionization occurs. If energy of laser is lss than the atom ionization potential then multiphoton ionization and tunneling ionization occur. Multiphoton and tunneling ionization are two limiting cases of the universal process of nonlinear ionization and this process is determined by three parameters: the laser frequency \(\omega\) , the amplitude of the laser field strength $F$, and the atomic ionization potential \(I_p\).
+
+\begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \item \textbf{In the multiphoton limit} the ionization rate depends on the field strength according to the power law: \[\Omega = F^{2K}\] where K = \textless{}\(I_p\)/\(\Omega\) +1\textgreater{} is the number of absorbed photons
+    \item \textbf{In the tunneling limit} the ionization rate increases exponentially with the field strength \[\Omega \propto  \exp(-2(2I_p)^{3/2}/3F)\]
+\end{enumerate}
+
+Delone et al \cite{gas-second} showed that the boundary between multiphoton and tunneling ionization is determined by the value of the adiabaticity parameter:
+\begin{equation}
+    \label{eq:adiabatic}
+    \gamma =\Omega \sqrt{2I_p/F}
+\end{equation}
+\noindent
+$\gamma^2 \gg 1$ correspond to multiphoton ionization, realized at a relatively high frequency and low field strength of laser radiation. On the other hand, the values of $\gamma^2 \ll 1$  correspond to tunneling ionization, which is realized at a low frequency and high field strength.
+
+\subsubsection{Three Step Model}
+
+In the three-step model, the HHG is due to three steps:
+\begin{enumerate}
+    \item Tunnel ionization
+    \item Free propagation in the presence of the field
+    \item Recollision and recombination
+\end{enumerate}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/three_step_one.png}
-    \caption{The Three Step Model}
+    \caption{Three steps and fileds. The solid black line shows the binding potential well on its own. Gree line is the potential due to laser field and the solid blue line shows the potential created by the instantaneous laser field and the binding potential well.  }
     \label{fig:3-step-1}
 \end{figure}
+
+According to this model the electron is initially treated quantum
+mechanically as it tunnel ionizes from the parent atom but then its
+subsequent dynamics are treated classically.
+
+The laser field, which we have assumed to be linearly polarized along the $x$ axis which means that the electric field is \(F(t) = -e_xFcos(\omega_L t)\). Its interaction with the laser field gives. \(\hat V_L t=-dF(t) = -qxF(t)=-xFcos(\omega_Lt)\), which means that this potential is proportional to $-x$. This is drawn in the figure \ref{fig:3-step-1} as green line. When this potential couples with the original potential well (in black line), the potential is deformed (the blue line), called barrier suppression. It is clear from the figure that this deformed potential can result in tunneling of electron.
+
+Once the electron tunnels, it is assumed to be born into the vacuum with zero initial velocity. It is subsequently accelerated by the laser beam's electric field. Half a cycle after ionization, the electron will reverse direction as the electric field changes its direction, and will accelerate back towards the parent nucleus. It will collide with the nucleus which is the recombination process. During recombination while the electron returns to its ground state, it can emit radiation of frequency which multiple of the laser intensity. This is how high harmonics are generated.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/three_step_two.png}
-    \caption{The Three Step Model}
+    \caption{The wavefuncntion of electrons (the red lines). Initially, it is in a potential well. While tunneling, the wave function decay exponentially. After the electron has tunneled through the barrier, it behaves like a free particle with a wavefuncntion specified by smaller amplitude.}
     \label{fig:3-step-2}
 \end{figure}
 
@@ -146,7 +167,7 @@ The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or
           \begin{figure}[h]
               \centering
               \includegraphics[width=1\textwidth]{images/p.png}
-              \caption{The electric and magnetic field of the incident light are, respectively, parallel and perpendicular to the plane of incidence. The electrons move in the plane of incidence.}
+              \caption{S-polarization. The electric and magnetic field of the incident light are, respectively, parallel and perpendicular to the plane of incidence. The electrons move in the plane of incidence.}
               \label{fig:p-polarized}
           \end{figure}
 
@@ -154,11 +175,13 @@ The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or
           \begin{figure}[h]
               \centering
               \includegraphics[width=1\textwidth]{images/s.png}
-              \caption{The electric field of the incident light is parallel to the plane of incidence. The electrons move in a plane perpendicular to the plane of incidence.}
+              \caption{P-polarization The electric field of the incident light is parallel to the plane of incidence. The electrons move in a plane perpendicular to the plane of incidence.}
               \label{fig:s-polarized}
           \end{figure}
 \end{itemize}
+
 \begin{table}[h]
+    \centering
     \caption{Polarization Selection Rule}
     \vspace{0.5cm}
     \label{tab:selection-rule}
@@ -227,7 +250,7 @@ For a p-polarization:
 A plot of the spectra is shown in the figure \ref{fig:spectrum}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\textwidth]{images/spectrum.png}
+    \includegraphics[width=0.9\textwidth, height=8cm]{images/spectrum.png}
     \caption{HHG spectrum for s and p polarization. The amplitudes of HHG is decreasing more rapidly for p-polarization that s-polarization}
     \label{fig:spectrum}
 \end{figure}
@@ -326,30 +349,35 @@ Note that the fiels amplitudes ar decreased by a factor of $\cos\alpha$ and henc
 \end{table}
 
 \section{Summary of Work Done in Previous Semester}
-Here is a brief summary of works done in the previous semester.
 
 \subsection{Till Previous Semester Minor}
 Our research primarily focused on studying plasma and its parameters. We then utilized the particle-in-cell algorithm to simulate the interaction between laser and both overdense and underdense plasma. Our findings revealed that the laser is reflected from overdense plasma, while underdense plasma acts as a transparent medium. We also investigated how plasma surface oscillation varies with changes in plasma density and laser intensity. Additionally, we observed that altering the laser intensity resulted in changes in the critical density for plasma.
 
 \subsection{Till Previous Semester Major}
-Following the minor presentation, our research shifted towards the study of high harmonic generation. This process involves the interaction between laser and plasma, which results in the generation of higher frequency harmonics of the incident laser radiation. To investigate this phenomenon, we performed a series of simulations, focusing on how various plasma and laser parameters affect the generated high harmonics.
+Following the minor presentation, our research shifted towards the study of high harmonic generation. This process involves the interaction between laser and plasma, which results in the generation of higher frequency harmonics of the incident laser radiation. To investigate this phenomenon, we performed a series of simulations, focusing on how various plasma and laser parameters affect the generated high harmonics. Our simulations involved examining the effects of parameters such as plasma density, laser intensity, laser envelope, and laser pulse length on high harmonic generation. By systematically varying these parameters, we were able to gain a more complete understanding of the underlying physics of high harmonic generation. In particular, we were interested in understanding how the properties of the plasma affect the generation of high harmonics.
 
-Our simulations involved examining the effects of parameters such as plasma density, laser intensity, laser envelope, and laser pulse length on high harmonic generation. By systematically varying these parameters, we were able to gain a more complete understanding of the underlying physics of high harmonic generation. In particular, we were interested in understanding how the properties of the plasma affect the generation of high harmonics.
-
-In addition to our study of plasma and laser parameters, we also extended our investigation to include the study of surface oscillation. Specifically, we aimed to understand the frequency of these oscillations and how they relate to the generation of high harmonics. Through our simulations, we found that only odd harmonics are generated in the reflected wave under normal incidence, while even harmonics are generated through the oscillation of the surface. We also observed a resonance at $n_0/n_c = 4$. We found that the envelopes had no significant effect on the outcome of our experiments.
+In addition to our study of plasma and laser parameters, we also extended our investigation to include the study of surface oscillation. Specifically, we aimed to understand the frequency of these oscillations and how they relate to the generation of high harmonics. Through our simulations, we found that only odd harmonics are generated in the reflected wave under normal incidence, while even harmonics are generated through the oscillation of the surface. We also observed a resonance at $n_0/n_c = 4$. We found that the envelopes had no significant effect on HHG.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth, height=8.5cm]{images/sg_2.png}
+    \caption{The spectrum of SG envelopes with power 2,4,6, and 8 is shown in a sigle plot. A small increase in the peak amplitude is observed with increasing power.}
+    \label{fig:sg}
+\end{figure}
 
 \section{Results and Discussion}
 \subsection{Super Gaussian Envelope}
-The SG envelope, given by equation \ref{eq:sg} has different area for different $p$ and hence has different energy for the same given intensity. To mitigate this, the simulation is performed by multiplying the given intensity to the pulse such that the total energy of all the pulses are the same. This is done by taking a reference SG beam (we have used $p=2$), evaluating its area and then normalizing the intensities of other SG pulses by ratio of this reference area and area of the corresponding SG envelope.
+The SG envelope, given by equation \ref{eq:sg} has different area for different $p$ and hence has different energy for the same given intensity. To mitigate this, the simulation is performed by multiplying the given intensity to the pulse such that the total energy of all the pulses are the same. This is done by taking a reference SG beam (we have used $p=2$), evaluating its area and then normalizing the intensities of other SG pulses by ratio of this reference area and area of the corresponding SG envelope. The spectrum of the HHG generated using laser pulse with SG envelopes with power 2, 4, 6, and 8 are shown in the figure \ref{fig:sg}. It is observed that a small increase the amplitude is followed with increasing power of the SG envelope.
 
 \subsection{p-Polarization}
-The figure \ref{fig:p-fft} shows the spectrum of HHG in L-frame, when p-polarized light is incident on the plasma. As discussed in section 2.4.1 (see that table \ref{tab:selection-rule}), the spectrum is made up of even and odd p-polarized harmonics. There are no s-polarized harmonics.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/p_fft.png}
     \caption{Spectrum of HHG for p-polarized light. Simulation parameters are $\alpha = \pi/6$, the denity is $n_0 = 7n_c$ and $a_0 = 4$}
     \label{fig:p-fft}
 \end{figure}
+
+The figure \ref{fig:p-fft} shows the spectrum of HHG in L-frame, when p-polarized light is incident on the plasma. As discussed in section 2.4.1 (see that table \ref{tab:selection-rule}), the spectrum is made up of even and odd p-polarized harmonics. There are no s-polarized harmonics.
+
 
 \subsection{s-Polarization}
 The L-frame spectrum of HHG is depicted in the diagram \ref{fig:s-fft}, with plasma being exposed to s-polarized light. As explained in section 2.4.1 (see that table \ref{tab:selection-rule}), the spectrum comprises of odd s-polarized harmonics and even p-polarized harmonics.

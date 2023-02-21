@@ -16,6 +16,8 @@ PI = np.pi
 pi = PI
 m = 9.10938356e-31
 e = 1.60217662e-19
+C1 = "#067802"
+C2 = "#1c84c9"
 
 
 def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
@@ -153,8 +155,8 @@ def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
         fft_y = np.abs(fft_y) / max(np.abs(fft_y))
 
         plt.figure()
-        plt.plot(omegas / omega_m, fft_y / np.max(fft_y), "r", label="$E_y (p)$")
-        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), "b", label="$E_x (p)$")
+        plt.plot(omegas / omega_m, fft_y / np.max(fft_y), color=C1, label="$E_y (p)$")
+        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), color=C2, label="$E_x (p)$")
         plt.xlabel(r"$\omega [\omega_0]$")
         plt.ylabel(r"Amplitude")
         plt.legend()
@@ -192,8 +194,8 @@ def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
         fft_x = np.abs(fft_x)
 
         plt.figure()
-        plt.plot(omegas / omega_m, fft_z / np.max(fft_z), "r", label="$E_z (s)$")
-        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), "b", label="$E_x (p)$")
+        plt.plot(omegas / omega_m, fft_z / np.max(fft_z), color=C1, label="$E_z (s)$")
+        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), color=C2, label="$E_x (p)$")
         plt.xlabel(r"$\omega [\omega_0]$")
         plt.ylabel(r"Amplitude")
         plt.legend()
@@ -228,7 +230,16 @@ if __name__ == "__main__":
     dirs = sorted(dirs)
     for dir in ["run_3", "run_5"]:
         cprint(f"Plotting {dir}", "red")
-        plot(data_dir=dir, show_fig=False, file_name=f"f_fft_{dir}", save_dir="images")
+        if dir == "run_3":
+            f_name = "p_fft"
+        else:
+            f_name = "s_fft"
+        plot(
+            data_dir=dir,
+            show_fig=False,
+            file_name=f_name,
+            save_dir="/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Major/images",
+        )
     # plot(
     #     data_dir=dirs[-1],
     #     show_fig=False,

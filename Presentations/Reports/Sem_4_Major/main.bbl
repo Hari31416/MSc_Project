@@ -390,6 +390,54 @@
       \verb https://dx.doi.org/10.1070/PU1998v041n05ABEH000393
       \endverb
     \endentry
+    \entry{hhg-book}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=c181a779f4949ff3a769fb9b6ae09b6f}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Kenichi\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2129f53df83ac6dbbe91a50eaa6ce14d}{%
+           family={Grishin},
+           familyi={G\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rijeka}%
+      }
+      \list{publisher}{1}{%
+        {IntechOpen}%
+      }
+      \strng{namehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{fullhash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{bibnamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{authorbibnamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{authornamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{authorfullhash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{editorbibnamehash}{2129f53df83ac6dbbe91a50eaa6ce14d}
+      \strng{editornamehash}{2129f53df83ac6dbbe91a50eaa6ce14d}
+      \strng{editorfullhash}{2129f53df83ac6dbbe91a50eaa6ce14d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Solid State Lasers}
+      \field{chapter}{19}
+      \field{title}{High-Harmonic Generation}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.5772/7961
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5772/7961
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5772/7961
+      \endverb
+    \endentry
     \entry{hhg-relativistic}{article}{}
       \name{author}{3}{}{%
         {{hash=3f74c83cb40811a41c3bfb647a428918}{%
@@ -417,8 +465,8 @@
       \strng{authorbibnamehash}{3f8f4782b500f9aab308d9b81749ef05}
       \strng{authornamehash}{3f8f4782b500f9aab308d9b81749ef05}
       \strng{authorfullhash}{3f8f4782b500f9aab308d9b81749ef05}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -712,54 +760,6 @@
       \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
       \endverb
     \endentry
-    \entry{hhg-book}{incollection}{}
-      \name{author}{1}{}{%
-        {{hash=c181a779f4949ff3a769fb9b6ae09b6f}{%
-           family={Ishikawa},
-           familyi={I\bibinitperiod},
-           given={Kenichi\bibnamedelima L.},
-           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=2129f53df83ac6dbbe91a50eaa6ce14d}{%
-           family={Grishin},
-           familyi={G\bibinitperiod},
-           given={Mikhail},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Rijeka}%
-      }
-      \list{publisher}{1}{%
-        {IntechOpen}%
-      }
-      \strng{namehash}{c181a779f4949ff3a769fb9b6ae09b6f}
-      \strng{fullhash}{c181a779f4949ff3a769fb9b6ae09b6f}
-      \strng{bibnamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
-      \strng{authorbibnamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
-      \strng{authornamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
-      \strng{authorfullhash}{c181a779f4949ff3a769fb9b6ae09b6f}
-      \strng{editorbibnamehash}{2129f53df83ac6dbbe91a50eaa6ce14d}
-      \strng{editornamehash}{2129f53df83ac6dbbe91a50eaa6ce14d}
-      \strng{editorfullhash}{2129f53df83ac6dbbe91a50eaa6ce14d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Solid State Lasers}
-      \field{chapter}{19}
-      \field{title}{High-Harmonic Generation}
-      \field{year}{2010}
-      \verb{doi}
-      \verb 10.5772/7961
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.5772/7961
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.5772/7961
-      \endverb
-    \endentry
     \entry{2d-transformation}{article}{}
       \name{author}{1}{}{%
         {{hash=04240c1673f337b4f5d060455e1bd86b}{%
@@ -787,9 +787,6 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1063/1.864355
-      \endverb
-      \verb{eprint}
-      \verb https://aip.scitation.org/doi/pdf/10.1063/1.864355
       \endverb
       \verb{urlraw}
       \verb https://aip.scitation.org/doi/abs/10.1063/1.864355

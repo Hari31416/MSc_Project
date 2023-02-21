@@ -707,6 +707,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT ./images/three_step_one.png
 INPUT ./images/three_step_one.png
 INPUT images/three_step_one.png
@@ -740,6 +744,11 @@ INPUT ./images/frames.png
 INPUT ./images/frames.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT ./images/sg_2.png
+INPUT ./images/sg_2.png
+INPUT images/sg_2.png
+INPUT ./images/sg_2.png
+INPUT ./images/sg_2.png
 INPUT ./images/p_fft.png
 INPUT ./images/p_fft.png
 INPUT images/p_fft.png

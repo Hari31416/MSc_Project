@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  19 FEB 2023 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  21 FEB 2023 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -463,24 +463,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count413
@@ -500,7 +500,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -510,9 +510,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count419
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -530,8 +530,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -541,15 +541,15 @@ Package biblatex Info: Reference segment=0 on input line 22.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(48.36958pt, 698.23082pt, 48.36958pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=528.93675pt
+* \textheight=698.23082pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-60.9004pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -567,125 +567,112 @@ Package biblatex Info: Reference segment=0 on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=88, 195.73125pt x 199.49532pt>
+<logo.png, id=92, 195.73125pt x 199.49532pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 27.
+Package pdftex.def Info: logo.png  used on input line 28.
 (pdftex.def)             Requested size: 142.27036pt x 142.26973pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<images/three_step_one.png, id=112, 1754.555pt x 1025.8325pt>
-File: images/three_step_one.png Graphic file (type png)
-<use images/three_step_one.png>
-Package pdftex.def Info: images/three_step_one.png  used on input line 88.
-(pdftex.def)             Requested size: 400.38872pt x 234.08946pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/three_step_two.png, id=113, 1672.2475pt x 1028.84375pt>
-File: images/three_step_two.png Graphic file (type png)
-<use images/three_step_two.png>
-Package pdftex.def Info: images/three_step_two.png  used on input line 95.
-(pdftex.def)             Requested size: 400.38872pt x 246.331pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \begin{equation}
-                       [1] [2 <./images/three_step_one.png>]
-<images/p.png, id=149, 1927.2pt x 1084.05pt>
+l.79 ...ding to the power law: \[\Omega = F^{2K}\]
+                                                   where K = \textless{}\(I_... [1]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 79.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 79.
+<images/three_step_one.png, id=143, 1563.8425pt x 905.3825pt>
+File: images/three_step_one.png Graphic file (type png)
+<use images/three_step_one.png>
+Package pdftex.def Info: images/three_step_one.png  used on input line 101.
+(pdftex.def)             Requested size: 423.151pt x 244.9815pt.
+ [2 <./images/three_step_one.png>]
+<images/three_step_two.png, id=158, 1750.54pt x 970.62625pt>
+File: images/three_step_two.png Graphic file (type png)
+<use images/three_step_two.png>
+Package pdftex.def Info: images/three_step_two.png  used on input line 116.
+(pdftex.def)             Requested size: 423.151pt x 234.61383pt.
+ [3 <./images/three_step_two.png>]
+<images/p.png, id=170, 1927.2pt x 1084.05pt>
 File: images/p.png Graphic file (type png)
 <use images/p.png>
-Package pdftex.def Info: images/p.png  used on input line 148.
-(pdftex.def)             Requested size: 500.484pt x 281.51553pt.
- [3 <./images/three_step_two.png>]
-<images/s.png, id=163, 1927.2pt x 1084.05pt>
+Package pdftex.def Info: images/p.png  used on input line 169.
+(pdftex.def)             Requested size: 528.93675pt x 297.52745pt.
+ [4]
+<images/s.png, id=180, 1927.2pt x 1084.05pt>
 File: images/s.png Graphic file (type png)
 <use images/s.png>
-Package pdftex.def Info: images/s.png  used on input line 156.
-(pdftex.def)             Requested size: 500.484pt x 281.51553pt.
+Package pdftex.def Info: images/s.png  used on input line 177.
+(pdftex.def)             Requested size: 528.93675pt x 297.52745pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./images/p.png>] [5 <./images/s.png>]
-<images/spectrum.png, id=184, 1084.05pt x 722.7pt>
+[5 <./images/p.png>] [6 <./images/s.png>]
+<images/spectrum.png, id=203, 1084.05pt x 722.7pt>
 File: images/spectrum.png Graphic file (type png)
 <use images/spectrum.png>
-Package pdftex.def Info: images/spectrum.png  used on input line 230.
-(pdftex.def)             Requested size: 500.484pt x 333.65906pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6]
-<images/frames.png, id=206, 1927.2pt x 1084.05pt>
+Package pdftex.def Info: images/spectrum.png  used on input line 253.
+(pdftex.def)             Requested size: 476.04063pt x 227.61862pt.
+ [7 <./images/spectrum.png>]
+<images/frames.png, id=219, 1927.2pt x 1084.05pt>
 File: images/frames.png Graphic file (type png)
 <use images/frames.png>
-Package pdftex.def Info: images/frames.png  used on input line 269.
-(pdftex.def)             Requested size: 500.484pt x 281.51553pt.
+Package pdftex.def Info: images/frames.png  used on input line 292.
+(pdftex.def)             Requested size: 528.93675pt x 297.52745pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./images/spectrum.png>] [8 <./images/frames.png>] [9]
-<images/p_fft.png, id=232, 722.7pt x 578.16pt>
+[8] [9 <./images/frames.png>]
+<images/sg_2.png, id=242, 1421.31pt x 885.3075pt>
+File: images/sg_2.png Graphic file (type png)
+<use images/sg_2.png>
+Package pdftex.def Info: images/sg_2.png  used on input line 362.
+(pdftex.def)             Requested size: 449.60184pt x 241.84602pt.
+ [10 <./images/sg_2.png>]
+<images/p_fft.png, id=251, 722.7pt x 578.16pt>
 File: images/p_fft.png Graphic file (type png)
 <use images/p_fft.png>
-Package pdftex.def Info: images/p_fft.png  used on input line 349.
-(pdftex.def)             Requested size: 400.38872pt x 320.30916pt.
-<images/s_fft.png, id=235, 722.7pt x 578.16pt>
+Package pdftex.def Info: images/p_fft.png  used on input line 374.
+(pdftex.def)             Requested size: 423.151pt x 338.51778pt.
+<images/s_fft.png, id=256, 722.7pt x 578.16pt>
 File: images/s_fft.png Graphic file (type png)
 <use images/s_fft.png>
-Package pdftex.def Info: images/s_fft.png  used on input line 358.
-(pdftex.def)             Requested size: 400.38872pt x 320.30916pt.
- [10 <./images/p_fft.png>] [11 <./images/s_fft.png>]
-Overfull \hbox (9.00357pt too wide) in paragraph at lines 372--372
-\OT1/cmr/m/n/12 Plasma Mir-rors''. In: \OT1/cmr/m/it/12 Phys-i-cal Re-view Let-ters \OT1/cmr/m/n/12 123.10 (Sept. 2019). \OT1/cmr/m/sc/12 doi\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 10 . 1103 / physrevlett .
- []
-
-
-Overfull \hbox (11.34473pt too wide) in paragraph at lines 372--372
-\OT1/cmr/m/n/12 In: \OT1/cmr/m/it/12 Jour-nal of Mod-ern Op-tics \OT1/cmr/m/n/12 52.2-3 (2005), pp. 165{184. \OT1/cmr/m/sc/12 doi\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 10 . 1080 / 0950034042000275360$[]\OT1/cmr/m/n/12 .
- []
-
-
-Overfull \hbox (46.96832pt too wide) in paragraph at lines 372--372
-\OT1/cmtt/m/n/12 1070 / PU1998v041n05ABEH000393$[]\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : / / dx . doi . org / 10 . 1070 / PU1998v041n05ABEH000393$[]\OT1/cmr/m/n/12 . 
- []
-
-[12] [13] (./main.aux)
+Package pdftex.def Info: images/s_fft.png  used on input line 386.
+(pdftex.def)             Requested size: 423.151pt x 338.51778pt.
+ [11 <./images/p_fft.png>] [12 <./images/s_fft.png>] [13] [14] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FAF9043EB1E56E6E0AB4766C4DE8A282;3283.
+(rerunfilecheck)             Checksum: D8507C98810D58552BA87DED262D67DF;3437.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17602 strings out of 480171
- 306280 string characters out of 5894489
- 1011198 words of memory out of 5000000
- 35283 multiletter control sequences out of 15000+600000
+ 17640 strings out of 480171
+ 306848 string characters out of 5894489
+ 1012941 words of memory out of 5000000
+ 35308 multiletter control sequences out of 15000+600000
  477504 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,15n,68p,1125b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,15n,68p,1140b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hari31416/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (14 pages, 1245337 bytes).
+Output written on main.pdf (15 pages, 1462184 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

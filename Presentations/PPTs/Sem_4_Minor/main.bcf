@@ -2344,45 +2344,6 @@
     <bcf:datasource type="file" datatype="bibtex">refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">highintensity</bcf:citekey>
-    <bcf:citekey order="2">henri</bcf:citekey>
-    <bcf:citekey order="3">lichters</bcf:citekey>
-    <bcf:citekey order="4">hormonics1</bcf:citekey>
-    <bcf:citekey order="5">hormonics2</bcf:citekey>
-    <bcf:citekey order="6">hormonics3</bcf:citekey>
-    <bcf:citekey order="7">gas-main</bcf:citekey>
-    <bcf:citekey order="8">gas-second</bcf:citekey>
-    <bcf:citekey order="9">hhg-book</bcf:citekey>
-    <bcf:citekey order="10">hhg-relativistic</bcf:citekey>
-    <bcf:citekey order="11">hhg-main</bcf:citekey>
-    <bcf:citekey order="12">hhg-second</bcf:citekey>
-    <bcf:citekey order="13">history-similarity</bcf:citekey>
-    <bcf:citekey order="14">universal-spectra</bcf:citekey>
-    <bcf:citekey order="15">EPOCH</bcf:citekey>
-    <bcf:citekey order="16">hhg-book</bcf:citekey>
-    <bcf:citekey order="17">gas-second</bcf:citekey>
-    <bcf:citekey order="18">hhg-relativistic</bcf:citekey>
-    <bcf:citekey order="19">hhg-main</bcf:citekey>
-    <bcf:citekey order="20">hhg-main</bcf:citekey>
-    <bcf:citekey order="21">universal-spectra</bcf:citekey>
-    <bcf:citekey order="22">EPOCH</bcf:citekey>
-    <bcf:citekey order="23">2d-transformation</bcf:citekey>
-    <bcf:citekey order="24">highintensity</bcf:citekey>
-    <bcf:citekey order="25">henri</bcf:citekey>
-    <bcf:citekey order="26">lichters</bcf:citekey>
-    <bcf:citekey order="27">hormonics1</bcf:citekey>
-    <bcf:citekey order="28">hormonics2</bcf:citekey>
-    <bcf:citekey order="29">hormonics3</bcf:citekey>
-    <bcf:citekey order="30">gas-main</bcf:citekey>
-    <bcf:citekey order="31">gas-second</bcf:citekey>
-    <bcf:citekey order="32">hhg-book</bcf:citekey>
-    <bcf:citekey order="33">hhg-relativistic</bcf:citekey>
-    <bcf:citekey order="34">hhg-main</bcf:citekey>
-    <bcf:citekey order="35">hhg-second</bcf:citekey>
-    <bcf:citekey order="36">history-similarity</bcf:citekey>
-    <bcf:citekey order="37">universal-spectra</bcf:citekey>
-    <bcf:citekey order="38">EPOCH</bcf:citekey>
-    <bcf:citekey order="39">2d-transformation</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
@@ -2391,13 +2352,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>
