@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  22 FEB 2023 09:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  22 FEB 2023 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Major/main.tex
-(/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Major/main.tex
+**/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Minor/main.tex
+(/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Minor/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -440,67 +440,95 @@ Package biblatex Info: ... and expl3
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
-)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen154
+\captionmargin@=\dimen155
+\captionwidth=\dimen156
+\caption@tempdima=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count408
+\c@continuedfloat=\count409
+Package caption Info: hyperref package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip75
+\aftertitleunit=\skip76
+\ttl@plus=\dimen161
+\ttl@minus=\dimen162
+\ttl@toksa=\toks22
+\titlewidth=\dimen163
+\titlewidthlast=\dimen164
+\titlewidthfirst=\dimen165
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count408
-\Gm@cntv=\count409
-\c@Gm@tempcnt=\count410
-\Gm@bindingoffset=\dimen154
-\Gm@wd@mp=\dimen155
-\Gm@odd@mp=\dimen156
-\Gm@even@mp=\dimen157
-\Gm@layoutwidth=\dimen158
-\Gm@layoutheight=\dimen159
-\Gm@layouthoffset=\dimen160
-\Gm@layoutvoffset=\dimen161
-\Gm@dimlist=\toks22
+\Gm@cnth=\count410
+\Gm@cntv=\count411
+\c@Gm@tempcnt=\count412
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks23
 )
-\@quotelevel=\count411
-\@quotereset=\count412
+\c@subsubsubsection=\count413
+\@quotelevel=\count414
+\@quotereset=\count415
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count413
-\scratchdimen=\dimen162
-\scratchbox=\box53
-\nofMPsegments=\count414
-\nofMParguments=\count415
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count416
-\MPscratchDim=\dimen163
-\MPnumerator=\count417
-\makeMPintoPDFobject=\count418
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count416
+\scratchdimen=\dimen174
+\scratchbox=\box54
+\nofMPsegments=\count417
+\nofMParguments=\count418
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count419
+\MPscratchDim=\dimen175
+\MPnumerator=\count420
+\makeMPintoPDFobject=\count421
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -508,11 +536,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count419
+\c@section@level=\count422
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -530,8 +558,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -567,112 +597,107 @@ Package biblatex Info: Reference segment=0 on input line 23.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=92, 195.73125pt x 199.49532pt>
+<logo.png, id=88, 195.73125pt x 199.49532pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 28.
+Package pdftex.def Info: logo.png  used on input line 61.
 (pdftex.def)             Requested size: 142.27036pt x 142.26973pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 ...ding to the power law: \[\Omega = F^{2K}\]
-                                                   where K = \textless{}\(I_... [1]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 79.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 79.
-<images/three_step_one.png, id=143, 1563.8425pt x 905.3825pt>
+l.125 
+       [1]
+<images/three_step_one.png, id=141, 1563.8425pt x 905.3825pt>
 File: images/three_step_one.png Graphic file (type png)
 <use images/three_step_one.png>
-Package pdftex.def Info: images/three_step_one.png  used on input line 101.
-(pdftex.def)             Requested size: 423.151pt x 244.9815pt.
- [2 <./images/three_step_one.png>]
-<images/three_step_two.png, id=158, 1750.54pt x 970.62625pt>
+Package pdftex.def Info: images/three_step_one.png  used on input line 134.
+(pdftex.def)             Requested size: 370.2541pt x 214.35364pt.
+<images/three_step_two.png, id=143, 1750.54pt x 970.62625pt>
 File: images/three_step_two.png Graphic file (type png)
 <use images/three_step_two.png>
-Package pdftex.def Info: images/three_step_two.png  used on input line 116.
-(pdftex.def)             Requested size: 423.151pt x 234.61383pt.
- [3 <./images/three_step_two.png>]
-<images/p.png, id=170, 1927.2pt x 1084.05pt>
+Package pdftex.def Info: images/three_step_two.png  used on input line 147.
+(pdftex.def)             Requested size: 370.2541pt x 205.28896pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./images/three_step_one.png>] [3 <./images/three_step_two.png>]
+<images/p.png, id=165, 1927.2pt x 1084.05pt>
 File: images/p.png Graphic file (type png)
 <use images/p.png>
-Package pdftex.def Info: images/p.png  used on input line 169.
+Package pdftex.def Info: images/p.png  used on input line 194.
 (pdftex.def)             Requested size: 528.93675pt x 297.52745pt.
- [4]
-<images/s.png, id=180, 1927.2pt x 1084.05pt>
+ [4 <./images/p.png>]
+<images/s.png, id=178, 1927.2pt x 1084.05pt>
 File: images/s.png Graphic file (type png)
 <use images/s.png>
-Package pdftex.def Info: images/s.png  used on input line 177.
+Package pdftex.def Info: images/s.png  used on input line 204.
 (pdftex.def)             Requested size: 528.93675pt x 297.52745pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./images/p.png>] [6 <./images/s.png>]
-<images/spectrum.png, id=203, 1084.05pt x 722.7pt>
+ [5 <./images/s.png>]
+<images/spectrum.png, id=190, 1300.86pt x 722.7pt>
 File: images/spectrum.png Graphic file (type png)
 <use images/spectrum.png>
-Package pdftex.def Info: images/spectrum.png  used on input line 253.
-(pdftex.def)             Requested size: 476.04063pt x 227.61862pt.
- [7 <./images/spectrum.png>]
-<images/frames.png, id=219, 1927.2pt x 1084.05pt>
+Package pdftex.def Info: images/spectrum.png  used on input line 267.
+(pdftex.def)             Requested size: 449.59117pt x 199.16766pt.
+ [6 <./images/spectrum.png>] [7]
+<images/frames.png, id=220, 1927.2pt x 1084.05pt>
 File: images/frames.png Graphic file (type png)
 <use images/frames.png>
-Package pdftex.def Info: images/frames.png  used on input line 292.
+Package pdftex.def Info: images/frames.png  used on input line 324.
 (pdftex.def)             Requested size: 528.93675pt x 297.52745pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9 <./images/frames.png>]
-<images/sg_2.png, id=242, 1421.31pt x 885.3075pt>
+ [8 <./images/frames.png>]
+<images/intensity.jpg, id=231, 1806.75pt x 867.24pt>
+File: images/intensity.jpg Graphic file (type jpg)
+<use images/intensity.jpg>
+Package pdftex.def Info: images/intensity.jpg  used on input line 395.
+(pdftex.def)             Requested size: 449.59946pt x 215.80376pt.
+ [9]
+<images/sg_2.png, id=239, 1421.31pt x 885.3075pt>
 File: images/sg_2.png Graphic file (type png)
 <use images/sg_2.png>
-Package pdftex.def Info: images/sg_2.png  used on input line 362.
+Package pdftex.def Info: images/sg_2.png  used on input line 404.
 (pdftex.def)             Requested size: 449.60184pt x 241.84602pt.
- [10 <./images/sg_2.png>]
-<images/p_fft.png, id=251, 722.7pt x 578.16pt>
+ [10 <./images/intensity.jpg> <./images/sg_2.png>]
+<images/p_fft.png, id=250, 722.7pt x 578.16pt>
 File: images/p_fft.png Graphic file (type png)
 <use images/p_fft.png>
-Package pdftex.def Info: images/p_fft.png  used on input line 374.
-(pdftex.def)             Requested size: 423.151pt x 338.51778pt.
-<images/s_fft.png, id=256, 722.7pt x 578.16pt>
+Package pdftex.def Info: images/p_fft.png  used on input line 415.
+(pdftex.def)             Requested size: 476.03984pt x 380.8369pt.
+<images/s_fft.png, id=255, 722.7pt x 578.16pt>
 File: images/s_fft.png Graphic file (type png)
 <use images/s_fft.png>
-Package pdftex.def Info: images/s_fft.png  used on input line 386.
-(pdftex.def)             Requested size: 423.151pt x 338.51778pt.
+Package pdftex.def Info: images/s_fft.png  used on input line 427.
+(pdftex.def)             Requested size: 476.03984pt x 380.8369pt.
  [11 <./images/p_fft.png>] [12 <./images/s_fft.png>] [13] [14] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D8507C98810D58552BA87DED262D67DF;3437.
+(rerunfilecheck)             Checksum: 9B7E45D035F4E280D23961904DF466D0;3268.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17640 strings out of 480171
- 306848 string characters out of 5894489
- 1012942 words of memory out of 5000000
- 35308 multiletter control sequences out of 15000+600000
- 477504 words of font info for 58 fonts, out of 8000000 for 9000
+ 19180 strings out of 480171
+ 335696 string characters out of 5894489
+ 1042834 words of memory out of 5000000
+ 36841 multiletter control sequences out of 15000+600000
+ 479360 words of font info for 65 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,15n,68p,1140b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hari31416/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (15 pages, 1462189 bytes).
+ 60i,15n,68p,1354b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/hari31416/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (15 pages, 1930961 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
+ 417 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 84 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

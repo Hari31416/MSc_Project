@@ -156,7 +156,13 @@ def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
 
         plt.figure()
         plt.plot(omegas / omega_m, fft_y / np.max(fft_y), color=C1, label="$E_y (p)$")
-        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), color=C2, label="$E_x (p)$")
+        plt.plot(
+            omegas / omega_m,
+            fft_x / np.max(fft_x),
+            color=C2,
+            label="$E_x (p)$",
+            ls="dashed",
+        )
         plt.xlabel(r"$\omega [\omega_0]$")
         plt.ylabel(r"Amplitude")
         plt.legend()
@@ -195,7 +201,13 @@ def plot(data_dir, save_dir=".", show_fig=True, file_name=None):
 
         plt.figure()
         plt.plot(omegas / omega_m, fft_z / np.max(fft_z), color=C1, label="$E_z (s)$")
-        plt.plot(omegas / omega_m, fft_x / np.max(fft_x), color=C2, label="$E_x (p)$")
+        plt.plot(
+            omegas / omega_m,
+            fft_x / np.max(fft_x),
+            color=C2,
+            label="$E_x (p)$",
+            ls="dashed",
+        )
         plt.xlabel(r"$\omega [\omega_0]$")
         plt.ylabel(r"Amplitude")
         plt.legend()
