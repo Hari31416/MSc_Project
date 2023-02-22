@@ -2,6 +2,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage[sorting=none]{biblatex}
+\usepackage[font=small,skip=0pt]{caption}
 \bibliography{refs}
 \usepackage{tikz}
 \renewcommand{\footnotesize}{\fontsize{8pt}{8pt}\selectfont}
@@ -62,41 +63,13 @@
 
     \textbf{What Now?}
     \begin{itemize}
-        \item A brief overview of theory related to High Harmonic Generation (HHG)
+        % \item A brief overview of theory related to High Harmonic Generation (HHG)
         \item Effect of Super Gaussian (SG) envelopes on the generated high harmonics
-        \item Oblique incident and different polarization
+        \item Oblique incident and p- and s-polarized laser
+        \item Selection rule for p- and s-polarized laser
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \begin{minipage}[h]{0.8\linewidth}
-        \centering
-        \includegraphics[width=0.9\textwidth, height=0.42\textheight]{images/s.png}
-        \label{fig:s}
-    \end{minipage}
-    \begin{minipage}[h]{0.18\linewidth}
-        S-Polarized Laser
-    \end{minipage}
-
-    \begin{minipage}[h]{0.18\linewidth}
-        P-Polarized Laser
-    \end{minipage}
-    \begin{minipage}[h]{0.8\linewidth}
-        \centering
-        \includegraphics[width=0.9\textwidth, height=0.42\textheight]{images/p.png}
-        \label{fig:p}
-    \end{minipage}
-    % \begin{figure}
-    %     \centering
-    %     \includegraphics[width=0.9\textwidth, height=0.42\textheight]{images/s.png}
-    %     % \caption{caption}
-    % \end{figure}
-    % \begin{figure}
-    %     \centering
-    %     \includegraphics[width=0.9\textwidth, height=0.42\textheight]{images/p.png}
-    %     % \caption{caption}
-    % \end{figure}
-\end{frame}
 % \begin{frame}
 %     \frametitle{PIC Cycle}
 %     \small
@@ -116,8 +89,7 @@
 \begin{frame}
     \frametitle{Simulation Details}
     \small
-    We want to study the effect of various plasma and laser parameters on the generated high harmonics. We performed some simulations in 1D3V. The parameters which are constant throughout the entire experimentation are these:
-
+    We want to study the effect of super Gaussian envelope on the generated high harmonics. We performed some simulations in 1D3V. Here are some parameters:
 
     \begin{minipage}[t]{0.48\linewidth}
         % left particle
@@ -128,8 +100,8 @@
             \item Simulation time $= 40 \tau$
             \item Wavelength $\lambda_l = 1 \mu m$
             \item Intensity of laser for $a_0 = 1$ is $I = 1.37 \times 10^{18} W/cm^2$
-            \item Some parameters are varied to study their effect on the generated high harmonics.
         \end{itemize}
+        We also performed simulations with p- and s-polarized laser incidence at oblique angle.
     \end{minipage}
     \begin{minipage}[t]{0.48\linewidth}
         \begin{figure}
@@ -138,8 +110,109 @@
             \label{fig:plasma}
         \end{figure}
     \end{minipage}
+\end{frame}
 
+\begin{frame}
+    \frametitle{Oblique Incidence: Transformations}
+    \small
+    \begin{itemize}
+        \item We follow Bourdier\footnote{\textit{Bourdier,A. } 10 . 1063 / 1.864355} to make a transformation which lets us simulate oblique incidence in 1D.
+    \end{itemize}
+    \begin{minipage}[t]{0.35\linewidth}
+        % \tiny
+        \begin{align*}
+            \begin{split}
+                &\text{For p-polarization}\\
+                \mathbf{E}_L  & = E_0(-\sin\alpha \hat{x} + \cos\alpha \hat{y}) \\
+                \mathbf{E}_M  & = E_0\cos\alpha \hat{y}                         \\
+                c\mathbf{B}_L & = E_0\hat{z}                                    \\
+                c\mathbf{B}_M & = E_0\cos\alpha \hat{z}\\
+                &\text{For s-polarization}\\
+                \mathbf{E}_L & = E_0\hat{z}                                    \\
+                \mathbf{E}_M & = E_0\cos\alpha \hat{z}                        \\
+                c\mathbf{B}_L & = E_0(\sin\alpha \hat{x} - \cos\alpha \hat{y}) \\
+                c\mathbf{B}_M & = -E_0\cos\alpha \hat{y}
+            \end{split}
+        \end{align*}
 
+    \end{minipage}
+    \begin{minipage}[t]{0.60\linewidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=1.0\textwidth, height=0.62\textheight]{images/frames.png}
+            \label{fig:frames}
+        \end{figure}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \frametitle{p- and s- Polarized Laser: Selection Rule}
+    \begin{minipage}[h]{0.18\linewidth}
+        \small{p-Polarization}
+        \tiny{
+            \textbf{p-Polarized:} None
+
+            \textbf{s-Polarized:} Odd, Even}
+    \end{minipage}
+    \begin{minipage}[h]{0.8\linewidth}
+        \centering
+        \includegraphics[width=0.9\textwidth, height=0.42\textheight]{images/p.png}
+        \label{fig:p}
+    \end{minipage}
+
+    \begin{minipage}[h]{0.8\linewidth}
+        \centering
+        \includegraphics[width=0.9\textwidth, height=0.42\textheight]{images/s.png}
+        \label{fig:s}
+    \end{minipage}
+    \begin{minipage}[h]{0.18\linewidth}
+        \small{s-Polarization}
+        \tiny{
+            \textbf{p-Polarized:} Even
+
+            \textbf{s-Polarized:} Odd}
+    \end{minipage}
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results: SG Envelope}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.85\textwidth]{images/sg_2.png}
+        \caption{The spectrum of SG envelopes with power 2,4,6, and 8 is shown in a sigle plot. A small increase in the peak amplitude is observed with increasing power.}
+        \label{fig:sg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    % \begin{table}[h]
+    %     \tiny
+    %     \centering
+    %     \vspace{0.5cm}
+    %     \label{tab:selection-rule}
+    %     \begin{tabular}{|l|l|l|}
+    %         \hline
+    %                                          & \textbf{s-polarized Harmonics} & \textbf{p-polarized Harmonics} \\ \hline
+    %         \textbf{s-Polarized Fundamental} & Odd                            & Even                           \\ \hline
+    %         \textbf{p-Polarized Fundamental} & None                           & Odd and Even                   \\ \hline
+    %     \end{tabular}
+    % \end{table}
+    \frametitle{Results: p-Polarized Laser}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{images/p_fft.png}
+        \caption{\small{Spectrum of HHG for p-polarized light. Simulation parameters are $\alpha = \pi/6$, the denity is $n_0 = 7n_c$ and $a_0 = 4$}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results: s-Polarized Laser}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\textwidth]{images/s_fft.png}
+        \caption{\small{Spectrum of HHG for s-polarized light. Simulation parameters are $\alpha = \pi/4$, the denity is $n_0 = 7n_c$ and $a_0 = 4$}}
+    \end{figure}
 \end{frame}
 
 \begin{frame}
