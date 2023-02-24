@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1677038857 "main.bcf" "main.bbl" "main" 1677040910
-  "main.bcf" 1677040910 105711 ae89e10b1967a553367f5220073f3ec4 "pdflatex"
+["biber main"] 1677143654 "main.bcf" "main.bbl" "main" 1677178257
+  "main.bcf" 1677178257 105711 ae89e10b1967a553367f5220073f3ec4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1677040904 "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Minor/main.tex" "main.pdf" "main" 1677040910
+["pdflatex"] 1677178249 "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Minor/main.tex" "main.pdf" "main" 1677178257
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Minor/main.tex" 1677040904 9644 f008e010ff94ab4433e338858e7c45af ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Minor/main.tex" 1677178249 8411 7780471603f52950dcac524fbea6b1de ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -38,7 +38,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb" 1248133631 25150 e0d09798d232ab9d00c5c0a8df6cc22d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb" 1248133631 25168 33771b85f45c82138dd7745db7092d1c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -238,18 +237,18 @@
   "images/frames.png" 1676724072 87770 dd301e7a1d85514840c7baceca80abf1 ""
   "images/harmonics.png" 1668680178 546455 83428fc3abdb03231d07b952dd62ede4 ""
   "images/p.png" 1677037461 141461 e1d357e619151b20034d277500d08a13 ""
-  "images/p_fft.png" 1677040001 132729 29537a90f877b5daf1b4ef08f319cc15 ""
+  "images/p_fft.png" 1677068989 188606 959e56d5d878b1f18b04d6fc0492e552 ""
   "images/plasma.jpg" 1668675220 189744 c57906e6c7f6de3add6502f65df1ef73 ""
   "images/s.png" 1677037497 141630 2c82ad7ffe55b97e002e45e8a0ed99c1 ""
-  "images/s_fft.png" 1677039965 139243 402686cd75b12272f934b78bb3fb9cb0 ""
-  "images/sg_2.png" 1676974199 243872 2772c04f36385b0e9dca1a79202a7863 ""
+  "images/s_fft.png" 1677069003 197135 0e1214621be387d83682e8fbecb04072 ""
+  "images/sg.png" 1677141358 828582 607c5ebdc9df0ce9931f0d6c7b8ec6d9 ""
   "logo.png" 1668488986 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1677040910 3343 4fc49074b681a5e65ecefe1dfe221427 "pdflatex"
-  "main.bbl" 1677038858 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.nav" 1677040910 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
-  "main.out" 1677040906 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1677040910 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1677040904 9644 f008e010ff94ab4433e338858e7c45af ""
+  "main.aux" 1677178257 3342 3f2d54c879c344f25936e8b2c0c7b8e9 "pdflatex"
+  "main.bbl" 1677143656 466 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.nav" 1677178257 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
+  "main.out" 1677178252 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1677178257 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1677178249 8411 7780471603f52950dcac524fbea6b1de ""
   (generated)
   "main.aux"
   "main.bcf"

@@ -786,11 +786,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ./images/sg_2.png
-INPUT ./images/sg_2.png
-INPUT images/sg_2.png
-INPUT ./images/sg_2.png
-INPUT ./images/sg_2.png
+INPUT ./images/sg.png
+INPUT ./images/sg.png
+INPUT images/sg.png
+INPUT ./images/sg.png
+INPUT ./images/sg.png
 INPUT ./images/p_fft.png
 INPUT ./images/p_fft.png
 INPUT images/p_fft.png

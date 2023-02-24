@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber main"] 1677071229 "main.bcf" "main.bbl" "main" 1677072595
-  "main.bcf" 1677072594 108149 91a506dfa9b16aaf6009620a30560038 "pdflatex"
+["biber main"] 1677071229 "main.bcf" "main.bbl" "main" 1677141451
+  "main.bcf" 1677141451 108149 91a506dfa9b16aaf6009620a30560038 "pdflatex"
   "refs.bib" 1676974504 12648 411f899a3d831a33a421e575f37d5af4 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1677072589 "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Minor/main.tex" "main.pdf" "main" 1677072595
+["pdflatex"] 1677141444 "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Minor/main.tex" "main.pdf" "main" 1677141451
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hari31416/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1667739530 14040 63a16b4e498b70c0e23862df3f1d45a6 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Minor/main.tex" 1677072276 33540 ab3a91712ada41f204f0e428e28027ec ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_4_Minor/main.tex" 1677141443 33538 f1c3c769938b5f413f2d254a5e40535d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -137,16 +137,16 @@
   "images/p_fft.png" 1677068989 188606 959e56d5d878b1f18b04d6fc0492e552 ""
   "images/s.png" 1676705658 168144 20cee4df812fc36f4ba2cd1854b18c13 ""
   "images/s_fft.png" 1677069003 197135 0e1214621be387d83682e8fbecb04072 ""
-  "images/sg_2.png" 1676974199 243872 2772c04f36385b0e9dca1a79202a7863 ""
+  "images/sg.png" 1677141358 828582 607c5ebdc9df0ce9931f0d6c7b8ec6d9 ""
   "images/spectrum.png" 1677072588 225084 20507d03d6e5c471342239d314c5f79a ""
   "images/three_step_one.png" 1676811405 90990 a1e9620c4f222e1dce06fa2a1ed6a9f0 ""
   "images/three_step_two.png" 1676811488 99270 480ed36d8f76df6c2514351d710560a7 ""
   "logo.png" 1676478438 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1677072594 12677 c25646250f0311dac205cd5840be66ec "pdflatex"
+  "main.aux" 1677141451 12677 c25646250f0311dac205cd5840be66ec "pdflatex"
   "main.bbl" 1677071231 30900 d77fd4af7078a005486298f46dbcb49c "biber main"
-  "main.out" 1677072594 3268 9b7e45d035f4e280d23961904df466d0 "pdflatex"
-  "main.run.xml" 1677072594 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1677072276 33540 ab3a91712ada41f204f0e428e28027ec ""
+  "main.out" 1677141451 3268 9b7e45d035f4e280d23961904df466d0 "pdflatex"
+  "main.run.xml" 1677141451 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1677141443 33538 f1c3c769938b5f413f2d254a5e40535d ""
   (generated)
   "main.aux"
   "main.bcf"
