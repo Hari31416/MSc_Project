@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  29 SEP 2022 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  4 APR 2023 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Minor/main.tex
-(/media/hari31416/Hari_SSD/Users/harik/Desktop/Project_Sem_3/Presentations/Reports/Sem_3_Minor/main.tex
+**/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_3_Minor/main.tex
+(/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_3_Minor/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -284,7 +284,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
 LaTeX Info: Redefining \nameref on input line 19.
- (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -323,7 +322,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=40, 195.73125pt x 199.49532pt>
+<logo.png, id=4, 195.73125pt x 199.49532pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 24.
@@ -331,20 +330,32 @@ Package pdftex.def Info: logo.png  used on input line 24.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
+
+LaTeX Warning: Reference `critical-density' on page 1 undefined on input line 62.
+
+
+LaTeX Warning: Citation `lichters' on page 1 undefined on input line 62.
+
+
+LaTeX Warning: Citation `epoch' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Citation `suciu' on page 1 undefined on input line 72.
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<yee.png, id=54, 827.09pt x 592.2125pt>
+<yee.png, id=14, 827.09pt x 592.2125pt>
 File: yee.png Graphic file (type png)
 <use yee.png>
 Package pdftex.def Info: yee.png  used on input line 82.
 (pdftex.def)             Requested size: 256.07973pt x 256.08319pt.
-<charge.png, id=55, 455.7025pt x 391.4625pt>
+<charge.png, id=15, 455.7025pt x 391.4625pt>
 File: charge.png Graphic file (type png)
 <use charge.png>
 Package pdftex.def Info: charge.png  used on input line 88.
@@ -359,45 +370,82 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.104 
        [1 <./yee.png> <./charge.png>]
-<PIC.png, id=68, 848.16875pt x 505.89pt>
-File: PIC.png Graphic file (type png)
-<use PIC.png>
-Package pdftex.def Info: PIC.png  used on input line 109.
-(pdftex.def)             Requested size: 284.52979pt x 142.26576pt.
- [2 <./PIC.png>]
-<reflection.png, id=86, 1084.05pt x 722.7pt>
+
+LaTeX Warning: File `PIC.png' not found on input line 109.
+
+
+/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/Reports/Sem_3_Minor/main.tex:109: Package pdftex.def Error: File `PIC.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...graphics[width=10cm, height=5cm]{PIC.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `chen' on page 2 undefined on input line 115.
+
+
+LaTeX Warning: Hyper reference `plasma-frequency' on page 2 undefined on input line 119.
+
+
+LaTeX Warning: Citation `lichters' on page 2 undefined on input line 133.
+
+[2]
+
+LaTeX Warning: Reference `envelope' on page 3 undefined on input line 151.
+
+<reflection.png, id=43, 1084.05pt x 722.7pt>
 File: reflection.png Graphic file (type png)
 <use reflection.png>
-Package pdftex.def Info: reflection.png  used on input line 158.
+Package pdftex.def Info: reflection.png  used on input line 154.
 (pdftex.def)             Requested size: 512.16672pt x 369.88438pt.
 
-Overfull \hbox (11.68272pt too wide) in paragraph at lines 158--160
+Overfull \hbox (11.68272pt too wide) in paragraph at lines 154--156
  [][] 
  []
 
+
+LaTeX Warning: Reference `reflectance' on page 3 undefined on input line 156.
+
 [3 <./reflection.png>]
-<density.png, id=96, 1091.07625pt x 706.64pt>
+<density.png, id=53, 1011.78pt x 722.7pt>
 File: density.png Graphic file (type png)
 <use density.png>
-Package pdftex.def Info: density.png  used on input line 173.
-(pdftex.def)             Requested size: 483.68776pt x 284.52713pt.
+Package pdftex.def Info: density.png  used on input line 169.
+(pdftex.def)             Requested size: 483.70363pt x 284.53154pt.
  [4 <./density.png>] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D65BC39001C98E7E86F8DBC08CC4CE47;1522.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D65BC39001C98E7E86F8DBC08CC4CE47;1522.
  ) 
 Here is how much of TeX's memory you used:
- 9907 strings out of 480171
- 152900 string characters out of 5894489
- 444134 words of memory out of 5000000
- 27713 multiletter control sequences out of 15000+600000
- 473748 words of font info for 45 fonts, out of 8000000 for 9000
+ 9932 strings out of 480171
+ 153258 string characters out of 5894489
+ 443482 words of memory out of 5000000
+ 27729 multiletter control sequences out of 15000+600000
+ 473916 words of font info for 46 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,9n,63p,991b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (5 pages, 971163 bytes).
+ 60i,9n,63p,989b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (5 pages, 1288122 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 125 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  26 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
