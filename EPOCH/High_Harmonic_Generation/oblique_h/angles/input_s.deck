@@ -1,0 +1,90 @@
+begin:constant
+
+  # Laser parameters
+  alpha = ANGLE
+  beta = cos(alpha)
+  lambda0 = 1.0 * micron
+  lambda = lambda0/beta
+  omega0 = 2 * pi * c / lambda0
+  omega = 2 * pi * c / lambda
+  tau0 = lambda0/c
+  tau = lambda/c
+  las_time0 = 20*tau0
+  las_time = 20*tau
+  a0 = 4.0
+
+  # Plasma parameters
+  factor = 7
+  thickness = 1*lambda
+  start = 0*micron
+  
+  crtical_den = omega0*omega0/(4*pi*pi*81)
+  max_den_0 = factor*crtical_den
+  max_den = max_den_0/beta
+  profile_x = if((x gt start), 1.0, 0.0)
+  profile_x2 = if((x gt start+thickness), 0.0, 1.0)
+  temp = 50.0
+  temperature_0 = temp*qe/kb
+end:constant
+
+begin:control
+  nx = 16000
+
+  # Final time of simulation
+  t_end = 40*tau
+
+  # Size of domain
+  x_min = -20*lambda
+  x_max = 20*lambda
+
+  stdout_frequency = 100
+end:control
+
+
+begin:boundaries
+  bc_x_min = simple_laser
+  bc_x_max = open
+end:boundaries
+
+
+begin:species
+  name = Electron
+  charge = -1.0
+  mass = 1.0
+  nparticles_per_cell = 100
+  temperature = temperature_0
+  number_density = max_den*profile_x*profile_x2
+end:species
+
+
+
+begin:laser
+  boundary = x_min
+  intensity = a0*a0*1.37e22*beta^2
+  lambda = lambda
+  polarisation = 90
+  t_profile = if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0)
+end:laser
+
+
+begin:output
+  name = normal
+
+  # Simulated time between output dumps
+  dt_snapshot = 0.06 * femto
+
+  # px = always
+  # py = always
+  # pz = always
+  # charge_density = always
+  
+  # Properties on grid
+  grid = always
+  ex = always + single
+  ey = always + single
+  ez = always + single
+  # bx = always
+  # by = always
+  # bz = always
+  number_density = always + species
+end:output
