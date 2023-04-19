@@ -1,0 +1,666 @@
+====================================================
+----------------------------------------------------
+This is 10run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 11run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1461
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         35
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 12run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1252
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         30
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  45.0
+Angle            π/4
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 13run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1461
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         35
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 14run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1461
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         35
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  45.0
+Angle            π/4
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 15run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1252
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         30
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  40.0
+Angle            4π/18
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 16run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1252
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         30
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  50.0
+Angle            5π/18
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 17run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1252
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         30
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  20.0
+Angle            2π/18
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 18run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  ---------------------------------------
+SDF Files        1252
+Lambda           1e-06
+Extent           [-8.0, 1.9999999999999996, -10.0, 10.0]
+Cells in X       2000
+Cells in Y       4000
+Laser Time       8
+Max Time         30
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  10.0
+Angle            π/18
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 1run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 2run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 3run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  0
+Angle            0
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 4run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  45.0
+Angle            π/4
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 5run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  45.0
+Angle            π/4
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 6run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  60.0
+Angle            π/3
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 7run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        771
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  60.0
+Angle            π/3
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 8run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
+====================================================
+----------------------------------------------------
+This is 9run directory.
+
+Here are information from input deck
+
+Parameter        Value
+---------------  --------------------------
+SDF Files        835
+Lambda           1e-06
+Extent           [-10.0, 10.0, -10.0, 10.0]
+Cells in X       4000
+Cells in Y       4000
+Laser Time       8
+Max Time         20
+Delta T          8e-17
+A0               1.0
+Density Factor   4
+Angle in Degree  30.0
+Angle            π/6
+
+Some calculated informations are here
+
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
+====================================================
+----------------------------------------------------
