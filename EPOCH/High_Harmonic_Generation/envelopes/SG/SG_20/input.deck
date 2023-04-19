@@ -6,8 +6,8 @@ begin:constant
   tau = lambda0/c
   las_time = 20*tau
   a0 = 0.5
-  p=p_value
-  area_ratio=area_ratio_value
+  p=20
+  area_ratio=1.2442253903686271
 
   # Plasma parameters
   factor = 4
@@ -44,7 +44,7 @@ begin:control
   x_min = -20*lambda0
   x_max = -x_min
 
-  stdout_frequency = 100
+  stdout_frequency = 10
 end:control
 
 

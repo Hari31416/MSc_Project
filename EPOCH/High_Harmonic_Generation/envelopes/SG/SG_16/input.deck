@@ -6,8 +6,8 @@ begin:constant
   tau = lambda0/c
   las_time = 20*tau
   a0 = 0.5
-  p=p_value
-  area_ratio=area_ratio_value
+  p=16
+  area_ratio=1.24019733213889
 
   # Plasma parameters
   factor = 4
