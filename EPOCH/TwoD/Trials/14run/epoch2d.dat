@@ -1,0 +1,12 @@
+ EPOCH2D v4.17.16   v4.17.16-0-g3088d845-clean 1680696925.779          
+
+ Loaded 100000 particles of species "Electron"
+Wrote normal  dump number    0 at time  0.224072161991E-16 and iteration      0
+Wrote normal  dump number    1 at time  0.133098864223E-13 and iteration    297
+Wrote normal  dump number    2 at time  0.266197728446E-13 and iteration    594
+Wrote normal  dump number    3 at time  0.399296592668E-13 and iteration    891
+Wrote normal  dump number    4 at time  0.532395456891E-13 and iteration   1188
+Wrote normal  dump number    5 at time  0.665046176790E-13 and iteration   1484
+Wrote normal  dump number    6 at time  0.798145041013E-13 and iteration   1781
+Wrote normal  dump number    7 at time  0.931243905235E-13 and iteration   2078
+Wrote normal  dump number    8 at time  0.100070627545E-12 and iteration   2233

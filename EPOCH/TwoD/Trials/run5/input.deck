@@ -1,0 +1,104 @@
+begin:constant
+  #General parameters
+  lambda0 = 1.0 * micron
+  max_y = 10*lambda0
+  max_x = 10*lambda0
+
+  # Laser parameters
+  omega0 = 2 * pi * c / lambda0
+  tau = lambda0/c
+  las_time = 10*tau
+  a0 = 1
+  std = 0.5*lambda0
+  mean = 4*lambda0
+  theta = pi/6
+  max_width = 5*lambda0
+  w_bnd = 0.5*lambda0
+
+  # Laser Profile
+  profile_start_y = 0 - 0.5*max_width
+  profile_end_y = 0 + 0.5*max_width
+  profile_1 = if((y gt profile_start_y), 1.0, 0.0)
+  profile_2 = if((y gt profile_end_y), 0.0, 1.0)
+
+  # Plasma parameters
+  factor = 4
+  thickness = 1*lambda0
+  start_x = 0
+  start_y = -max_y
+  end_x = start_x + thickness
+  end_y = max_y
+  crtical_den = omega0*omega0/(4*pi*pi*81)
+  max_den = factor*crtical_den
+  density_x = if((x gt start_x), 1.0, 0.0)
+  density_x2 = if((x gt end_x), 0.0, 1.0)
+  density_y = if((y gt start_y), 1.0, 0.0)
+  density_y2 = if((y gt end_y), 0.0, 1.0)
+  temp = 50.0
+  temperature_0 = temp*qe/kb
+end:constant
+
+
+begin:control
+  nx = 500
+  ny = 500
+
+  # Final time of simulation
+  t_end = 20 * tau
+
+  # Size of domain
+  x_min = -max_x
+  x_max = max_x
+  y_min = -max_y
+  y_max = max_y
+
+  stdout_frequency = 10
+end:control
+
+
+begin:boundaries
+  bc_x_min = simple_laser
+  bc_x_max = open
+  bc_y_min = periodic
+  bc_y_max = periodic
+end:boundaries
+
+begin:species
+  name = Electron
+  charge = -1.0
+  mass = 1.0
+  #nparticles_per_cell = 100
+  #number_density = max_den*density_x*density_x2*density_y*density_y2
+  density = max_den*density_x*density_x2*density_y*density_y2
+  npart_per_cell = 100
+end:species
+
+
+begin:laser
+  boundary = x_min
+  intensity = a0*a0*1.37e22
+  lambda = lambda0
+  phase = 2.0 * pi* y* sin(theta)/ lambda0
+  #profile = profile_1*profile_2
+  profile = gauss(y,4*lambda0,w_bnd)
+  # profile = 1
+  t_profile = if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0)
+end:laser
+
+
+begin:output
+  name = normal
+
+  # Simulated time between output dumps
+  dt_snapshot = 10 * femto
+
+  # Properties on grid
+  grid = always
+  ex = always + single
+  ey = always + single
+  ez = always + single
+  # bx = always
+  # by = always
+  # bz = always
+  number_density = always + species
+end:output

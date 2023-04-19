@@ -1,0 +1,44 @@
+====================================================
+Current Directory: /media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/EPOCH/TwoD/Simulations
+
+
+----------------------------------------------------
+Vizualizing the directories 1run
+----------------------------------------------------
+
+
+
+Found 104 files.
+
+Values from input.deck:
+lambda0 =  1e-06
+laser_time =  8
+t_end =  20
+dt_snapshot =  8e-17
+a0 =  1.0
+factor =  4
+nx =  4000
+ny =  4000
+x_min =  -10
+y_min =  -10
+temp =  50.0
+angle =  π/6
+angle degrees =  30.0
+
+Calculated Values for the simulation are:
+omega0 = 1.8837e+15
+tau = 3.3356e-15
+nc = 1.1143e+27
+Er = 3.2107e+12
+n0 = 4.4573e+27
+lambdaD = 7.3072e-12
+vth = 2.7528e+04
+f_max = 6.2500e+15
+omega_max = 3.9270e+16
+omega_max_natural = 2.0848e+01
+Calculating fields:   0%|          | 0/104 [00:00<?, ?files/s]Calculating fields:   1%|          | 1/104 [00:00<00:35,  2.90files/s]Calculating fields:   2%|▏         | 2/104 [00:00<00:36,  2.78files/s]Calculating fields:   3%|▎         | 3/104 [00:01<00:36,  2.75files/s]Calculating fields:   4%|▍         | 4/104 [00:01<00:39,  2.55files/s]Calculating fields:   5%|▍         | 5/104 [00:01<00:40,  2.47files/s]Calculating fields:   6%|▌         | 6/104 [00:02<00:38,  2.54files/s]Calculating fields:   7%|▋         | 7/104 [00:02<00:39,  2.44files/s]Calculating fields:   8%|▊         | 8/104 [00:03<00:38,  2.47files/s]Calculating fields:   9%|▊         | 9/104 [00:03<00:37,  2.55files/s]Calculating fields:  10%|▉         | 10/104 [00:03<00:36,  2.60files/s]Calculating fields:  11%|█         | 11/104 [00:04<00:35,  2.63files/s]Calculating fields:  12%|█▏        | 12/104 [00:04<00:34,  2.68files/s]Calculating fields:  12%|█▎        | 13/104 [00:05<00:34,  2.65files/s]Calculating fields:  13%|█▎        | 14/104 [00:05<00:35,  2.55files/s]Calculating fields:  14%|█▍        | 15/104 [00:05<00:34,  2.56files/s]Calculating fields:  15%|█▌        | 16/104 [00:06<00:33,  2.61files/s]Calculating fields:  16%|█▋        | 17/104 [00:06<00:33,  2.63files/s]Calculating fields:  17%|█▋        | 18/104 [00:07<00:34,  2.46files/s]Calculating fields:  18%|█▊        | 19/104 [00:07<00:34,  2.50files/s]Calculating fields:  19%|█▉        | 20/104 [00:07<00:34,  2.44files/s]Calculating fields:  20%|██        | 21/104 [00:08<00:33,  2.47files/s]Calculating fields:  21%|██        | 22/104 [00:08<00:33,  2.44files/s]Calculating fields:  22%|██▏       | 23/104 [00:09<00:35,  2.27files/s]Calculating fields:  23%|██▎       | 24/104 [00:09<00:35,  2.27files/s]Calculating fields:  24%|██▍       | 25/104 [00:10<00:33,  2.33files/s]Calculating fields:  25%|██▌       | 26/104 [00:10<00:33,  2.36files/s]Calculating fields:  26%|██▌       | 27/104 [00:10<00:33,  2.31files/s]Calculating fields:  27%|██▋       | 28/104 [00:11<00:32,  2.35files/s]Calculating fields:  28%|██▊       | 29/104 [00:11<00:30,  2.43files/s]Calculating fields:  29%|██▉       | 30/104 [00:12<00:31,  2.34files/s]Calculating fields:  30%|██▉       | 31/104 [00:12<00:31,  2.33files/s]Calculating fields:  31%|███       | 32/104 [00:12<00:29,  2.41files/s]Calculating fields:  32%|███▏      | 33/104 [00:13<00:29,  2.37files/s]Calculating fields:  33%|███▎      | 34/104 [00:13<00:29,  2.36files/s]Calculating fields:  34%|███▎      | 35/104 [00:14<00:29,  2.37files/s]Calculating fields:  35%|███▍      | 36/104 [00:14<00:29,  2.30files/s]Calculating fields:  36%|███▌      | 37/104 [00:15<00:29,  2.24files/s]Calculating fields:  37%|███▋      | 38/104 [00:15<00:28,  2.31files/s]Calculating fields:  38%|███▊      | 39/104 [00:16<00:29,  2.24files/s]Calculating fields:  38%|███▊      | 40/104 [00:16<00:27,  2.36files/s]Calculating fields:  39%|███▉      | 41/104 [00:16<00:28,  2.21files/s]Calculating fields:  40%|████      | 42/104 [00:17<00:29,  2.13files/s]Calculating fields:  41%|████▏     | 43/104 [00:17<00:27,  2.23files/s]Calculating fields:  42%|████▏     | 44/104 [00:18<00:29,  2.02files/s]Calculating fields:  43%|████▎     | 45/104 [00:18<00:29,  2.02files/s]Calculating fields:  44%|████▍     | 46/104 [00:19<00:31,  1.86files/s]Calculating fields:  45%|████▌     | 47/104 [00:20<00:32,  1.78files/s]Calculating fields:  46%|████▌     | 48/104 [00:20<00:30,  1.84files/s]Calculating fields:  47%|████▋     | 49/104 [00:21<00:27,  1.97files/s]Calculating fields:  48%|████▊     | 50/104 [00:21<00:26,  2.06files/s]Calculating fields:  49%|████▉     | 51/104 [00:22<00:25,  2.10files/s]Calculating fields:  50%|█████     | 52/104 [00:22<00:27,  1.86files/s]Calculating fields:  51%|█████     | 53/104 [00:23<00:28,  1.78files/s]Calculating fields:  52%|█████▏    | 54/104 [00:23<00:28,  1.78files/s]Calculating fields:  53%|█████▎    | 55/104 [00:24<00:27,  1.80files/s]Calculating fields:  54%|█████▍    | 56/104 [00:24<00:25,  1.86files/s]Calculating fields:  55%|█████▍    | 57/104 [00:25<00:25,  1.85files/s]Calculating fields:  56%|█████▌    | 58/104 [00:26<00:26,  1.73files/s]Calculating fields:  57%|█████▋    | 59/104 [00:26<00:27,  1.62files/s]Calculating fields:  58%|█████▊    | 60/104 [00:27<00:26,  1.69files/s]Calculating fields:  59%|█████▊    | 61/104 [00:27<00:24,  1.74files/s]Calculating fields:  60%|█████▉    | 62/104 [00:28<00:25,  1.65files/s]Calculating fields:  61%|██████    | 63/104 [00:29<00:24,  1.70files/s]Calculating fields:  62%|██████▏   | 64/104 [00:29<00:22,  1.80files/s]Calculating fields:  62%|██████▎   | 65/104 [00:30<00:20,  1.92files/s]Calculating fields:  63%|██████▎   | 66/104 [00:30<00:19,  1.97files/s]Calculating fields:  64%|██████▍   | 67/104 [00:31<00:20,  1.85files/s]Calculating fields:  65%|██████▌   | 68/104 [00:31<00:20,  1.76files/s]Calculating fields:  66%|██████▋   | 69/104 [00:32<00:20,  1.75files/s]Calculating fields:  67%|██████▋   | 70/104 [00:33<00:20,  1.68files/s]Calculating fields:  68%|██████▊   | 71/104 [00:33<00:19,  1.67files/s]Calculating fields:  69%|██████▉   | 72/104 [00:34<00:19,  1.67files/s]Calculating fields:  70%|███████   | 73/104 [00:34<00:18,  1.71files/s]Calculating fields:  71%|███████   | 74/104 [00:35<00:16,  1.81files/s]Calculating fields:  72%|███████▏  | 75/104 [00:35<00:15,  1.92files/s]Calculating fields:  73%|███████▎  | 76/104 [00:36<00:15,  1.83files/s]Calculating fields:  74%|███████▍  | 77/104 [00:36<00:15,  1.77files/s]Calculating fields:  75%|███████▌  | 78/104 [00:37<00:14,  1.75files/s]Calculating fields:  76%|███████▌  | 79/104 [00:38<00:14,  1.69files/s]Calculating fields:  77%|███████▋  | 80/104 [00:38<00:14,  1.68files/s]Calculating fields:  78%|███████▊  | 81/104 [00:39<00:13,  1.70files/s]Calculating fields:  79%|███████▉  | 82/104 [00:39<00:12,  1.78files/s]Calculating fields:  80%|███████▉  | 83/104 [00:40<00:12,  1.69files/s]Calculating fields:  81%|████████  | 84/104 [00:41<00:12,  1.59files/s]Calculating fields:  82%|████████▏ | 85/104 [00:41<00:12,  1.58files/s]Calculating fields:  83%|████████▎ | 86/104 [00:42<00:11,  1.60files/s]Calculating fields:  84%|████████▎ | 87/104 [00:43<00:12,  1.37files/s]Calculating fields:  85%|████████▍ | 88/104 [00:44<00:11,  1.35files/s]Calculating fields:  86%|████████▌ | 89/104 [00:44<00:10,  1.38files/s]Calculating fields:  87%|████████▋ | 90/104 [00:45<00:11,  1.26files/s]Calculating fields:  88%|████████▊ | 91/104 [00:46<00:11,  1.18files/s]Calculating fields:  88%|████████▊ | 92/104 [00:49<00:16,  1.41s/files]Calculating fields:  89%|████████▉ | 93/104 [00:50<00:12,  1.14s/files]Calculating fields:  90%|█████████ | 94/104 [00:50<00:10,  1.09s/files]Calculating fields:  91%|█████████▏| 95/104 [00:51<00:08,  1.11files/s]Calculating fields:  92%|█████████▏| 96/104 [00:51<00:06,  1.29files/s]Calculating fields:  93%|█████████▎| 97/104 [00:52<00:05,  1.39files/s]Calculating fields:  94%|█████████▍| 98/104 [00:52<00:03,  1.57files/s]Calculating fields:  95%|█████████▌| 99/104 [00:53<00:02,  1.74files/s]Calculating fields:  96%|█████████▌| 100/104 [00:53<00:02,  1.89files/s]Calculating fields:  97%|█████████▋| 101/104 [00:54<00:01,  1.95files/s]Calculating fields:  98%|█████████▊| 102/104 [00:54<00:01,  1.97files/s]Calculating fields:  99%|█████████▉| 103/104 [00:55<00:00,  1.97files/s]Calculating fields: 100%|██████████| 104/104 [00:55<00:00,  1.92files/s]Calculating fields: 100%|██████████| 104/104 [00:55<00:00,  1.86files/s]
+Ez is zero. Skipping plot.
+
+
+Task Done. Enjoy!
+====================================================

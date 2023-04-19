@@ -1,0 +1,353 @@
+====================================================
+Current Directory: /home/physics/msc/phs217181/scratch
+
+----------------------------------------------------
+Going to directory 7run
+----------------------------------------------------
+
+
+Attaching 12839 to 3410978.pbshpc
+Attaching 18179 to 3410978.pbshpc
+Attaching 19843 to 3410978.pbshpc
+Attaching 13953 to 3410978.pbshpc
+Attaching 958 to 3410978.pbshpc
+Attaching 26949 to 3410978.pbshpc
+ 
+ 
+ 
+ 
+        d########P  d########b        .######b          d#######  d##P      d##P
+       d########P  d###########    d###########     .##########  d##P      d##P 
+      ----        ----     ----  -----     ----   -----         ----      -- P  
+     d########P  d####,,,####P ####.      .#### d###P          d############P   
+    d########P  d#########P   ####       .###P ####.          d############P    
+   d##P        d##P           ####     d####   ####.         d##P      d##P     
+  d########P  d##P            ###########P     ##########P  d##P      d##P      
+ d########P  d##P              d######P          #######P  d##P      d##P       
+ 
+ Welcome to EPOCH2D version nknow   (commit unknown-unknown-unknown-unknown)
+ 
+ *************************************************************
+ The code was compiled with no compile time options
+ *************************************************************
+ Code is running on 40 processing elements
+ 
+ Specify output directory
+ Name of species 1 is Electron
+ Processor subdivision is            5           8
+ Initial conditions complete and valid. Attempting to load particles
+ 
+ Loaded 1250000 particles of species "Electron"
+Initial load imbalance: 0.200, final: 0.831, improvement: 3.167, next:        1
+ Equilibrium set up OK, running code
+Time  0.448144323982E-16 and iteration           0 after  0:00:00:00.00
+Time  0.896288647965E-15 and iteration          10 after  0:00:00:00.42
+Time  0.179257729593E-14 and iteration          20 after  0:00:00:00.70
+Time  0.268886594389E-14 and iteration          30 after  0:00:00:00.98
+Time  0.358515459186E-14 and iteration          40 after  0:00:00:01.23
+Time  0.448144323982E-14 and iteration          50 after  0:00:00:01.52
+Time  0.537773188779E-14 and iteration          60 after  0:00:00:01.79
+Time  0.627402053575E-14 and iteration          70 after  0:00:00:02.06
+Time  0.717030918372E-14 and iteration          80 after  0:00:00:02.34
+Time  0.806659783168E-14 and iteration          90 after  0:00:00:02.63
+Time  0.896288647965E-14 and iteration         100 after  0:00:00:02.90
+Time  0.985917512761E-14 and iteration         110 after  0:00:00:03.18
+Time  0.107554637756E-13 and iteration         120 after  0:00:00:03.65
+Time  0.116517524235E-13 and iteration         130 after  0:00:00:03.93
+Time  0.125480410715E-13 and iteration         140 after  0:00:00:04.21
+Time  0.134443297195E-13 and iteration         150 after  0:00:00:04.49
+Time  0.143406183674E-13 and iteration         160 after  0:00:00:04.77
+Time  0.152369070154E-13 and iteration         170 after  0:00:00:05.04
+Time  0.161331956634E-13 and iteration         180 after  0:00:00:05.32
+Time  0.170294843113E-13 and iteration         190 after  0:00:00:05.60
+Time  0.179257729593E-13 and iteration         200 after  0:00:00:05.87
+Time  0.188220616073E-13 and iteration         210 after  0:00:00:06.15
+Time  0.197183502552E-13 and iteration         220 after  0:00:00:06.43
+Time  0.206146389032E-13 and iteration         230 after  0:00:00:07.03
+Time  0.215109275512E-13 and iteration         240 after  0:00:00:07.30
+Time  0.224072161991E-13 and iteration         250 after  0:00:00:07.57
+Time  0.233035048471E-13 and iteration         260 after  0:00:00:07.84
+Time  0.241997934951E-13 and iteration         270 after  0:00:00:08.11
+Time  0.250960821430E-13 and iteration         280 after  0:00:00:08.40
+Time  0.259923707910E-13 and iteration         290 after  0:00:00:08.67
+Time  0.268886594389E-13 and iteration         300 after  0:00:00:08.94
+Time  0.277849480869E-13 and iteration         310 after  0:00:00:09.23
+Time  0.286812367349E-13 and iteration         320 after  0:00:00:09.50
+Time  0.295775253828E-13 and iteration         330 after  0:00:00:09.79
+Time  0.304738140308E-13 and iteration         340 after  0:00:00:10.27
+Time  0.313701026788E-13 and iteration         350 after  0:00:00:10.54
+Time  0.322663913267E-13 and iteration         360 after  0:00:00:10.81
+Time  0.331626799747E-13 and iteration         370 after  0:00:00:11.07
+Time  0.340589686227E-13 and iteration         380 after  0:00:00:11.36
+Time  0.349552572706E-13 and iteration         390 after  0:00:00:11.64
+Time  0.358515459186E-13 and iteration         400 after  0:00:00:11.91
+Time  0.367478345666E-13 and iteration         410 after  0:00:00:12.21
+Time  0.376441232145E-13 and iteration         420 after  0:00:00:12.50
+Time  0.385404118625E-13 and iteration         430 after  0:00:00:12.80
+Time  0.394367005105E-13 and iteration         440 after  0:00:00:13.11
+Time  0.403329891584E-13 and iteration         450 after  0:00:00:13.58
+Time  0.412292778064E-13 and iteration         460 after  0:00:00:13.88
+Time  0.421255664543E-13 and iteration         470 after  0:00:00:14.16
+Time  0.430218551023E-13 and iteration         480 after  0:00:00:14.48
+Time  0.439181437503E-13 and iteration         490 after  0:00:00:14.79
+Time  0.448144323982E-13 and iteration         500 after  0:00:00:15.09
+Time  0.457107210462E-13 and iteration         510 after  0:00:00:15.38
+Time  0.466070096942E-13 and iteration         520 after  0:00:00:15.68
+Time  0.475032983421E-13 and iteration         530 after  0:00:00:15.98
+Time  0.483995869901E-13 and iteration         540 after  0:00:00:16.26
+Time  0.492958756381E-13 and iteration         550 after  0:00:00:16.56
+Time  0.501921642860E-13 and iteration         560 after  0:00:00:17.02
+Time  0.510884529340E-13 and iteration         570 after  0:00:00:17.32
+Time  0.519847415820E-13 and iteration         580 after  0:00:00:17.62
+Time  0.528810302299E-13 and iteration         590 after  0:00:00:17.92
+Time  0.537773188779E-13 and iteration         600 after  0:00:00:18.23
+Time  0.546736075259E-13 and iteration         610 after  0:00:00:18.54
+Time  0.555698961738E-13 and iteration         620 after  0:00:00:18.86
+Time  0.564661848218E-13 and iteration         630 after  0:00:00:19.16
+Time  0.573624734698E-13 and iteration         640 after  0:00:00:19.48
+Time  0.582587621177E-13 and iteration         650 after  0:00:00:19.79
+Time  0.591550507657E-13 and iteration         660 after  0:00:00:20.11
+Time  0.600513394136E-13 and iteration         670 after  0:00:00:20.46
+Time  0.609476280616E-13 and iteration         680 after  0:00:00:21.00
+Time  0.618439167096E-13 and iteration         690 after  0:00:00:21.32
+Time  0.627402053575E-13 and iteration         700 after  0:00:00:21.64
+Time  0.636364940055E-13 and iteration         710 after  0:00:00:21.95
+Time  0.645327826535E-13 and iteration         720 after  0:00:00:22.29
+Time  0.654290713014E-13 and iteration         730 after  0:00:00:22.65
+Time  0.663253599494E-13 and iteration         740 after  0:00:00:23.00
+ Final runtime of core = 23.16 seconds
+
+----------------------------------------------------
+Going to directory 8run
+----------------------------------------------------
+
+
+Attaching 12926 to 3410978.pbshpc
+Attaching 14024 to 3410978.pbshpc
+Attaching 27050 to 3410978.pbshpc
+Attaching 18331 to 3410978.pbshpc
+Attaching 1136 to 3410978.pbshpc
+Attaching 20012 to 3410978.pbshpc
+ 
+ 
+ 
+ 
+        d########P  d########b        .######b          d#######  d##P      d##P
+       d########P  d###########    d###########     .##########  d##P      d##P 
+      ----        ----     ----  -----     ----   -----         ----      -- P  
+     d########P  d####,,,####P ####.      .#### d###P          d############P   
+    d########P  d#########P   ####       .###P ####.          d############P    
+   d##P        d##P           ####     d####   ####.         d##P      d##P     
+  d########P  d##P            ###########P     ##########P  d##P      d##P      
+ d########P  d##P              d######P          #######P  d##P      d##P       
+ 
+ Welcome to EPOCH2D version nknow   (commit unknown-unknown-unknown-unknown)
+ 
+ *************************************************************
+ The code was compiled with no compile time options
+ *************************************************************
+ Code is running on 40 processing elements
+ 
+ Specify output directory
+ Name of species 1 is Electron
+ Processor subdivision is            5           8
+ Initial conditions complete and valid. Attempting to load particles
+ 
+ Loaded 1250000 particles of species "Electron"
+Initial load imbalance: 0.200, final: 0.831, improvement: 3.167, next:        1
+ Equilibrium set up OK, running code
+Time  0.448144323982E-16 and iteration           0 after  0:00:00:00.00
+Time  0.896288647965E-15 and iteration          10 after  0:00:00:00.43
+Time  0.179257729593E-14 and iteration          20 after  0:00:00:00.70
+Time  0.268886594389E-14 and iteration          30 after  0:00:00:01.32
+Time  0.358515459186E-14 and iteration          40 after  0:00:00:01.60
+Time  0.448144323982E-14 and iteration          50 after  0:00:00:01.87
+Time  0.537773188779E-14 and iteration          60 after  0:00:00:02.16
+Time  0.627402053575E-14 and iteration          70 after  0:00:00:02.44
+Time  0.717030918372E-14 and iteration          80 after  0:00:00:02.72
+Time  0.806659783168E-14 and iteration          90 after  0:00:00:02.99
+Time  0.896288647965E-14 and iteration         100 after  0:00:00:03.26
+Time  0.985917512761E-14 and iteration         110 after  0:00:00:03.55
+Time  0.107554637756E-13 and iteration         120 after  0:00:00:03.98
+Time  0.116517524235E-13 and iteration         130 after  0:00:00:04.25
+Time  0.125480410715E-13 and iteration         140 after  0:00:00:04.51
+Time  0.134443297195E-13 and iteration         150 after  0:00:00:04.78
+Time  0.143406183674E-13 and iteration         160 after  0:00:00:05.07
+Time  0.152369070154E-13 and iteration         170 after  0:00:00:05.35
+Time  0.161331956634E-13 and iteration         180 after  0:00:00:05.63
+Time  0.170294843113E-13 and iteration         190 after  0:00:00:05.90
+Time  0.179257729593E-13 and iteration         200 after  0:00:00:06.17
+Time  0.188220616073E-13 and iteration         210 after  0:00:00:06.44
+Time  0.197183502552E-13 and iteration         220 after  0:00:00:06.71
+Time  0.206146389032E-13 and iteration         230 after  0:00:00:07.20
+Time  0.215109275512E-13 and iteration         240 after  0:00:00:07.48
+Time  0.224072161991E-13 and iteration         250 after  0:00:00:07.75
+Time  0.233035048471E-13 and iteration         260 after  0:00:00:08.03
+Time  0.241997934951E-13 and iteration         270 after  0:00:00:08.29
+Time  0.250960821430E-13 and iteration         280 after  0:00:00:08.55
+Time  0.259923707910E-13 and iteration         290 after  0:00:00:08.81
+Time  0.268886594389E-13 and iteration         300 after  0:00:00:09.08
+Time  0.277849480869E-13 and iteration         310 after  0:00:00:09.35
+Time  0.286812367349E-13 and iteration         320 after  0:00:00:09.62
+Time  0.295775253828E-13 and iteration         330 after  0:00:00:09.91
+Time  0.304738140308E-13 and iteration         340 after  0:00:00:10.39
+Time  0.313701026788E-13 and iteration         350 after  0:00:00:10.66
+Time  0.322663913267E-13 and iteration         360 after  0:00:00:10.93
+Time  0.331626799747E-13 and iteration         370 after  0:00:00:11.21
+Time  0.340589686227E-13 and iteration         380 after  0:00:00:11.48
+Time  0.349552572706E-13 and iteration         390 after  0:00:00:11.76
+Time  0.358515459186E-13 and iteration         400 after  0:00:00:12.04
+Time  0.367478345666E-13 and iteration         410 after  0:00:00:12.32
+Time  0.376441232145E-13 and iteration         420 after  0:00:00:12.61
+Time  0.385404118625E-13 and iteration         430 after  0:00:00:12.90
+Time  0.394367005105E-13 and iteration         440 after  0:00:00:13.20
+Time  0.403329891584E-13 and iteration         450 after  0:00:00:13.68
+Time  0.412292778064E-13 and iteration         460 after  0:00:00:13.97
+Time  0.421255664543E-13 and iteration         470 after  0:00:00:14.28
+Time  0.430218551023E-13 and iteration         480 after  0:00:00:14.56
+Time  0.439181437503E-13 and iteration         490 after  0:00:00:14.84
+Time  0.448144323982E-13 and iteration         500 after  0:00:00:15.14
+Time  0.457107210462E-13 and iteration         510 after  0:00:00:15.44
+Time  0.466070096942E-13 and iteration         520 after  0:00:00:15.72
+Time  0.475032983421E-13 and iteration         530 after  0:00:00:16.03
+Time  0.483995869901E-13 and iteration         540 after  0:00:00:16.33
+Time  0.492958756381E-13 and iteration         550 after  0:00:00:16.62
+Time  0.501921642860E-13 and iteration         560 after  0:00:00:17.17
+Time  0.510884529340E-13 and iteration         570 after  0:00:00:17.48
+Time  0.519847415820E-13 and iteration         580 after  0:00:00:17.79
+Time  0.528810302299E-13 and iteration         590 after  0:00:00:18.07
+Time  0.537773188779E-13 and iteration         600 after  0:00:00:18.37
+Time  0.546736075259E-13 and iteration         610 after  0:00:00:18.67
+Time  0.555698961738E-13 and iteration         620 after  0:00:00:18.96
+Time  0.564661848218E-13 and iteration         630 after  0:00:00:19.25
+Time  0.573624734698E-13 and iteration         640 after  0:00:00:19.54
+Time  0.582587621177E-13 and iteration         650 after  0:00:00:19.85
+Time  0.591550507657E-13 and iteration         660 after  0:00:00:20.15
+Time  0.600513394136E-13 and iteration         670 after  0:00:00:20.44
+Time  0.609476280616E-13 and iteration         680 after  0:00:00:20.92
+Time  0.618439167096E-13 and iteration         690 after  0:00:00:21.23
+Time  0.627402053575E-13 and iteration         700 after  0:00:00:21.52
+Time  0.636364940055E-13 and iteration         710 after  0:00:00:21.83
+Time  0.645327826535E-13 and iteration         720 after  0:00:00:22.12
+Time  0.654290713014E-13 and iteration         730 after  0:00:00:22.44
+Time  0.663253599494E-13 and iteration         740 after  0:00:00:22.75
+ Final runtime of core = 22.89 seconds
+
+----------------------------------------------------
+Going to directory 9run
+----------------------------------------------------
+
+
+Attaching 1225 to 3410978.pbshpc
+Attaching 13006 to 3410978.pbshpc
+Attaching 18403 to 3410978.pbshpc
+Attaching 14109 to 3410978.pbshpc
+Attaching 27122 to 3410978.pbshpc
+Attaching 20095 to 3410978.pbshpc
+ 
+ 
+ 
+ 
+        d########P  d########b        .######b          d#######  d##P      d##P
+       d########P  d###########    d###########     .##########  d##P      d##P 
+      ----        ----     ----  -----     ----   -----         ----      -- P  
+     d########P  d####,,,####P ####.      .#### d###P          d############P   
+    d########P  d#########P   ####       .###P ####.          d############P    
+   d##P        d##P           ####     d####   ####.         d##P      d##P     
+  d########P  d##P            ###########P     ##########P  d##P      d##P      
+ d########P  d##P              d######P          #######P  d##P      d##P       
+ 
+ Welcome to EPOCH2D version nknow   (commit unknown-unknown-unknown-unknown)
+ 
+ *************************************************************
+ The code was compiled with no compile time options
+ *************************************************************
+ Code is running on 40 processing elements
+ 
+ Specify output directory
+ Name of species 1 is Electron
+ Processor subdivision is            5           8
+ Initial conditions complete and valid. Attempting to load particles
+ 
+ Loaded 1250000 particles of species "Electron"
+Initial load imbalance: 0.200, final: 0.831, improvement: 3.167, next:        1
+ Equilibrium set up OK, running code
+Time  0.448144323982E-16 and iteration           0 after  0:00:00:00.00
+Time  0.896288647965E-15 and iteration          10 after  0:00:00:00.59
+Time  0.179257729593E-14 and iteration          20 after  0:00:00:00.85
+Time  0.268886594389E-14 and iteration          30 after  0:00:00:01.13
+Time  0.358515459186E-14 and iteration          40 after  0:00:00:01.41
+Time  0.448144323982E-14 and iteration          50 after  0:00:00:01.68
+Time  0.537773188779E-14 and iteration          60 after  0:00:00:01.98
+Time  0.627402053575E-14 and iteration          70 after  0:00:00:02.27
+Time  0.717030918372E-14 and iteration          80 after  0:00:00:02.54
+Time  0.806659783168E-14 and iteration          90 after  0:00:00:02.81
+Time  0.896288647965E-14 and iteration         100 after  0:00:00:03.08
+Time  0.985917512761E-14 and iteration         110 after  0:00:00:03.35
+Time  0.107554637756E-13 and iteration         120 after  0:00:00:03.85
+Time  0.116517524235E-13 and iteration         130 after  0:00:00:04.11
+Time  0.125480410715E-13 and iteration         140 after  0:00:00:04.39
+Time  0.134443297195E-13 and iteration         150 after  0:00:00:04.66
+Time  0.143406183674E-13 and iteration         160 after  0:00:00:04.93
+Time  0.152369070154E-13 and iteration         170 after  0:00:00:05.21
+Time  0.161331956634E-13 and iteration         180 after  0:00:00:05.49
+Time  0.170294843113E-13 and iteration         190 after  0:00:00:05.77
+Time  0.179257729593E-13 and iteration         200 after  0:00:00:06.04
+Time  0.188220616073E-13 and iteration         210 after  0:00:00:06.29
+Time  0.197183502552E-13 and iteration         220 after  0:00:00:06.56
+Time  0.206146389032E-13 and iteration         230 after  0:00:00:07.02
+Time  0.215109275512E-13 and iteration         240 after  0:00:00:07.29
+Time  0.224072161991E-13 and iteration         250 after  0:00:00:07.57
+Time  0.233035048471E-13 and iteration         260 after  0:00:00:07.83
+Time  0.241997934951E-13 and iteration         270 after  0:00:00:08.11
+Time  0.250960821430E-13 and iteration         280 after  0:00:00:08.37
+Time  0.259923707910E-13 and iteration         290 after  0:00:00:08.64
+Time  0.268886594389E-13 and iteration         300 after  0:00:00:08.91
+Time  0.277849480869E-13 and iteration         310 after  0:00:00:09.19
+Time  0.286812367349E-13 and iteration         320 after  0:00:00:09.46
+Time  0.295775253828E-13 and iteration         330 after  0:00:00:09.72
+Time  0.304738140308E-13 and iteration         340 after  0:00:00:10.16
+Time  0.313701026788E-13 and iteration         350 after  0:00:00:10.44
+Time  0.322663913267E-13 and iteration         360 after  0:00:00:10.71
+Time  0.331626799747E-13 and iteration         370 after  0:00:00:10.99
+Time  0.340589686227E-13 and iteration         380 after  0:00:00:11.24
+Time  0.349552572706E-13 and iteration         390 after  0:00:00:11.51
+Time  0.358515459186E-13 and iteration         400 after  0:00:00:11.79
+Time  0.367478345666E-13 and iteration         410 after  0:00:00:12.10
+Time  0.376441232145E-13 and iteration         420 after  0:00:00:12.36
+Time  0.385404118625E-13 and iteration         430 after  0:00:00:12.66
+Time  0.394367005105E-13 and iteration         440 after  0:00:00:12.95
+Time  0.403329891584E-13 and iteration         450 after  0:00:00:13.41
+Time  0.412292778064E-13 and iteration         460 after  0:00:00:13.70
+Time  0.421255664543E-13 and iteration         470 after  0:00:00:13.99
+Time  0.430218551023E-13 and iteration         480 after  0:00:00:14.27
+Time  0.439181437503E-13 and iteration         490 after  0:00:00:14.56
+Time  0.448144323982E-13 and iteration         500 after  0:00:00:14.85
+Time  0.457107210462E-13 and iteration         510 after  0:00:00:15.14
+Time  0.466070096942E-13 and iteration         520 after  0:00:00:15.44
+Time  0.475032983421E-13 and iteration         530 after  0:00:00:15.73
+Time  0.483995869901E-13 and iteration         540 after  0:00:00:16.01
+Time  0.492958756381E-13 and iteration         550 after  0:00:00:16.31
+Time  0.501921642860E-13 and iteration         560 after  0:00:00:16.84
+Time  0.510884529340E-13 and iteration         570 after  0:00:00:17.14
+Time  0.519847415820E-13 and iteration         580 after  0:00:00:17.44
+Time  0.528810302299E-13 and iteration         590 after  0:00:00:17.73
+Time  0.537773188779E-13 and iteration         600 after  0:00:00:18.03
+Time  0.546736075259E-13 and iteration         610 after  0:00:00:18.33
+Time  0.555698961738E-13 and iteration         620 after  0:00:00:18.64
+Time  0.564661848218E-13 and iteration         630 after  0:00:00:18.95
+Time  0.573624734698E-13 and iteration         640 after  0:00:00:19.26
+Time  0.582587621177E-13 and iteration         650 after  0:00:00:19.58
+Time  0.591550507657E-13 and iteration         660 after  0:00:00:19.89
+Time  0.600513394136E-13 and iteration         670 after  0:00:00:20.20
+Time  0.609476280616E-13 and iteration         680 after  0:00:00:20.77
+Time  0.618439167096E-13 and iteration         690 after  0:00:00:21.08
+Time  0.627402053575E-13 and iteration         700 after  0:00:00:21.40
+Time  0.636364940055E-13 and iteration         710 after  0:00:00:21.73
+Time  0.645327826535E-13 and iteration         720 after  0:00:00:22.05
+Time  0.654290713014E-13 and iteration         730 after  0:00:00:22.37
+Time  0.663253599494E-13 and iteration         740 after  0:00:00:22.69
+ Final runtime of core = 22.81 seconds
+
+Task Done. Enjoy!
+====================================================
