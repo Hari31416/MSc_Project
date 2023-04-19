@@ -1,0 +1,1305 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{highintensity}{article}{}
+      \name{author}{7}{}{%
+        {{hash=83690b5af9deda9253d8d8ca6bca834c}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Jin\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=9585ed9449b53b9133da4756de3d603d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yeong\bibnamedelima Gyu},
+           giveni={Y\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=77901f5a7bd6805876920755e28d7b02}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Il\bibnamedelima Woo},
+           giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cac0d3120af4069026f09479edfb5d7a}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Jae\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fa0e51883486e9c2ab115b84d95c544d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwang\bibnamedelima Woon},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=41c42d4abded554e48eeae121a617fc2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seong\bibnamedelima Ku},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=57de7ade62b99f86bbedcda72fc4bc4f}{%
+           family={Nam},
+           familyi={N\bibinitperiod},
+           given={Chang\bibnamedelima Hee},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{fullhash}{be554f9f6a872e98c0221a5737a99de3}
+      \strng{bibnamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authorbibnamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authornamehash}{0473a65348350de2ffe6f604815b6a75}
+      \strng{authorfullhash}{be554f9f6a872e98c0221a5737a99de3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optica}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Realization of laser intensity over 1023 W/cm2}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{630\bibrangedash 635}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1364/OPTICA.420520
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/optica/abstract.cfm?URI=optica-8-5-630
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/optica/abstract.cfm?URI=optica-8-5-630
+      \endverb
+      \keyw{Compton scattering; High power lasers; Laser beams; Laser matter interactions; Parabolic mirrors; Strong field physics}
+    \endentry
+    \entry{henri}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31c6893cec91f5270e6ddc3a1b6947cb}{%
+           family={Vincenti},
+           familyi={V\bibinitperiod},
+           given={Henri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{fullhash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{bibnamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authorbibnamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authornamehash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \strng{authorfullhash}{31c6893cec91f5270e6ddc3a1b6947cb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{9}
+      \field{number}{10}
+      \field{title}{Achieving Extreme Light Intensities using Optically Curved Relativistic Plasma Mirrors}
+      \field{volume}{123}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1103/physrevlett.123.105001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103%2Fphysrevlett.123.105001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103%2Fphysrevlett.123.105001
+      \endverb
+    \endentry
+    \entry{lichters}{article}{}
+      \name{author}{3}{}{%
+        {{hash=607ade96aba3f7747fb1fe8a0fa9319b}{%
+           family={Lichters},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=338be294306f120be115d7e7c1352358}{%
+           family={Meyer-ter-Vehn},
+           familyi={M\bibinithyphendelim t\bibinithyphendelim V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=699f6b0d7f0482275f4dbe3d677646eb}{%
+           family={Pukhov},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{fullhash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{bibnamehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{authorbibnamehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{authornamehash}{d707edfbce9b39406f1c3425fdd79f01}
+      \strng{authorfullhash}{d707edfbce9b39406f1c3425fdd79f01}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{9}
+      \field{title}{Short-pulse laser harmonics from oscillating plasma surfaces driven at relativistic intensity}
+      \field{volume}{3}
+      \field{year}{1996}
+      \field{pages}{3425\bibrangedash 3437}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1063/1.871619
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.871619
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.871619
+      \endverb
+    \endentry
+    \entry{hormonics1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=340837f7deb8331d16b4a2b7849548cd}{%
+           family={Perry},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c14b305d6ca186c4f28f522e5fc8d3c1}{%
+           family={Mourou},
+           familyi={M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{fullhash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{bibnamehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{authorbibnamehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{authornamehash}{dda4235dc6f2249836b59a965b6b56ec}
+      \strng{authorfullhash}{dda4235dc6f2249836b59a965b6b56ec}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5161}
+      \field{title}{Terawatt to Petawatt Subpicosecond Lasers}
+      \field{volume}{264}
+      \field{year}{1994}
+      \field{pages}{917\bibrangedash 924}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.264.5161.917
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.264.5161.917
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.264.5161.917
+      \endverb
+    \endentry
+    \entry{hormonics2}{article}{}
+      \name{author}{3}{}{%
+        {{hash=af2971b83fed53713aff70aae979db12}{%
+           family={Macklin},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7abad4ad1fce013e8823fa8a83cb27ab}{%
+           family={Kmetec},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2ead31abce48a7788bb5a529e8f6893d}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{fullhash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{bibnamehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{authorbibnamehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{authornamehash}{cc7f40573a0cca69d6d6daba8def8910}
+      \strng{authorfullhash}{cc7f40573a0cca69d6d6daba8def8910}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{2}
+      \field{title}{High-order harmonic generation using intense femtosecond pulses}
+      \field{volume}{70}
+      \field{year}{1993}
+      \field{pages}{766\bibrangedash 769}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.70.766
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.70.766
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.70.766
+      \endverb
+    \endentry
+    \entry{hormonics3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0dfd2730bf5d4fc29708364f7bcbdc4f}{%
+           family={Preston},
+           familyi={P\bibinitperiod},
+           given={S\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=29f496805e8703fa18c6f7be321cc9ad}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={J\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{fullhash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{bibnamehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{authorbibnamehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{authornamehash}{bccb67a5aca1921eb27844e7011fe699}
+      \strng{authorfullhash}{bccb67a5aca1921eb27844e7011fe699}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics B: Atomic, Molecular and Optical Physics}
+      \field{month}{4}
+      \field{number}{10}
+      \field{title}{Generation of a harmonic quasi-continuum from beating laser fields}
+      \field{volume}{31}
+      \field{year}{1998}
+      \field{pages}{2247}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-4075/31/10/014
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0953-4075/31/10/014
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0953-4075/31/10/014
+      \endverb
+    \endentry
+    \entry{gas-main}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ed56641306ced5044d3dc97aa5e5aa11}{%
+           family={Ivanov},
+           familyi={I\bibinitperiod},
+           given={Misha\bibnamedelima Yu},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=cab45bca70a507f6c4de7480593bff75}{%
+           family={Spanner},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33b41a508ca99835c3fc1bcce479a4dd}{%
+           family={Smirnova},
+           familyi={S\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{d0d7ed611ee6529fc4cc459a5f1f94ac}
+      \strng{fullhash}{d0d7ed611ee6529fc4cc459a5f1f94ac}
+      \strng{bibnamehash}{d0d7ed611ee6529fc4cc459a5f1f94ac}
+      \strng{authorbibnamehash}{d0d7ed611ee6529fc4cc459a5f1f94ac}
+      \strng{authornamehash}{d0d7ed611ee6529fc4cc459a5f1f94ac}
+      \strng{authorfullhash}{d0d7ed611ee6529fc4cc459a5f1f94ac}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Modern Optics}
+      \field{number}{2-3}
+      \field{title}{Anatomy of strong field ionization}
+      \field{volume}{52}
+      \field{year}{2005}
+      \field{pages}{165\bibrangedash 184}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/0950034042000275360
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/0950034042000275360
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/0950034042000275360
+      \endverb
+    \endentry
+    \entry{gas-second}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3f4597d17ec1b8292c05e6a7f85e8ff8}{%
+           family={Delone},
+           familyi={D\bibinitperiod},
+           given={N\bibnamedelima B},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a3b9e2fe1f1c0a029077636e7c0a5b30}{%
+           family={Krainov},
+           familyi={K\bibinitperiod},
+           given={Vladimir\bibnamedelima P},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf732dbf1b38709cc1e2459ab86240d8}
+      \strng{fullhash}{bf732dbf1b38709cc1e2459ab86240d8}
+      \strng{bibnamehash}{bf732dbf1b38709cc1e2459ab86240d8}
+      \strng{authorbibnamehash}{bf732dbf1b38709cc1e2459ab86240d8}
+      \strng{authornamehash}{bf732dbf1b38709cc1e2459ab86240d8}
+      \strng{authorfullhash}{bf732dbf1b38709cc1e2459ab86240d8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics-Uspekhi}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Tunneling and barrier-suppression ionization of atoms and ions in a laser radiation field}
+      \field{volume}{41}
+      \field{year}{1998}
+      \field{pages}{469}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1070/PU1998v041n05ABEH000393
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1070/PU1998v041n05ABEH000393
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1070/PU1998v041n05ABEH000393
+      \endverb
+    \endentry
+    \entry{hhg-book}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=c181a779f4949ff3a769fb9b6ae09b6f}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Kenichi\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2129f53df83ac6dbbe91a50eaa6ce14d}{%
+           family={Grishin},
+           familyi={G\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rijeka}%
+      }
+      \list{publisher}{1}{%
+        {IntechOpen}%
+      }
+      \strng{namehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{fullhash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{bibnamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{authorbibnamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{authornamehash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{authorfullhash}{c181a779f4949ff3a769fb9b6ae09b6f}
+      \strng{editorbibnamehash}{2129f53df83ac6dbbe91a50eaa6ce14d}
+      \strng{editornamehash}{2129f53df83ac6dbbe91a50eaa6ce14d}
+      \strng{editorfullhash}{2129f53df83ac6dbbe91a50eaa6ce14d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Solid State Lasers}
+      \field{chapter}{19}
+      \field{title}{High-Harmonic Generation}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.5772/7961
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5772/7961
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5772/7961
+      \endverb
+    \endentry
+    \entry{hhg-relativistic}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3f74c83cb40811a41c3bfb647a428918}{%
+           family={Bezzerides},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=580af121a309585f407a8577a5370175}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5d439f7b6fab9fc4f27c40ec10f4c040}{%
+           family={Forslund},
+           familyi={F\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3f8f4782b500f9aab308d9b81749ef05}
+      \strng{fullhash}{3f8f4782b500f9aab308d9b81749ef05}
+      \strng{bibnamehash}{3f8f4782b500f9aab308d9b81749ef05}
+      \strng{authorbibnamehash}{3f8f4782b500f9aab308d9b81749ef05}
+      \strng{authornamehash}{3f8f4782b500f9aab308d9b81749ef05}
+      \strng{authorfullhash}{3f8f4782b500f9aab308d9b81749ef05}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{7}
+      \field{title}{Plasma Mechanism for Ultraviolet Harmonic Radiation Due to Intense C${\mathrm{O}}_{2}$ Light}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{pages}{202\bibrangedash 205}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.49.202
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.49.202
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.49.202
+      \endverb
+    \endentry
+    \entry{hhg-main}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4a7130c42386420a39de41fbf1966690}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod},
+           prefix={von\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=b170d0abd20c1e7a9f9da9eeb344c76b}{%
+           family={Rzazewski},
+           familyi={R\bibinitperiod},
+           given={Kazimierz},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b57b29784dabbf1313265151dcf29ce}
+      \strng{fullhash}{7b57b29784dabbf1313265151dcf29ce}
+      \strng{bibnamehash}{7b57b29784dabbf1313265151dcf29ce}
+      \strng{authorbibnamehash}{7b57b29784dabbf1313265151dcf29ce}
+      \strng{authornamehash}{7b57b29784dabbf1313265151dcf29ce}
+      \strng{authorfullhash}{7b57b29784dabbf1313265151dcf29ce}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics B}
+      \field{month}{10}
+      \field{title}{High-order optical harmonic generation from solid surfaces}
+      \field{volume}{63}
+      \field{year}{1996}
+      \field{pages}{499\bibrangedash 506}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s003400050115
+      \endverb
+    \endentry
+    \entry{hhg-second}{article}{}
+      \name{author}{4}{}{%
+        {{hash=50b27b106f95a493390e695bc90b38cb}{%
+           family={Plaja},
+           familyi={P\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=da403edc7b6f5b2421e0444eef42015c}{%
+           family={Roso},
+           familyi={R\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=93a595dc5179b596d294299706ebfabf}{%
+           family={Rza̧żewski},
+           familyi={R\bibinitperiod},
+           given={Kazimierz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bb70d7fd7235ae3a7ea0481b921e220e}{%
+           family={Lewenstein},
+           familyi={L\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{5eff351e20b70fe2043ca5614fb80ddf}
+      \strng{fullhash}{76c8d84a9421a71834d22399b69f82ad}
+      \strng{bibnamehash}{5eff351e20b70fe2043ca5614fb80ddf}
+      \strng{authorbibnamehash}{5eff351e20b70fe2043ca5614fb80ddf}
+      \strng{authornamehash}{5eff351e20b70fe2043ca5614fb80ddf}
+      \strng{authorfullhash}{76c8d84a9421a71834d22399b69f82ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Opt. Soc. Am. B}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Generation of attosecond pulse trains during the reflection of a very intense laser on a solid surface}
+      \field{volume}{15}
+      \field{year}{1998}
+      \field{pages}{1904\bibrangedash 1911}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1364/JOSAB.15.001904
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/josab/abstract.cfm?URI=josab-15-7-1904
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/josab/abstract.cfm?URI=josab-15-7-1904
+      \endverb
+      \keyw{Multiharmonic generation; Ultrafast nonlinear optics; Nonlinear optics at surfaces; Electric fields; Light wavelength; Magnetic fields; Reflectivity; Ti:sapphire lasers; Ultrashort pulses}
+    \endentry
+    \entry{history-similarity}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5e57814856c73f42dd35efaa26361923}{%
+           family={Baeva},
+           familyi={B\bibinitperiod},
+           given={Teodora},
+           giveni={T\bibinitperiod}}}%
+        {{hash=da4c20e205531dcad3be303a11861b9e}{%
+           family={Gordienko},
+           familyi={G\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=699f6b0d7f0482275f4dbe3d677646eb}{%
+           family={Pukhov},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ebd841cfd5bb4013d52706c3d72510c}
+      \strng{fullhash}{8ebd841cfd5bb4013d52706c3d72510c}
+      \strng{bibnamehash}{8ebd841cfd5bb4013d52706c3d72510c}
+      \strng{authorbibnamehash}{8ebd841cfd5bb4013d52706c3d72510c}
+      \strng{authornamehash}{8ebd841cfd5bb4013d52706c3d72510c}
+      \strng{authorfullhash}{8ebd841cfd5bb4013d52706c3d72510c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review. E, Statistical, nonlinear, and soft matter physics}
+      \field{month}{10}
+      \field{title}{Theory of high-order harmonic generation in relativistic laser interaction with overdense plasma}
+      \field{volume}{74}
+      \field{year}{2006}
+      \field{pages}{046404}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.74.046404
+      \endverb
+    \endentry
+    \entry{universal-spectra}{article}{}
+      \name{author}{4}{}{%
+        {{hash=da4c20e205531dcad3be303a11861b9e}{%
+           family={Gordienko},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=699f6b0d7f0482275f4dbe3d677646eb}{%
+           family={Pukhov},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f84451e4b5862e32891d03107f97bb3c}{%
+           family={Shorokhov},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d56d91a500c753f5c8ab6e5f7e26a12b}{%
+           family={Baeva},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{dd9bac18e73cbfd62768233f81a26b63}
+      \strng{fullhash}{22835cf851e05025e49da27370b2cac9}
+      \strng{bibnamehash}{dd9bac18e73cbfd62768233f81a26b63}
+      \strng{authorbibnamehash}{dd9bac18e73cbfd62768233f81a26b63}
+      \strng{authornamehash}{dd9bac18e73cbfd62768233f81a26b63}
+      \strng{authorfullhash}{22835cf851e05025e49da27370b2cac9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Relativistic Doppler Effect: Universal Spectra and Zeptosecond Pulses}
+      \field{volume}{93}
+      \field{year}{2004}
+      \field{pages}{115002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.93.115002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.115002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.115002
+      \endverb
+    \endentry
+    \entry{EPOCH}{article}{}
+      \name{author}{11}{}{%
+        {{hash=5d59bc87f9df037ad01a8771d21cae6a}{%
+           family={Arber},
+           familyi={A\bibinitperiod},
+           given={T\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4ad15ddff138dc47ae0c1da17ece3b06}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=42c32fbc0243408def6d2666c28cbad8}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={C\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=98bdb1353088e11f88af563dfff611a2}{%
+           family={Lawrence-Douglas},
+           familyi={L\bibinithyphendelim D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89ef41c2176ebe1b9a2deb66e38e315c}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=53f7bf5963c6aead4aafcbb7fc2d5ec4}{%
+           family={Sircombe},
+           familyi={S\bibinitperiod},
+           given={N\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1c2a2bd19b6dced6dccbfd86308b7aad}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9dac33abab4ddc1f11cb1468cbe40d91}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={R\bibnamedelima G},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=157625c94d6f8c7ca6052d4e84e40200}{%
+           family={Schmitz},
+           familyi={S\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7c54b8956af1b23c45ec779bf37ab3d7}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={A\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a5a3b47e15da60b22b3f12a1a09db3c5}{%
+           family={Ridgers},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{fullhash}{2961b237423c30eab7f6d81aaa5a3cf1}
+      \strng{bibnamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authorbibnamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authornamehash}{2a947cd35556f4810f60cf140133d1fb}
+      \strng{authorfullhash}{2961b237423c30eab7f6d81aaa5a3cf1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{month}{9}
+      \field{number}{11}
+      \field{title}{Contemporary particle-in-cell approach to laser-plasma modelling}
+      \field{volume}{57}
+      \field{year}{2015}
+      \field{pages}{113001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0741-3335/57/11/113001
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0741-3335/57/11/113001
+      \endverb
+    \endentry
+    \entry{chen}{book}{}
+      \name{author}{1}{}{%
+        {{hash=af70f9c2f9cfb9189d1088a841f9b52e}{%
+           family={{Chen}},
+           familyi={C\bibinitperiod},
+           given={F.\bibnamedelimi F.},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Plenum Press}%
+      }
+      \strng{namehash}{af70f9c2f9cfb9189d1088a841f9b52e}
+      \strng{fullhash}{af70f9c2f9cfb9189d1088a841f9b52e}
+      \strng{bibnamehash}{af70f9c2f9cfb9189d1088a841f9b52e}
+      \strng{authorbibnamehash}{af70f9c2f9cfb9189d1088a841f9b52e}
+      \strng{authornamehash}{af70f9c2f9cfb9189d1088a841f9b52e}
+      \strng{authorfullhash}{af70f9c2f9cfb9189d1088a841f9b52e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Introduction to plasma physics}}
+      \field{year}{1974}
+      \keyw{MHD fusion kinetic physics plasma}
+    \endentry
+    \entry{manim}{software}{}
+      \name{author}{1}{}{%
+        {{hash=0c6c914811edee3ebb09f940013689dd}{%
+           family={{The Manim Community Developers}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c6c914811edee3ebb09f940013689dd}
+      \strng{fullhash}{0c6c914811edee3ebb09f940013689dd}
+      \strng{bibnamehash}{0c6c914811edee3ebb09f940013689dd}
+      \strng{authorbibnamehash}{0c6c914811edee3ebb09f940013689dd}
+      \strng{authornamehash}{0c6c914811edee3ebb09f940013689dd}
+      \strng{authorfullhash}{0c6c914811edee3ebb09f940013689dd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{{Manim - Mathematical Animation Framework}}
+      \field{version}{v0.17.3}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.manim.community/
+      \endverb
+      \verb{url}
+      \verb https://www.manim.community/
+      \endverb
+    \endentry
+    \entry{suciu}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=dd7d76e9d294907c69ee445530b79435}{%
+           family={Suciu},
+           familyi={S\bibinitperiod},
+           given={Alin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8bf056173916874918ae05654560ab08}{%
+           family={Hangan},
+           familyi={H\bibinitperiod},
+           given={Anca},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c172d7e840ef41beb75cf52907d8fd62}{%
+           family={Marginean},
+           familyi={M\bibinitperiod},
+           given={Anca},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d1aa4fad1aa944a245273da235e8e487}{%
+           family={Joldos},
+           familyi={J\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5bb6db512e2a4147bbb7c30960d8cac5}{%
+           family={Voitcu},
+           familyi={V\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=95b3e814a471374f176f9d1d8ebf9ab4}{%
+           family={Echim},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cca97a300bbd71a3dcceb84704cb2d41}
+      \strng{fullhash}{b82e054d02e0f20daf3ca309dc55c721}
+      \strng{bibnamehash}{cca97a300bbd71a3dcceb84704cb2d41}
+      \strng{authorbibnamehash}{cca97a300bbd71a3dcceb84704cb2d41}
+      \strng{authornamehash}{cca97a300bbd71a3dcceb84704cb2d41}
+      \strng{authorfullhash}{b82e054d02e0f20daf3ca309dc55c721}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Parallel implementation of a PIC simulation algorithm using OpenMP}
+      \field{year}{2020}
+      \field{pages}{381\bibrangedash 385}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.15439/2020F130
+      \endverb
+    \endentry
+    \entry{2d-transformation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=04240c1673f337b4f5d060455e1bd86b}{%
+           family={Bourdier},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{04240c1673f337b4f5d060455e1bd86b}
+      \strng{fullhash}{04240c1673f337b4f5d060455e1bd86b}
+      \strng{bibnamehash}{04240c1673f337b4f5d060455e1bd86b}
+      \strng{authorbibnamehash}{04240c1673f337b4f5d060455e1bd86b}
+      \strng{authornamehash}{04240c1673f337b4f5d060455e1bd86b}
+      \strng{authorfullhash}{04240c1673f337b4f5d060455e1bd86b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Physics of Fluids}
+      \field{number}{7}
+      \field{title}{Oblique incidence of a strong electromagnetic wave on a cold inhomogeneous electron plasma. Relativistic effects}
+      \field{volume}{26}
+      \field{year}{1983}
+      \field{pages}{1804\bibrangedash 1807}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.864355
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.864355
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.864355
+      \endverb
+    \endentry
+    \entry{matplotlib}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a27d092a3c70c59360ac990a48514314}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE COMPUTER SOC}%
+      }
+      \strng{namehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{fullhash}{a27d092a3c70c59360ac990a48514314}
+      \strng{bibnamehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{authorbibnamehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{authornamehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{authorfullhash}{a27d092a3c70c59360ac990a48514314}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Matplotlib is a 2D graphics package used for Python for application development, interactive scripting, and publication-quality image generation across user interfaces and operating systems.}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{title}{Matplotlib: A 2D graphics environment}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MCSE.2007.55
+      \endverb
+    \endentry
+    \entry{numpy}{article}{}
+      \name{author}{26}{}{%
+        {{hash=db2b4761cc46be347b418e68660c9554}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b053969d2c6a9ec8689980fb6463cd56}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi Jarrod},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9a5a65a789013a8d1e8035ec28df9b6e}{%
+           family={Walt},
+           familyi={W\bibinitperiod},
+           given={Stéfan\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18703a2bb6a62484483c193a212da2f8}{%
+           family={Virtanen},
+           familyi={V\bibinitperiod},
+           given={Pauli},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4321feefe3d5715c6fe12639d2a1f7f1}{%
+           family={Wieser},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e8d1b0c2bff88b6bf54e2e934e2853f6}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=265437a4424f0b845118651d7d04ab93}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e4d23819637a961e0e598e1c82a8f10d}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nathaniel\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ad1d38817acd2f00cb7f324ec7d37ea}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ae844f84614690134ff5d8252fdc430}{%
+           family={Picus},
+           familyi={P\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4a22828b76006f42d747b699d2ef5167}{%
+           family={Hoyer},
+           familyi={H\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=10aba85d08ce22d724b21878b93f590a}{%
+           family={Kerkwijk},
+           familyi={K\bibinitperiod},
+           given={Marten\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=626cc151613864abeb653c0d8172d98c}{%
+           family={Brett},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a989405517bbf67ae7b16be1d03c0081}{%
+           family={Haldane},
+           familyi={H\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9517b38a3050d34c03ac479ee122f64a}{%
+           family={Río},
+           familyi={R\bibinitperiod},
+           given={Jaime\bibnamedelima Fernández},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={del},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=76256cb9e4c31e0a4744b1b49a6199f4}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d6efaaa3d9682e20787eb06ff70a3d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Pearu},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aac4486f60accb8b7db22ef300423e11}{%
+           family={Gérard-Marchant},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=22fcbc93c38819e962968aad3e3cba7f}{%
+           family={Sheppard},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fbb0c40f5d70be8ce47ce9daafdf5749}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4c7e4c94b846fa41e2fc0a88e0dc656d}{%
+           family={Weckesser},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c588b2e35e75bba896fc5677afb52fa9}{%
+           family={Abbasi},
+           familyi={A\bibinitperiod},
+           given={Hameer},
+           giveni={H\bibinitperiod}}}%
+        {{hash=52e2684c111b194e1f15fa06b0ce4544}{%
+           family={Gohlke},
+           familyi={G\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{fullhash}{bba1ae456b2655ba67cf6cee2d142dfc}
+      \strng{bibnamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authorbibnamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authornamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authorfullhash}{bba1ae456b2655ba67cf6cee2d142dfc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{number}{7825}
+      \field{title}{Array programming with {NumPy}}
+      \field{volume}{585}
+      \field{year}{2020}
+      \field{pages}{357\bibrangedash 362}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-020-2649-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41586-020-2649-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41586-020-2649-2
+      \endverb
+    \endentry
+    \entry{scipy}{article}{}
+      \name{author}{35}{}{%
+        {{hash=18703a2bb6a62484483c193a212da2f8}{%
+           family={Virtanen},
+           familyi={V\bibinitperiod},
+           given={Pauli},
+           giveni={P\bibinitperiod}}}%
+        {{hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=35bb9c71f55048509a3e9018c349ed73}{%
+           family={Haberland},
+           familyi={H\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fbb0c40f5d70be8ce47ce9daafdf5749}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=09a667aa6a26526bfcccb2676a494e55}{%
+           family={Burovski},
+           familyi={B\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3d6efaaa3d9682e20787eb06ff70a3d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Pearu},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4c7e4c94b846fa41e2fc0a88e0dc656d}{%
+           family={Weckesser},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7447cb057596bc2645d3980bb04f5c78}{%
+           family={Bright},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1b5d87f5a394ee92a6edb4c1de058cab}{%
+           family={{van der Walt}},
+           familyi={v\bibinitperiod},
+           given={Stéfan\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=626cc151613864abeb653c0d8172d98c}{%
+           family={Brett},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=57849e8550281b202bd611bf6f11e14b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b053969d2c6a9ec8689980fb6463cd56}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi Jarrod},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fbaf80580622bd40577f4a6d38021c0a}{%
+           family={Mayorov},
+           familyi={M\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7bcf847eaccba039f7a4523540673aea}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelimb R.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4b3d26f886661aa723985bcfd835ba18}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9ad1d38817acd2f00cb7f324ec7d37ea}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=65b1934a87acb0abe09c469aaf11c326}{%
+           family={Carey},
+           familyi={C\bibinitperiod},
+           given={C\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9989e8a18827e34b15112d671f52bd35}{%
+           family={Polat},
+           familyi={P\bibinitperiod},
+           given={İlhan},
+           giveni={İ\bibinitperiod}}}%
+        {{hash=b8b88d61c79de60e6e1b5d44e03f5dec}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bf4be16325cb4f641345ca394443fd18}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0fd9a0e34f1b2adda41357c948d14986}{%
+           family={{VanderPlas}},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c6a95a8ced3b86b4e7e60a74bc6ebf5a}{%
+           family={Laxalde},
+           familyi={L\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=85242652d69220e83cf71ceb8d90a8cb}{%
+           family={Perktold},
+           familyi={P\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5bca159e697db439e23b8947dfa4b614}{%
+           family={Cimrman},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=70b659f5067a8a2efbee66f770681598}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=fa5163c76600eb11a4d07a28f0701cb0}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=db2b4761cc46be347b418e68660c9554}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7d86aea5ad1f2b4e27f2f014c71712c2}{%
+           family={Archibald},
+           familyi={A\bibinitperiod},
+           given={Anne\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8928c27c900ec0b05492cbba126c5196}{%
+           family={{van Mulbregt}},
+           familyi={v\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aa8bf7a30651c7bc3d20ff02fc843dd9}{%
+           family={{SciPy 1.0 Contributors}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{fullhash}{371a3f5cdbab4f8c68cab2e17d157950}
+      \strng{bibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authorbibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authornamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authorfullhash}{371a3f5cdbab4f8c68cab2e17d157950}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{title}{{{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python}}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{pages}{261\bibrangedash 272}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/s41592-019-0686-2
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

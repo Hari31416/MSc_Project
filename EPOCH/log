@@ -1,0 +1,24 @@
+Found 104 files
+Values from input.deck:
+lambda0 =  1e-06
+laser_time =  8
+t_end =  20
+dt_snapshot =  8e-17
+a0 =  1.0
+factor =  4
+nx =  4000
+ny =  4000
+x_min =  -10
+y_min =  -10
+temp =  50.0
+Calculated Values for the simulation are:
+omega0 = 1.8837e+15
+tau = 3.3356e-15
+nc = 1.1143e+27
+Er = 3.2107e+12
+n0 = 4.4573e+27
+lambdaD = 7.3072e-12
+vth = 2.7528e+04
+f_max = 6.2500e+15
+omega_max = 3.9270e+16
+omega_max_natural = 2.0848e+01

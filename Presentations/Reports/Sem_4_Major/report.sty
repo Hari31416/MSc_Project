@@ -1,0 +1,56 @@
+\ProvidesPackage{report}
+\usepackage{amsmath, amssymb, graphicx, hyperref}
+\graphicspath{{images/}}
+\usepackage{indentfirst, float}
+\usepackage[sorting=none]{biblatex}
+\usepackage[font=small,skip=0pt]{caption}
+\usepackage{subfig}
+\usepackage{titlesec}
+\usepackage[top=1.7cm, bottom=1.7cm, left=1.5cm, right=1.5cm]{geometry}
+\bibliography{refs}
+\title{Plasma Mirrors}
+\author{Harikesh}
+\date{\today}
+
+% To change the margin
+\newenvironment{changemargin}[2]{
+    \begin{list}{}{
+            \setlength{\topsep}{0pt}
+            \setlength{\leftmargin}{#1}
+            \setlength{\rightmargin}{#2}
+            \setlength{\listparindent}{\parindent}
+            \setlength{\itemindent}{\parindent}
+            \setlength{\parsep}{\parskip}
+        }
+        \item[]}{\end{list}}
+
+% To get subsubsubsection
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+    {3.25ex \@plus1ex \@minus.2ex}%
+    {-1em}%
+    {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+    {3.25ex \@plus1ex \@minus .2ex}%
+    {-1em}%
+    {\normalfont\normalsize\bfseries}}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@paragraph{6}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+\makeatother
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
