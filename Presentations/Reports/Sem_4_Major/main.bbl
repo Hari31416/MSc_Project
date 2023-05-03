@@ -797,8 +797,8 @@
       \strng{authorbibnamehash}{0c6c914811edee3ebb09f940013689dd}
       \strng{authornamehash}{0c6c914811edee3ebb09f940013689dd}
       \strng{authorfullhash}{0c6c914811edee3ebb09f940013689dd}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
@@ -1297,6 +1297,58 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1038/s41592-019-0686-2
+      \endverb
+    \endentry
+    \entry{pulse-duration}{article}{}
+      \name{author}{6}{}{%
+        {{hash=199550523944881da144d2ada901517b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Bingbing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a2bb792959abf43b5eaacbfbcb6f376a}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Taiwang},
+           giveni={T\bibinitperiod}}}%
+        {{hash=74f3803962128dd4bb5b501ab7457e15}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaofeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e2650216d0b18d1a254fd38b41118b55}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Panming},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d4274da32eabe2603a3d168e9889458e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shigang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6ba98b57fe1f95279a7b276f87e11088}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d61c1fd0d0091fb7f6bd2d20de23018}
+      \strng{fullhash}{d2e9b3549588344abc669eac2dafdcd5}
+      \strng{bibnamehash}{7d61c1fd0d0091fb7f6bd2d20de23018}
+      \strng{authorbibnamehash}{7d61c1fd0d0091fb7f6bd2d20de23018}
+      \strng{authornamehash}{7d61c1fd0d0091fb7f6bd2d20de23018}
+      \strng{authorfullhash}{d2e9b3549588344abc669eac2dafdcd5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{10}
+      \field{title}{Pulse-duration dependence of high-order harmonic generation with coherent superposition state}
+      \field{volume}{72}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.72.063412
       \endverb
     \endentry
   \enddatalist

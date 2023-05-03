@@ -23,23 +23,6 @@ For a laser of frequency $\omega_l$ and electric field amplitude $E_0$, the lase
 A laser is called relativistic if $a_0 \ge 1$. In this situation, the intensity of laser becomes very high and it starts to drive the charged particle it interacts with by relativistic speeds.
 
 \subsection{HHG in Gases}
-% HHG in gases occur when an intense laser pulse is focused on gases. When the light photon interacts with atom of gases, three types of ionization occurs depending on the frequency and intensity of the light: if the energy of photon is greater or just equal to the atom ionization potential, then photon ionization occurs. If energy of laser is lss than the atom ionization potential then multiphoton ionization and tunneling ionization occur. Multiphoton and tunneling ionization are two limiting cases of the universal process of nonlinear ionization and this process is determined by three parameters: the laser frequency \(\omega\) , the amplitude of the laser field strength $F$, and the atomic ionization potential \(I_p\).
-
-% \begin{enumerate}
-%     \def\labelenumi{\arabic{enumi}.}
-%     \item \textbf{In the multiphoton limit} the ionization rate depends on the field strength according to the power law: \[\Omega = F^{2K}\] where K = \textless{}\(I_p\)/\(\Omega\) +1\textgreater{} is the number of absorbed photons
-%     \item \textbf{In the tunneling limit} the ionization rate increases exponentially with the field strength \[\Omega \propto  \exp(-2(2I_p)^{3/2}/3F)\]
-% \end{enumerate}
-
-% Delone et al.\cite{gas-second} showed that the boundary between multiphoton and tunneling ionization is determined by the value of the adiabaticity parameter:
-% \begin{equation}
-%     \label{eq:adiabatic}
-%     \gamma =\Omega \sqrt{2I_p/F}
-% \end{equation}
-% \noindent
-% $\gamma^2 \gg 1$ correspond to multiphoton ionization, realized at a relatively high frequency and low field strength of laser radiation. On the other hand, the values of $\gamma^2 \ll 1$  correspond to tunneling ionization, which is realized at a low frequency and high field strength.
-
-% HHG in gases occurs when an intense laser pulse interacts with gases. Three types of ionization occur, depending on the frequency and intensity of the light. If the energy of the photon is greater or just equal to the atom ionization potential, then photon ionization occurs. However, if the energy of the laser is less than the atom ionization potential then multiphoton ionization and tunneling ionization occur. Multiphoton and tunneling ionization are determined by the laser frequency \(\omega\), the amplitude of the laser field strength $F$, and the atomic ionization potential \(I_p\). In the multiphoton limit, the ionization rate follows a power law, while in the tunneling limit, the ionization rate increases exponentially with field strength. The adiabaticity parameter, given by
 
 HHG phenomena take place when gases are subjected to the influence of an intense laser pulse. The interaction leads to three different types of ionization, which are dependent on the intensity and frequency of the light. If the photon's energy is equal to or greater than the ionization potential of the atom, photon ionization will occur. On the other hand, if the laser's energy is lower than the ionization potential of the atom, multiphoton ionization and tunneling ionization will occur instead. The determination of multiphoton and tunneling ionization depends on the atomic ionization potential $I_p$, the laser frequency $\omega$, and the amplitude of the laser field strength $F$. In the multiphoton limit, the rate of ionization follows a power law, whereas in the tunneling limit, it increases exponentially as the field strength increases. The adiabaticity parameter, given by
 \begin{equation}
@@ -52,25 +35,20 @@ determines the boundary between multiphoton and tunneling ionization, with high 
 
 In three-step model, we treat the motion of electron initially using quantum mechanics. After it tunnel ionizes from the parent atom, we treat its subsequent dynamics classically. The HHG occurs in three steps:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{three_step_one.png}
-    \caption{Three steps and fields. The solid black line in the figure shows the binding potential well. The green line is the potential due to the laser field while the solid blue line is the potential created by the instantaneous laser field along with the binding potential well.\\All the illustrations in this sections, if not stated otherwise, are made by the authors using manim\cite{manim}.}
-    \label{fig:3-step-1}
+    \subfloat[\centering Three steps and fields. The solid black line in the figure shows the binding potential well. The green line is the potential due to the laser field while the solid blue line is the potential created by the instantaneous laser field along with the binding potential well.]{{\includegraphics[width=0.47\textwidth]{three_step_one.png}}}%
+    \quad
+    \subfloat[\centering The wave functions of electrons (the red lines). Initially, it is in a potential well. While tunneling, the wave function decay exponentially. After the electron has tunneled through the barrier, it behaves like a free particle with a wave function specified by a smaller amplitude.]{{\includegraphics[width=0.47\textwidth]{three_step_two.png}}}%
+    \caption{The Three Step Model}%
+    \label{fig:three-step}%
 \end{figure}
+
 \begin{enumerate}
-    \item \textbf{Tunnel ionization} The laser field, which we have assumed to be linearly polarized along the $x$-axis, gives a potential in the form of \(\hat V_L(t)-xFcos(\omega_Lt)\), that is, the potential is proportional to $-x$. This is drawn in figure \ref{fig:3-step-1} as the green line. When this potential couples with the original potential well (in the black line), the potential is deformed (the blue line), called barrier suppression. Electron tunnels through this potential well.
+    \item \textbf{Tunnel ionization} The laser field, which we have assumed to be linearly polarized along the $x$-axis, gives a potential in the form of \(\hat V_L(t)-xFcos(\omega_Lt)\), that is, the potential is proportional to $-x$. This is drawn in figure \ref{fig:three-step} (a) as the green line. When this potential couples with the original potential well (in the black line), the potential is deformed (the blue line), called barrier suppression. Electron tunnels through this potential well.
     \item \textbf{Free propagation in the presence of the field} After tunneling, the electron is considered to have no initial velocity as it enters the vacuum. It then experiences acceleration from the electric field of the laser beam. About half a cycle after being ionized, the electron changes direction and moves back toward the parent nucleus due to the reversal of the electric field's direction. During this process, the electron continues to be accelerated.
     \item \textbf{Recollision and recombination} Next, the electron will collide with the nucleus which is the recombination process. During recombination, while the electron returns to its ground state, it can emit radiation of frequency that are multiple of the laser intensity. This is how high harmonics are generated.
 \end{enumerate}
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{three_step_two.png}
-    \caption{The wave functions of electrons (the red lines). Initially, it is in a potential well. While tunneling, the wave function decay exponentially. After the electron has tunneled through the barrier, it behaves like a free particle with a wave function specified by a smaller amplitude.}
-    \label{fig:3-step-2}
-\end{figure}
 
 \subsection{HHG in Plasma}
 The spectrum from HHG consists of several of integer harmonics of the incident laser pulse (with their intensities decreasing), followed by a plateau, a region, where the harmonic intensity is almost constant over many orders and finally a sharp cutoff. Several of models and theories have been proposed explaining this power law and cutoff. Bezzerides et al.\cite{hhg-relativistic} gave the first model way back in 1983. Their model was based on the relativistic equation of motion and hydrodynamics approximation. They found a cutoff frequency as
@@ -81,10 +59,9 @@ The spectrum from HHG consists of several of integer harmonics of the incident l
 where $n_p$ is the plasma density and $n_c$ is the critical density. The authors showed that the main cause of high-harmonic emission is the powerful nonlinear restoring force that arises during resonant absorption in a density profile that is extremely steep. However, this model was not able to explain the plateau region as well as the fact that we get harmonics that are much higher than the cutoff frequency given by Eq. \ref{eq:cutoff-relativistic}.
 
 \subsubsection{Oscillating Mirror Model}
-% To induce large intensity boosts on the reflected laser beam, plasma mirrors need to be set in relativistic motion, which is possible when they are exposed to laser intensities ranging from at least $10^{18} W/cm^2$ up to the highest laser intensities available to date, of a few $10^{22} W/cm^2$. The incident laser field then drives a periodic oscillation of the plasma mirror surface, at relativistic velocities. This relativistic oscillating mirror induces a periodic Doppler effect on the reflected field. Each time the mirror surface moves outward, it compresses the laser energy in time, leading to a sharpening of the reflected waveform. Although still periodic in time, this waveform is no longer sinusoidal: its spectrum thus consists of the combination of the laser frequency $\omega_p$ with a comb of high-order harmonics of frequencies $n\omega_p$.
-The concept underlying this model is that the incident laser field induces a periodic oscillation of the plasma mirror surface at relativistic speeds. This oscillating mirror at relativistic speeds results in a periodic Doppler effect on the reflected field, which is responsible for the occurrence of HHG. In this model, it is assumed that the duration of the light pulse is brief enough for the motion of the ions to be disregarded. The ions are considered as a static positive background charge. Additionally, the details of changes in the electron density profile are ignored, and the collective motion of the electrons is represented by the motion of the boundary of the supercritical region. This boundary serves as an effective reflective surface that undergoes oscillatory motion, which is referred to as the oscillating mirror. Using these assumptions, we follow von der Linde et al.\cite{hhg-main} to derive the spectrum of HHG. First, we show that the HHG can be understood as a phase modulation due to the moving mirror.
+The concept underlying this model is that the incident laser field results in a periodic oscillation of the surface of the plasma mirror relativistic speeds. This oscillating mirror at relativistic speeds results in a periodic Doppler effect on the reflected field, which is responsible for the occurrence of HHG. In this model, it is assumed that the duration of the light pulse is very brief and hence one can ignore the motion of the ions. The ions are considered as a static positive background charge. Additionally, the details of changes in the electron density profile are ignored, and the collective motion of the electrons is represented by the motion of the boundary of the supercritical region. This boundary serves as an effective reflective surface that undergoes oscillatory motion, which is referred to as the oscillating mirror. Using these assumptions, we follow von der Linde et al.\cite{hhg-main} to derive the spectrum of HHG. First, we show that the HHG can be understood as a phase modulation due to the moving mirror.
 
-For this, assuming retardation can be neglected for a moment, the phase shift of the reflected wave caused by a sinusoidal displacement of the reflecting surface in the z-direction is affected.
+Assuming retardation can be disregarded for the time being, the reflected wave suffers a phase shift due to the periodic sinusoidal motion of the reflecting surface (the PM) along the z-direction. This can be determined:
 
 \begin{equation*}
     s(t) = s_0 \sin(\omega t)
@@ -95,41 +72,35 @@ is given by
     \phi(t) = (2\omega_0s_0/c)\cos\alpha \sin \omega_m t
 \end{equation*}
 
-where $\alpha$ is the angle of incidence and $\omega_m$ is the mirror frequency (modulation frequency). The reflected wave has the elecctric field as:
+$\alpha$ being the angle of incidence while $\omega_m$ is the mirror frequency (the frequency at which modulation occurs). The reflected wave has the elecctric field as:
 
 \begin{equation}
     E_R \propto e^{-i\omega_0 t}e^{i\phi(t)} =  e^{-i\omega_0 t} \sum _{n \to -\infty}^{n \to -\infty}J_n(\chi) e^{-in\omega_m t}
 \end{equation}
 
-with $J_n(\xi)$ being the Bessel function of order $n$ and
+with $J_n(\xi)$ being the $n^{\text{th}}$ order Bessel function and
 \begin{equation}
     \label{eq:chi-def}
     \chi = \frac{2\omega_0s_0\cos\alpha}{c}
 \end{equation}
 
-% This shows that the phase modulation produced by the oscillating mirror gives rise to a series of sidebands at distances from the carrier frequency $\omega_0$ given by multiples of the modulation frequency $\omega_m$.
-
-% The reflecting surface performs a periodic motion at a frequency $2\omega_0$, or a superposition of $\omega_0$ and $2\omega_0$ , depending on the polarization and angle of incidence of the incoming light. Thus, the modulation frequencies provided by the mirror motion are $\omega_m = \omega_0$ and/or $\omega_m = 2\omega_0$. The key point is that this type of modulation produces sidebands representing even and odd harmonics of the fundamental frequency $\omega_0$ . These ideas suggest an interpretation of high-order harmonic generation from a plasma-vacuum interface as a phase modulation from a periodically moving reflecting surface.
-
-The reflecting surface undergoes periodic motion at a frequency of $2\omega_0$, or a superposition of $\omega_0$ and $2\omega_0$, depending on the polarization and the incidence angle of the incident light. As a result, the modulation frequencies generated by the mirror motion are $\omega_m = \omega_0$ and/or $\omega_m = 2\omega_0$. The crucial point is that this type of modulation gives rise to sidebands representing even and odd harmonics of the fundamental frequency $\omega_0$. These concepts propose an explanation of high-order harmonic generation from a plasma-vacuum interface as a phase modulation from a reflecting surface that moves periodically.
+Depending on the polarisation and incidence angle of the incident light, the reflecting surface experiences periodic motion with a frequency of $2omega_0$ or a superposition of $omega_0$ and $2omega_0$. In consequence, the modulation frequencies produced by the mirror motion are $omega_m = omega_0$ and/or $omega_m = 2omega_0$. This form of modulation produces sidebands that represent even and odd harmonics of the fundamental frequency $omega_0$. These ideas propose an explanation for the generation of high-order harmonics at the plasma-vacuum interface as phase modulation from an intermittently moving reflecting surface.
 
 \subsubsubsection{p- and s-Polarization}\label{section:selection}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{p.png}
-    \caption{p-polarization. The electric and magnetic fields are parallel and perpendicular, respectively, to the plane of incidence. The motion of the electrons occurs within the plane of incidence.}
+    \includegraphics[width=0.8\textwidth]{p.png}
+    \caption{p-polarization. The electric field is parallel to the plane of incidence while the magnetic field is perpendicular to the plane of incidence and hence the motion of the electron occurs within the plane of incidence.\\All the illustrations in this sections, if not stated otherwise, are made by the authors using manim\cite{manim}.}
     \label{fig:p-polarized}
 \end{figure}
 
 \begin{itemize}
-    % \item \textbf{p-Polarized Light}: The electric and magnetic fields are, respectively, parallel and perpendicular to the plane of incidence. The electrons move in the plane of incidence. The electron boundary is driven at frequencies $\omega_0$ and $2\omega_0$ , because both the transverse and the longitudinal component of the electron velocity contribute to the motion of the boundary. It follows that in this case both even and odd harmonics with p-polarization are generated. See Fig. \ref{fig:p-polarized}.
-    \item \textbf{p-Polarized Light}: In this case, the electric and magnetic fields are parallel and perpendicular, respectively, to the plane of incidence. The motion of the electrons occurs within the plane of incidence. The electron boundary is driven at frequencies $\omega_0$ and $2\omega_0$, as both the transverse and longitudinal components of the electron velocity contribute to the motion of the boundary. As a result, both even and odd harmonics with p-polarization are produced in this scenario. Please refer to the Figure \ref{fig:p-polarized}.
-          % \item \textbf{s-Polarized Light}: The electric field is parallel to the plasma-vacuum interface. The electrons move in a plane perpendicular to the plane of incidence. In this configuration only the longitudinal component contributes, while the transverse component of the electron motion is ineffective. The normal motion of the mirror is driven at one frequency only, $\omega_m = 2\omega_0$. It follows that the reflected light is composed of s-polarized odd harmonics and p-polarized even harmonics. See Fig. \ref{fig:s-polarized}.
-    \item \textbf{s-Polarized Light}: Here, the electric field of the incident light is parallel to the plasma-vacuum interface, while the electrons move in a plane perpendicular to the plane of incidence. In this setup, only the longitudinal component of the electron motion contributes to the mirror motion, while the transverse component is ineffective. Consequently, the mirror motion is driven at a single frequency, $\omega_m = 2\omega_0$. As a result, the reflected light consists of odd harmonics with s-polarization and even harmonics with p-polarization. Please refer to the Figure \ref{fig:s-polarized}.
-          \begin{figure}[h]
+    \item \textbf{p-Polarized Light}: In this case, the electric field is parallel to the plane of incidence while the magnetic field is perpendicular to the plane of incidence and hence the motion of the electron occurs within the plane of incidence. The electron boundary is driven at frequencies $\omega_0$ and $2\omega_0$, as both the transverse and longitudinal components of the electron velocity contribute to the motion of the boundary. As a result, both even and odd harmonics with p-polarization are produced in this scenario. Please refer to the Figure \ref{fig:p-polarized}.
+    \item \textbf{s-Polarized Light}: Here, the electric field is parallel to the plasma-vacuum interface and of the magnetic field is perpendicular. This means that the electrons will move in a plane perpendicular to the plane of incidence. In this setup, only the longitudinal component of the electron motion contributes to the mirror motion, while the transverse component is ineffective. Consequently, the mirror motion is driven at a single frequency, $\omega_m = 2\omega_0$. As a result, the reflected light consists of odd harmonics with s-polarization and even harmonics with p-polarization. Please refer to the Figure \ref{fig:s-polarized}.
+          \begin{figure}[H]
               \centering
-              \includegraphics[width=1\textwidth]{s.png}
-              \caption{s-polarization. The electric field of the incident light is parallel to the plasma-vacuum interface, while the electrons move in a plane perpendicular to the plane of incidence. }
+              \includegraphics[width=0.8\textwidth]{s.png}
+              \caption{s-polarization. The electric field is parallel to the plasma-vacuum interface. This means that the electrons will move in a plane perpendicular to the plane of incidence.}
               \label{fig:s-polarized}
           \end{figure}
 \end{itemize}
@@ -164,25 +135,13 @@ The maximum displacement of the surface is $s_0$ is bounded and it is determined
     \therefore \chi          & < \cos\alpha
 \end{align*}
 
-% We assume that the reflected wave can be written in the general form of a plane wave propagating in the specular direction:
-
-% \begin{equation*}
-%     E_R = G(u) = G(t - x/\sin\alpha + z/\cos\alpha)
-% \end{equation*}
-
-% If we further assume that the surface is completely reflecting, then $G(u)$ is obtained from the condition that the total field must vanish on the reflecting surface $z = s(t,x)$, that is:
-% \begin{equation}
-%     \label{eq:bc}
-%     E(t,x,s(t,x)) + E_R(t,x,s(t,x)) = 0
-% \end{equation}
-
-In our analysis, we make the assumption that the reflected wave can be expressed as a plane wave propagating in the direction of specular reflection, given by:
+For our analysis, we will make the assumption that we ca express the reflected wave as a plane wave which is propagating in the direction of specular reflection. This type of wave has form:
 
 \begin{equation*}
-    E_R = G(u) = G(t - x/\sin\alpha + z/\cos\alpha)
+    E_R = G(t - x/\sin\alpha + z/\cos\alpha) = G(u)
 \end{equation*}
 
-Assuming that the reflecting surface is perfectly reflecting, the function $G(u)$ is determined by the requirement that the total field must be zero at the reflecting surface $z = s(t,x)$. This condition can be expressed as:
+If we assume that the reflecting surface is perfectly reflecting, the function $G(u)$, defined above, can be determined by the boundary condition that the net field must vanish at the reflecting surface, given $z = s(t,x)$. This condition can be expressed as:
 
 \begin{equation}
     \label{eq:bc}
