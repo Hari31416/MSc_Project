@@ -1,0 +1,153 @@
+ EPOCH1D v4.17.16   v4.17.16-0-g3088d845-clean 1682171226.899          
+
+Deck state:  1
+
+ Beginning "constant" block
+
+ 	Element lambda0=1.0 * micron handled OK
+ 	Element omega0=2 * pi * c / lambda0 handled OK
+ 	Element tau=lambda0/c handled OK
+ 	Element las_time=20*tau handled OK
+ 	Element a0=1 handled OK
+ 	Element factor=4 handled OK
+ 	Element thickness=1*lambda0 handled OK
+ 	Element start=0*micron handled OK
+ 	Element ramp_length=0.9*lambda0 handled OK
+ 	Element ramp_start=-ramp_length handled OK
+ 	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
+ 	Element max_den=factor*crtical_den handled OK
+ 	Element profile_x=if((x gt start), 1.0, 0.0) handled OK
+ 	Element profile_x2=if((x gt start+thickness), 0.0, 1.0) handled OK
+ 	Element ramp_profile=if((x gt ramp_start), 1.0, 0.0) handled OK
+ 	Element ramp_profile2=if((x gt ramp_start+ramp_length), 0.0, (x-ramp_start)/ramp_length) handled OK
+ 	Element profile_x_final=profile_x*profile_x2 + ramp_profile*ramp_profile2 handled OK
+ 	Element temp=50.0 handled OK
+ 	Element temperature_0=temp*qe/kb handled OK
+
+ Ending "constant" block
+
+ Beginning "control" block
+
+ 	Element nx=16000 handled OK
+ 	Element t_end=40*tau handled OK
+ 	Element x_min=-20*lambda0 handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element stdout_frequency=10 handled OK
+
+ Ending "control" block
+
+ Beginning "boundaries" block
+
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_x_max=open handled OK
+
+ Ending "boundaries" block
+
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=50 handled OK
+ 	Element temperature=temperature_0 handled OK
+ 	Element number_density=max_den*profile_x_final handled OK
+
+ Ending "species" block
+
+ Beginning "laser" block
+
+ 	Element boundary=x_min handled OK
+ 	Element intensity=a0*a0*1.37e22 handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element t_profile=if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0) handled OK
+
+ Ending "laser" block
+
+ Beginning "output" block
+
+ 	Element name=normal handled OK
+ 	Element dt_snapshot=0.08 * femto handled OK
+ 	Element grid=always + single handled OK
+ 	Element ex=always + single handled OK
+ 	Element ey=always + single handled OK
+ 	Element ez=always + single handled OK
+ 	Element number_density=always + species handled OK
+
+ Ending "output" block
+
+Deck state:  2
+
+ Beginning "constant" block
+
+ 	Element lambda0=1.0 * micron handled OK
+ 	Element omega0=2 * pi * c / lambda0 handled OK
+ 	Element tau=lambda0/c handled OK
+ 	Element las_time=20*tau handled OK
+ 	Element a0=1 handled OK
+ 	Element factor=4 handled OK
+ 	Element thickness=1*lambda0 handled OK
+ 	Element start=0*micron handled OK
+ 	Element ramp_length=0.9*lambda0 handled OK
+ 	Element ramp_start=-ramp_length handled OK
+ 	Element crtical_den=omega0*omega0/(4*pi*pi*81) handled OK
+ 	Element max_den=factor*crtical_den handled OK
+ 	Element profile_x=if((x gt start), 1.0, 0.0) handled OK
+ 	Element profile_x2=if((x gt start+thickness), 0.0, 1.0) handled OK
+ 	Element ramp_profile=if((x gt ramp_start), 1.0, 0.0) handled OK
+ 	Element ramp_profile2=if((x gt ramp_start+ramp_length), 0.0, (x-ramp_start)/ramp_length) handled OK
+ 	Element profile_x_final=profile_x*profile_x2 + ramp_profile*ramp_profile2 handled OK
+ 	Element temp=50.0 handled OK
+ 	Element temperature_0=temp*qe/kb handled OK
+
+ Ending "constant" block
+
+ Beginning "control" block
+
+ 	Element nx=16000 handled OK
+ 	Element t_end=40*tau handled OK
+ 	Element x_min=-20*lambda0 handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element stdout_frequency=10 handled OK
+
+ Ending "control" block
+
+ Beginning "boundaries" block
+
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_x_max=open handled OK
+
+ Ending "boundaries" block
+
+ Beginning "species" block
+
+ 	Element name=Electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element nparticles_per_cell=50 handled OK
+ 	Element temperature=temperature_0 handled OK
+ 	Element number_density=max_den*profile_x_final handled OK
+
+ Ending "species" block
+
+ Beginning "laser" block
+
+ 	Element boundary=x_min handled OK
+ 	Element intensity=a0*a0*1.37e22 handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element t_profile=if ((time lt las_time), sin(pi*time/las_time)*sin(pi*time/las_time), 0) handled OK
+
+ Ending "laser" block
+
+ Beginning "output" block
+
+ 	Element name=normal handled OK
+ 	Element dt_snapshot=0.08 * femto handled OK
+ 	Element grid=always + single handled OK
+ 	Element ex=always + single handled OK
+ 	Element ey=always + single handled OK
+ 	Element ez=always + single handled OK
+ 	Element number_density=always + species handled OK
+
+ Ending "output" block
+
+ Initial conditions complete and valid.
