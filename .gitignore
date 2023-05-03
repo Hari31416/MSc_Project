@@ -5,3 +5,4 @@ __pycache__
 .fuse_hidden*
 epoch1d.dat
 normal.visit
+EPOCH/HPC/1run/data.zip
