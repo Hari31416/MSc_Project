@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1683093129 "main.bcf" "main.bbl" "main" 1683093210
-  "main.bcf" 1683093209 105711 ae89e10b1967a553367f5220073f3ec4 "pdflatex"
+["biber main"] 1683093129 "main.bcf" "main.bbl" "main" 1683190598
+  "main.bcf" 1683190598 105711 ae89e10b1967a553367f5220073f3ec4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1683093204 "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Major/main.tex" "main.pdf" "main" 1683093210
+["pdflatex"] 1683190589 "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Major/main.tex" "main.pdf" "main" 1683190598
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Major/main.tex" 1683093199 14003 74378f8a12c17229fe81096fcea2d106 ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/MSc_Project/Presentations/PPTs/Sem_4_Major/main.tex" 1683190588 14831 7de6228749a4816848e67df3e7ddd714 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -228,20 +228,22 @@
   "images/frames.png" 1682866654 87770 dd301e7a1d85514840c7baceca80abf1 ""
   "images/harmonics.png" 1682866654 546455 83428fc3abdb03231d07b952dd62ede4 ""
   "images/p.png" 1682866654 141461 e1d357e619151b20034d277500d08a13 ""
+  "images/p2d.png" 1683190142 113399 1b4f968bad830e01e681050cd5835824 ""
   "images/p_fft.png" 1682866654 188606 959e56d5d878b1f18b04d6fc0492e552 ""
   "images/plasma.jpg" 1682866654 189744 c57906e6c7f6de3add6502f65df1ef73 ""
   "images/ramp.jpg" 1682331650 60978 cf5755bdb8c373616d7173085ad7bf8e ""
   "images/ramp_7600.jpg" 1682331650 59400 17a1255ff10114ff8f7bc338727a1a7f ""
   "images/ramp_d.png" 1683092598 269275 ed8b6dc8354dbce44267b7b823948d9f ""
   "images/s.png" 1682866654 141630 2c82ad7ffe55b97e002e45e8a0ed99c1 ""
+  "images/s2d.png" 1683190146 124364 c982823d620598544e263b1d1ca8fe78 ""
   "images/s_fft.png" 1682866654 197135 0e1214621be387d83682e8fbecb04072 ""
   "logo.png" 1682866654 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1683093209 4302 752cb3d68f4b870876cf3ae11e949185 "pdflatex"
+  "main.aux" 1683190598 4740 76c081538fa03de56e3028363a60a649 "pdflatex"
   "main.bbl" 1683093130 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.nav" 1683093209 1388 37fb167c90003b6656a249083ce3750a "pdflatex"
-  "main.out" 1683093206 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1683093209 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1683093199 14003 74378f8a12c17229fe81096fcea2d106 ""
+  "main.nav" 1683190598 1574 f5abf7444d939a8c2cd188b6df8c9c87 "pdflatex"
+  "main.out" 1683190591 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1683190598 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1683190588 14831 7de6228749a4816848e67df3e7ddd714 ""
   (generated)
   "main.aux"
   "main.bcf"

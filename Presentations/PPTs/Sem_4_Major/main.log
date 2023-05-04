@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  3 MAY 2023 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.23)  4 MAY 2023 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,19 +1067,35 @@ Package pdftex.def Info: images/2dbox.png  used on input line 268.
  [11
 
  <./images/2dbox.png>]
-<images/s_fft.png, id=367, 722.7pt x 578.16pt>
-File: images/s_fft.png Graphic file (type png)
-<use images/s_fft.png>
-Package pdftex.def Info: images/s_fft.png  used on input line 299.
-(pdftex.def)             Requested size: 164.2987pt x 156.28172pt.
-<images/p_fft.png, id=368, 722.7pt x 578.16pt>
+<images/p_fft.png, id=367, 722.7pt x 578.16pt>
 File: images/p_fft.png Graphic file (type png)
 <use images/p_fft.png>
-Package pdftex.def Info: images/p_fft.png  used on input line 299.
+Package pdftex.def Info: images/p_fft.png  used on input line 298.
+(pdftex.def)             Requested size: 164.2987pt x 156.28172pt.
+<images/s_fft.png, id=368, 722.7pt x 578.16pt>
+File: images/s_fft.png Graphic file (type png)
+<use images/s_fft.png>
+Package pdftex.def Info: images/s_fft.png  used on input line 298.
 (pdftex.def)             Requested size: 164.2987pt x 156.28172pt.
  [12
 
- <./images/s_fft.png> <./images/p_fft.png>] [13
+ <./images/p_fft.png> <./images/s_fft.png>]
+<images/p2d.png, id=401, 995.1579pt x 454.5783pt>
+File: images/p2d.png Graphic file (type png)
+<use images/p2d.png>
+Package pdftex.def Info: images/p2d.png  used on input line 306.
+(pdftex.def)             Requested size: 342.2953pt x 156.358pt.
+ [13
+
+ <./images/p2d.png>]
+<images/s2d.png, id=431, 983.5947pt x 454.5783pt>
+File: images/s2d.png Graphic file (type png)
+<use images/s2d.png>
+Package pdftex.def Info: images/s2d.png  used on input line 314.
+(pdftex.def)             Requested size: 342.2953pt x 158.19612pt.
+ [14
+
+ <./images/s2d.png>] [15
 
 ]
 \tf@nav=\write7
@@ -1099,18 +1115,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29959 strings out of 480171
- 590815 string characters out of 5894489
- 1252094 words of memory out of 5000000
- 47348 multiletter control sequences out of 15000+600000
+ 29961 strings out of 480171
+ 590623 string characters out of 5894489
+ 1252144 words of memory out of 5000000
+ 47342 multiletter control sequences out of 15000+600000
  481610 words of font info for 73 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,20n,104p,826b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (13 pages, 2701025 bytes).
+Output written on main.pdf (15 pages, 2983507 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 396 compressed objects within 4 object streams
- 41 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

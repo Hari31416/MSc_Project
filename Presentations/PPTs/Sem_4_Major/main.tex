@@ -82,7 +82,7 @@
     \begin{figure}
         \includegraphics[width=10cm, height=6cm]{images/PIC.png}
         \centering
-        \caption{The PIC Cycle}
+        % \caption{The PIC Cycle}
     \end{figure}
 
 \end{frame}
@@ -271,17 +271,16 @@
     \frametitle{Results: p- and s-Polarized Laser Using 1D Simulations}
     \begin{minipage}[h]{0.48\linewidth}
         \centering
-        \includegraphics[width=1\textwidth, height=0.60\textheight]{images/s_fft.png}
-        \scriptsize{The spectrum of HHG for s-polarized light. Simulation parameters are $\alpha = \pi/4$, the density is $n_0 = 7n_c$ and $a_0 = 4$. Here s-polarized odd and p-polarized even harmonics are generated.}
-        \label{fig:s-fft}
-    \end{minipage}
-    \begin{minipage}[h]{0.48\linewidth}
-        \centering
         \includegraphics[width=1\textwidth, height=0.60\textheight]{images/p_fft.png}
         \scriptsize{The spectrum of HHG for p-polarized light. Simulation parameters are $\alpha = \pi/4$, the density is $n_0 = 7n_c$ and $a_0 = 4$. We see that $E_x$ gives rise to even harmonics and $E_y$ gives rise to odd harmonics.}
         \label{fig:p-peak}
     \end{minipage}
-
+    \begin{minipage}[h]{0.48\linewidth}
+        \centering
+        \includegraphics[width=1\textwidth, height=0.60\textheight]{images/s_fft.png}
+        \scriptsize{The spectrum of HHG for s-polarized light. Simulation parameters are $\alpha = \pi/4$, the density is $n_0 = 7n_c$ and $a_0 = 4$. Here s-polarized odd and p-polarized even harmonics are generated.}
+        \label{fig:s-fft}
+    \end{minipage}
     %     \begin{figure}[h]
     %         \centering
     %         \includegraphics[width=0.75\textwidth]{images/p_fft.png}
@@ -299,16 +298,32 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Current Status and Future Plan of Work}
+    \frametitle{Results: p-Polarized Laser Using 2D Simulations}
+    \centering
+    \includegraphics[width=1\textwidth]{images/p2d.png}
+    \scriptsize{The spectrum shows that both $E_x$ and $E_y$ has odd as well as even harmonics, in contrast with the 1D case. $E_z$ is zero. Simulation parameters are $\alpha = \pi/4$, the density is $n_0 = 7n_c$ and $a_0 = 4$.}
+    \label{fig:p2d}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results: s-Polarized Laser Using 2D Simulations}
+    \centering
+    \includegraphics[width=1\textwidth]{images/s2d.png}
+    \scriptsize{Fields $E_x$ and $E_y$ has even harmonics, as expected by the selection rule. $E_z$ has odd harmonics. This time, results are similar to the 1D case. Simulation parameters are $\alpha = \pi/4$, the density is $n_0 = 7n_c$ and $a_0 = 4$.}
+    \label{fig:s2d}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Current Status and Future Scope}
     \small
     \textbf{Current Status}
     \begin{itemize}
-        \item A brief overview of HHG generation in laser plasma interaction
-        \item SG envelopes have very little effect on the generated harmonics
+        \item Presence of pre-plasma reduces the quality of HHG generated.
+        \item SG envelopes results in a small shift in peak amplitudes.
         \item For p-polarized laser, even and odd p-polarized harmonics.
         \item For s-polarized laser, odd s-polarized harmonics and even p-polarized harmonics.
     \end{itemize}
-    \textbf{Future Plan of Work}
+    \textbf{Future Scope}
     \begin{itemize}
         \item Study oblique incidence and polarization more rigorously.
         \item Do 2D simulations.

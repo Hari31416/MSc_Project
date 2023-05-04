@@ -10,5 +10,7 @@
 \beamer@slide {fig:sg-fft}{10}
 \beamer@slide {fig:sg-peak}{10}
 \beamer@slide {fig:2dbox}{11}
-\beamer@slide {fig:s-fft}{12}
 \beamer@slide {fig:p-peak}{12}
+\beamer@slide {fig:s-fft}{12}
+\beamer@slide {fig:p2d}{13}
+\beamer@slide {fig:s2d}{14}
