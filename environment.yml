@@ -26,3 +26,4 @@ dependencies:
       - nbconvert
       - nbformat
       - ipython
+      #- manim #only required for creating figures. Uncomment if needed
