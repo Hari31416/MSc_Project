@@ -1,0 +1,139 @@
+begin:constant
+#######################
+#Parameters Needs to be modified
+#General Parameters
+  lambda0 = 1.0 * micron
+  max_x = 8*lambda0
+  max_y = 10*lambda0
+
+  #Derived parameters
+  omega0 = 2 * pi * c / lambda0
+  tau = lambda0/c
+
+#Laser parameters
+  las_time = 8*tau
+  a0 = 1
+  w_0 = 0.8*lambda0 # beam waist size at target
+  x_spot = max_x #distance b/w x_min and target
+  upper_theta = 5*pi/18 #incident angle for the laser above axis +ve
+  lower_theta = -pi/6 #incident angle for the laser below axis -ve
+
+#Plasma parameters
+  factor = 4
+  thickness_x = 1*lambda0
+  thickness_y = 4*lambda0
+  ppc = 50
+  start_x = 0
+  start_y = 0 - thickness_y/2
+  end_x = start_x + thickness_x
+  end_y = start_y + thickness_y
+  temp = 50.0
+
+#Control Parameters
+  cells_x = 2000
+  cells_y = 4000
+  simulation_end = 30*tau
+
+#Output Parameters
+  snapshot_freq = 0.08*femto
+
+#Laser Stuffs
+#################
+
+  #These are the parameters calculated for laser propagation
+  x_R = pi*w_0^2/lambda0 # Rayleigh range
+  w_x = w_0*sqrt(1+(x_spot/x_R)^2)
+  RC = x_spot*(1+(x_R/x_spot)^2)
+  gouy_phase = atan(x_spot/x_R) # Gouy phase shift
+
+  # effective distance b/w incident point and target for the upper and lower laser
+  u_x_spot = x_spot/cos(upper_theta)
+  l_x_spot = x_spot/cos(lower_theta)
+  u_y = x_spot*tan(upper_theta)
+  l_y = x_spot*tan(lower_theta)
+
+  # These are the parameters calculated for driving the laser
+  u_x_R = 2*pi * w_0^2 / (lambda0)*cos(upper_theta)# Rayleigh range
+  l_x_R = 2*pi * w_0^2 / (lambda0)*cos(lower_theta)# Rayleigh range
+  u_w_bnd = w_0 * sqrt( 1.0 + (u_x_spot/u_x_R)^2)/cos(upper_theta) #Spot size at x_min
+  l_w_bnd = w_0 * sqrt( 1.0 + (l_x_spot/l_x_R)^2)/cos(lower_theta) # Spot size at x_min
+  u_RC = u_x_spot * (1.0 + (u_x_R/u_x_spot)^2) # Radius of curvature on x_min
+  l_RC = l_x_spot * (1.0 + (l_x_R/l_x_spot)^2) # Radius of curvature on x_min
+  u_gouy = atan(((y-u_y)*sin(upper_theta) + u_x_spot)/u_x_R) # Gouyphase shift at x_min
+  l_gouy = atan(((y-l_y)*sin(lower_theta) + l_x_spot)/l_x_R) # Gouy phase shift at x_m
+
+# Plasma Stuffs
+#################
+  
+  #These are the parameters calculated for plasma
+  crtical_den = omega0*omega0/(4*pi*pi*81)
+  max_den = factor*crtical_den
+  density_x = if((x gt start_x), 1.0, 0.0)
+  density_x2 = if((x gt end_x), 0.0, 1.0)
+  density_y = if((y gt start_y), 1.0, 0.0)
+  density_y2 = if((y gt end_y), 0.0, 1.0)
+  temperature_0 = temp*qe/kb
+end:constant
+
+
+begin:control
+  nx = cells_x
+  ny = cells_y
+
+  # Final time of simulation
+  t_end = simulation_end
+
+  # Size of domain
+  x_min = -max_x
+  x_max = max_x/4
+  y_min = -max_y
+  y_max = max_y
+
+  stdout_frequency = 10
+end:control
+
+
+begin:boundaries
+  bc_x_min = simple_laser
+  bc_x_max = open
+  bc_y_min = periodic
+  bc_y_max = periodic
+end:boundaries
+
+begin:species
+  name = Electron
+  charge = -1.0
+  mass = 1.0
+  nparticles_per_cell = ppc
+  number_density = max_den*density_x*density_x2*density_y*density_y2
+  #density = max_den*density_x*density_x2*density_y*density_y2
+  #npart_per_cell = 100
+end:species
+
+
+begin:laser
+    boundary = x_min
+    intensity = a0*a0*1.37e22
+    lambda = lambda0*cos(upper_theta)
+    phase = 2.0*pi*(y-u_y)*tan(upper_theta)/lambda0 + pi/(lambda0*cos(upper_theta))*(y-u_y)^2/u_RC - u_gouy
+    profile = gauss(y,u_y,u_w_bnd)
+    t_profile = gauss(time,las_time,las_time)
+end:laser
+
+
+begin:output
+  name = normal
+
+  # Simulated time between output dumps
+  dt_snapshot = snapshot_freq
+
+  # Properties on grid
+  grid = always
+  ex = always + single
+  ey = always + single
+  ez = always + single
+  # bx = always
+  # by = always
+  # bz = always
+  number_density = always + species
+end:output

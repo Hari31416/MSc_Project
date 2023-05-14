@@ -1,0 +1,61 @@
+
+real	52m6.118s
+user	147m36.024s
+sys	158m28.516s
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'chas126.hpc.iitd.ac.in,172.20.8.126' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas118.hpc.iitd.ac.in,172.20.8.118' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas133.hpc.iitd.ac.in,172.20.8.133' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas106.hpc.iitd.ac.in,172.20.8.106' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas130.hpc.iitd.ac.in,172.20.8.130' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas091.hpc.iitd.ac.in,172.20.8.91' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas129.hpc.iitd.ac.in,172.20.8.129' (ECDSA) to the list of known hosts.
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+
+real	22m59.830s
+user	70m18.632s
+sys	61m22.654s
+Traceback (most recent call last):
+  File "plots_2.py", line 567, in <module>
+    save_data_dir=save_data_dir
+  File "plots_2.py", line 184, in main
+    plt.imshow(raw_data.Derived_Number_Density_Electron.data.T / nc)
+AttributeError: 'sdf.BlockList' object has no attribute 'Derived_Number_Density_Electron'
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'chas237.hpc.iitd.ac.in,172.20.9.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas249.hpc.iitd.ac.in,172.20.9.102' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas233.hpc.iitd.ac.in,172.20.8.233' (ECDSA) to the list of known hosts.
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+
+real	42m41.983s
+user	147m28.526s
+sys	94m1.597s
+run_plots.sh: line 11:  5253 Segmentation fault      (core dumped) python plots_2.py
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'chas046.hpc.iitd.ac.in,172.20.8.46' (ECDSA) to the list of known hosts.
+
+real	61m40.227s
+user	192m51.050s
+sys	141m33.072s
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'khas127.hpc.iitd.ac.in,172.20.9.129' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'khas148.hpc.iitd.ac.in,172.20.9.150' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'csky080.hpc.iitd.ac.in,172.20.12.80' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'khas150.hpc.iitd.ac.in,172.20.9.152' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'khas145.hpc.iitd.ac.in,172.20.9.147' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas055.hpc.iitd.ac.in,172.20.8.55' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas136.hpc.iitd.ac.in,172.20.8.136' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'khas152.hpc.iitd.ac.in,172.20.9.154' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'csky032.hpc.iitd.ac.in,172.20.12.32' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'csky065.hpc.iitd.ac.in,172.20.12.65' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'khas092.hpc.iitd.ac.in,172.20.9.71' (ECDSA) to the list of known hosts.
+
+real	56m34.200s
+user	164m59.153s
+sys	162m52.636s

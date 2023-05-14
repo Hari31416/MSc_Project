@@ -1,0 +1,66 @@
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'khas139.hpc.iitd.ac.in,172.20.9.141' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'csky024.hpc.iitd.ac.in,172.20.12.24' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas209.hpc.iitd.ac.in,172.20.8.209' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'csky022.hpc.iitd.ac.in,172.20.12.22' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'khas138.hpc.iitd.ac.in,172.20.9.140' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'csky033.hpc.iitd.ac.in,172.20.12.33' (ECDSA) to the list of known hosts.
+
+real	72m11.607s
+user	201m18.222s
+sys	225m40.303s
+
+real	63m6.535s
+user	183m7.985s
+sys	188m34.863s
+
+real	70m39.840s
+user	200m42.320s
+sys	212m55.290s
+
+real	82m12.664s
+user	229m29.975s
+sys	248m16.357s
+
+real	109m1.207s
+user	302m33.349s
+sys	341m46.510s
+application called MPI_Abort(MPI_COMM_WORLD, 5) - process 0
+
+real	0m1.650s
+user	0m0.024s
+sys	0m0.036s
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'chas115.hpc.iitd.ac.in,172.20.8.115' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas134.hpc.iitd.ac.in,172.20.8.134' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas122.hpc.iitd.ac.in,172.20.8.122' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas128.hpc.iitd.ac.in,172.20.8.128' (ECDSA) to the list of known hosts.
+
+real	83m24.920s
+user	237m55.219s
+sys	250m46.984s
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'chas083.hpc.iitd.ac.in,172.20.8.83' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas084.hpc.iitd.ac.in,172.20.8.84' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas041.hpc.iitd.ac.in,172.20.8.41' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas063.hpc.iitd.ac.in,172.20.8.63' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas047.hpc.iitd.ac.in,172.20.8.47' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas066.hpc.iitd.ac.in,172.20.8.66' (ECDSA) to the list of known hosts.
+
+real	171m25.124s
+user	434m31.583s
+sys	557m35.804s
+=>> PBS: job killed: walltime 14434 exceeded limit 14400
+NOTE : Works with all available python packages in the module, check using conda list command
+For conda env creation we recommend apps/anaconda/3EnvCreation module
+Warning: Permanently added 'chas009.hpc.iitd.ac.in,172.20.8.9' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas023.hpc.iitd.ac.in,172.20.8.23' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas088.hpc.iitd.ac.in,172.20.8.88' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'chas021.hpc.iitd.ac.in,172.20.8.21' (ECDSA) to the list of known hosts.
+
+real	33m23.308s
+user	100m4.552s
+sys	93m53.087s

@@ -1,0 +1,23 @@
+Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478Parameter                           Value
+------------------------  ---------------
+Omega0                        1.88365e+15
+Tau                           3.33564e-15
+Critical Density              1.11433e+27
+Electric Field                3.2107e+12
+Density                       4.45731e+27
+Laser Time                    2.66851e-14
+Debye Length                  7.30721e-12
+Thermal Velocity          27528.5
+Max Resolvable Frequency      6.25e+15
+Max Resolvable Omega         20.8478
