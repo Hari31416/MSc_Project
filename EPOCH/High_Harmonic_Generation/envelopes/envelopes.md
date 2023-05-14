@@ -1,6 +1,9 @@
+# Envelopes
+
 The envelopes tried are:
 
 ## Guassian
+
 $$
     P(t)=
     \begin{cases}
@@ -10,6 +13,7 @@ $$
 $$
 
 ## Sine Squared
+
 $$
     P(t)=
     \begin{cases}
@@ -19,6 +23,7 @@ $$
 $$
 
 ## Traingular
+
 $$
     P(t)= 2\times
     \begin{cases}
